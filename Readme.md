@@ -1,3 +1,15 @@
+# Tiny secrets
+
+Here is my research with as many technical details about Lenovo's small PCs as I can find  
+There's some interesting modding opportunities that haven't been explored yet as far as I can tell, and I don't have access to most of the hardware to try it myself
+
+Below is an overview of the different system boards used inside each model, with the shipped vs theoretical maximum potential configuration
+
+See the boardpics directory for high-resolution images of each model's system board, taken from Lenovo's parts webpage
+
+See the riserpics directory for images of each type of PCIe riser I'm aware of
+
+
 # Lenovo Tiny Motherboard comparison table
 ###### lol this was a pain to format
 | Model          | Class                | Generation  | Riser slot type            | Board name | Design | Board model | Board code | CPU type               | Chipset | M-key slots | B-key slots | Comment                           |
@@ -54,6 +66,7 @@
 | IdeaCentre Mini 5 01IAQ7  | lil office pc | Tiny8?  | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660       | NM-D861    | 12th gen               | Q670    | 1 / 2       | 0 / 1       | Missing one of the BTB ports      |
 | IdeaCentre Mini 5 01IMH05 | lil office pc | Tiny6?  | Tiny6 x8 unpopulated       | IQ4X0IL1   | LCFC   | GH470       | NM-C621    | 10th gen               | H470    | 1 / 2       | 0 / 1       | Sometimes called T550q            |
 |                |                      |             |                            |            |        |             |            |                        |         |             |             |                                   |
+
 # Random extra notes
 
 * Starting with the Tiny5 generation, the riser slot contains 2 PCIe links, a x8 link from the CPU and a x4 link from the PCH. The PCH link supports hot-plug (don't try it) and is for Thunderbolt support, the CPU link is for GPUs
