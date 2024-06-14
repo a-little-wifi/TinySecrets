@@ -91,7 +91,7 @@ Many of these boards have a set of resistor straps that are used to set the spec
 > ID straps from Tiny5 gen NM-B551
 
 ><img src='Tiny6_IDs.png' width=42%/>
-> <img src='Tiny6_straps.png' width=26%/>
+> <img src='Tiny6_straps.png' width=25%/>
 > <img src='Tiny6_straps_board.png' width=31%/>
 
 > ID straps from Tiny6 gen NM-C901
