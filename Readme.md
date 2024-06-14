@@ -55,7 +55,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M625q          | Idk it sucks lol     |             | None                       | FT4IH      | LiteON |             |            | AMD xx-9xxx            | SoC     | 1 / 1       | 0 / 0       |                                   |
 | Neo 50q gen 4  | lil office pc        | Tiny8?      | None                       | IRPLIL     | LCFC   | KH450       | NM-E951    | 13th gen Raptor Lake-H | SoC     | 1 / 2       | 0 / 0       | 1 / 2 ram slots on low end config |
 | M60q Chromebox | Chromebox lol        | Tiny8       | None                       | ILGOO      | Compal |             | LA-M541P   | 12th gen U             | SoC     | 1 / 1       | 0 / 0       | Wow they had Compal make one      |
-| M60e           | Probably sucks too   | Tiny6       | None                       | IICLUIV    | LiteON |             |            | 10th gen Ice Lake      | SoC     | 1 / 1       | 0 / 0       |                                   |
+| M60e           | A Little low power pc| Tiny6       | None                       | IICLUIV    | LiteON |             |            | 10th gen Ice Lake      | SoC     | 1 / 1       | 0 / 0       |                                   |
 |                |                      |             |                            |            |        |             |            |                        |         |             |             |                                   |
 | M715q          | Entry, AMD           | Tiny3?      | None                       | AM4IH      | LiteON |             |            | PRO A6/A10/A12 8k/9k-E | B300    | 1 / 1       | 0 / 0       |                                   |
 | M715q 2nd gen  | Entry, AMD           | Tiny3?      | None                       | AM4IH      | LiteON |             |            | ^ + Ryzen (PRO) 2k-GE  | B300    | 1 / 1       | 0 / 0       |                                   |
@@ -77,20 +77,27 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 * Starting with the Tiny6 generation, most boards have unpopulated B-key M.2 WWAN and SIM card slots, might be meant for IoT/Edge/Server versions like the ThinkEdge SE50, but I can't find any other model beyond that one.
 * The M90q gen 2 and P350 have an unpopulated footprint for a 3rd M-key M.2 NVMe slot, would be cool to try soldering that on and seeing if it works.
 
-# Board ID straps
+# Schematic observations
+## Board ID straps
 Many of these boards have a set of resistor straps that are used to set the specific SKU of the system, they often share the same board and firmware. At its simplest there is of course the different tiers from the main series, but there's also some interesting options:  
 * NEC variants are for the NEC rebranded versions of these systems, setting it reduces the amount of BIOS settings and changes the boot logo to the NEC logo
 * Server and Amazon versions in the Tiny6 generation? Neither of these exist publicly as far as I know, I'd love to know more about them.
 * Different versions of the M70q and M80q gen 1? (LI and LC)
 
-> <img src='Tiny5_IDs.png' width=600/>
+> <img src='Tiny5_IDs.png' width=40%/>
+> <img src='Tiny5_straps.png' width=31%/>
+> <img src='Tiny5_straps_board.png' width=14%/>
 
-> ID straps from Tiny5 gen NM-B551 schematic
+> ID straps from Tiny5 gen NM-B551
 
-><img src='Tiny6_IDs.png' width=600/>
+><img src='Tiny6_IDs.png' width=42%/>
+> <img src='Tiny6_straps.png' width=26%/>
+> <img src='Tiny6_straps_board.png' width=31%/>
 
-> ID straps from Tiny6 gen NM-C901 schematic
+> ID straps from Tiny6 gen NM-C901
 
+## Power rail capacity
+todo
 
 # Parts links with hi-res images
 
