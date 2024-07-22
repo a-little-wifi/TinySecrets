@@ -61,11 +61,13 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M715q 2nd gen  | Entry, AMD           | Tiny3?      | None                       | AM4IH      | LiteON |             |            | ^ + Ryzen (PRO) 2k-GE  | B300    | 1 / 1       | 0 / 0       |                                   |
 | M75q gen 1     | Entry, AMD           | Tiny5?      | None                       | AM4KIH     | LiteON |             |            | Ryzen PRO 2000/3000    | PRO 500 | 1 / 1       | 0 / 0       |                                   |
 | M75q gen 2     | Entry, AMD           | Tiny6?      | Tiny6? x4-only unpopulated | AM4IV      |        |             |            | Ryzen PRO 3k/4k/5k     | PRO 500 | 1 / 2       | 0 / 1       |                                   |
+| M75q gen 5     | Entry, AMD           | Tiny8?      | ?                          | ?          | ?      | ?           | ?          | Ryzen (PRO) 8000       | PRO 600 |             |             |                                   |
 |                |                      |             |                            |            |        |             |            |                        |         |             |             |                                   |
 | IdeaCentre Mini 01IRH8    | lil office pc |         | None                       | IRPLIL     | LCFC   | KH450       | NM-E951    | 13th gen Raptor Lake-H | SoC     | 2 / 2       | 0 / 0       |                                   |
 | IdeaCentre Mini 5 01IAQ7  | lil office pc | Tiny8?  | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660       | NM-D861    | 12th gen               | Q670    | 1 / 2       | 0 / 1       | Missing one of the BTB ports      |
 | IdeaCentre Mini 5 01IMH05 | lil office pc | Tiny6?  | Tiny6 x8 unpopulated       | IQ4X0IL1   | LCFC   | GH470       | NM-C621    | 10th gen               | H470    | 1 / 2       | 0 / 1       | Sometimes called T550q            |
 |                |                      |             |                            |            |        |             |            |                        |         |             |             |                                   |
+| Neo Ultra      | Tiny studio workstation  | Tiny8?  | ?                          | ?          | ?      | ?           | ?          | 14th gen               | Q670    | 2 / 2       | ?           |                                   |
 
 # Random extra notes
 
