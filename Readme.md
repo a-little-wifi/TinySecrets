@@ -101,6 +101,9 @@ Many of these boards have a set of resistor straps that are used to set the spec
 ## Power rail capacity
 todo
 
+## PSU ID / Current limiting circuit
+todo
+
 # Parts links with hi-res images
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m700-tiny/10hy/parts/display/compatible  
