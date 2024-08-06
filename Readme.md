@@ -63,6 +63,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M75q gen 2     | Entry, AMD           | Tiny6?      | Tiny6? x4-only unpopulated | AM4IV      |        |             |            | Ryzen PRO 3k/4k/5k     | PRO 500 | 1 / 2       | 0 / 1       |                                   |
 | M75q gen 5     | Entry, AMD           | Tiny8?      | None                       | AM5IL      | LCFC   | LKN30       | NM-F661    | Ryzen (PRO) 8000       | PRO 600 | 2 / 2       | 0 / 0       | An AMD one made by LCFC           |
 |                |                      |             |                            |            |        |             |            |                        |         |             |             |                                   |
+| IdeaCentre 620S-03IKL     | lil office pc | Tiny4?  | Tiny2?? likely Tiny4 x8    | IB250IH    | LiteON |             |            | 7th gen                | B250    | 1 / 1       | 0 / 0       | Cursed B250 M910x without front io|
 | IdeaCentre Mini 01IRH8    | lil office pc |         | None                       | IRPLIL     | LCFC   | KH450       | NM-E951    | 13th gen Raptor Lake-H | SoC     | 2 / 2       | 0 / 0       |                                   |
 | IdeaCentre Mini 5 01IAQ7  | lil office pc | Tiny8?  | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660       | NM-D861    | 12th gen               | Q670    | 1 / 2       | 0 / 1       | Missing one of the BTB ports      |
 | IdeaCentre Mini 5 01IMH05 | lil office pc | Tiny6?  | Tiny6 x8 unpopulated       | IQ4X0IL1   | LCFC   | GH470       | NM-C621    | 10th gen               | H470    | 1 / 2       | 0 / 1       | Sometimes called T550q            |
@@ -160,6 +161,7 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75q-gen-2/11jj/parts/display/compatible  
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75q-gen-5/12rq/parts/display/compatible  
 
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/600-series/620s-03ikl/90hc/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/lenovo-ideacentre-mini-01irh8/90w2/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/ideacentre-mini-5-01iaq7/90ub/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/mini-5-01imh05/90q6/parts/display/compatible  
