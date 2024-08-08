@@ -106,6 +106,9 @@ todo
 ## PSU ID / Current limiting circuit
 todo
 
+# Riser types
+todo
+
 # Parts links with hi-res images
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m700-tiny/10hy/parts/display/compatible  
