@@ -118,8 +118,9 @@ todo
 
 | Generation  | Riser slot type            | Board name | Design | Model | Board code | Revision | Chipset | Memory type  | M-key slots | B-key slots | Comment                           |
 |-------------|----------------------------|------------|--------|-------|------------|----------|---------|--------------|-------------|-------------|-----------------------------------|
-| Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL    | LCFC   | GH470 | NM-C621    | 0.2      | H470?   | DDR4         | 1 / 2       | 0 / 1       |                                   |
-
+| Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL    | LCFC   | GH470 | NM-C621    | 0.2      | H470?   | 2x DDR4      | 1 / 2       | 0 / 1       |                                   |
+| Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | LCFC   | HQ570 | NM-D321    | 0.5      | Q570?   |              | 3 / 3       | 1 / 1       |                                   |
+| Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 0.5      | Q670?   | 2x DDR5      | 3 / 3       | 1 / 1       |                                   |
 
 # Parts links with hi-res images
 
