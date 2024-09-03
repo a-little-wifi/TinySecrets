@@ -83,7 +83,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 * Starting with the Tiny6 generation, most boards have unpopulated B-key M.2 WWAN and SIM card slots, might be meant for IoT/Edge/Server versions like the ThinkEdge SE50, but I can't find any other model beyond that one.
 * The M90q gen 2 and P350 have an unpopulated footprint for a 3rd M-key M.2 NVMe slot, would be cool to try soldering that on and seeing if it works.
 
-# Schematic observations
+# Schematic observations / potential mods
 ## Board ID straps
 Many of these boards have a set of resistor straps that are used to set the specific SKU of the system, they often share the same board and firmware. At its simplest there is of course the different tiers from the main series, but there's also some interesting options:  
 * NEC variants are for the NEC rebranded versions of these systems, setting it reduces the amount of BIOS settings and changes the boot logo to the NEC logo
@@ -107,6 +107,9 @@ todo
 
 ## PSU ID / Current limiting circuit
 todo
+
+## Adding unpopulated M.2 slots
+todo / see other repo
 
 # Riser types
 todo
@@ -186,3 +189,8 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/id
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/mini-5-01imh05/90q6/parts/display/compatible  
 
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-ultra/12w1/parts/display/compatible  
+
+
+# In case you wanna help out
+
+I'm always looking for more schematics/boardviews and information about any unique parts, configs, mods and models (non-Lenovo too). If you have or know about anything you think might be of interest here, I'd love to hear about it in an issue on this repo or in my email listed on my profile. Thanks!
