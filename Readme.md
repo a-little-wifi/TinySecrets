@@ -90,15 +90,15 @@ Many of these boards have a set of resistor straps that are used to set the spec
 * Server and Amazon versions in the Tiny6 generation? Neither of these exist publicly as far as I know, I'd love to know more about them.
 * Different versions of the M70q and M80q gen 1? (LI and LC)
 
-> <img src='Tiny5_IDs.png' width=40%/>
-> <img src='Tiny5_straps.png' width=31%/>
-> <img src='Tiny5_straps_board.png' width=14%/>
+> <img src='docpics/Tiny5_IDs.png' width=40%/>
+> <img src='docpics/Tiny5_straps.png' width=31%/>
+> <img src='docpics/Tiny5_straps_board.png' width=14%/>
 
 > ID straps from Tiny5 gen NM-B551
 
-> <img src='Tiny6_IDs.png' width=42%/>
-> <img src='Tiny6_straps.png' width=25%/>
-> <img src='Tiny6_straps_board.png' width=31%/>
+> <img src='docpics/Tiny6_IDs.png' width=42%/>
+> <img src='docpics/Tiny6_straps.png' width=25%/>
+> <img src='docpics/Tiny6_straps_board.png' width=31%/>
 
 > ID straps from Tiny6 gen NM-C901
 
