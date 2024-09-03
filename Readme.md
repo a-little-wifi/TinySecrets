@@ -109,7 +109,15 @@ todo
 todo
 
 ## Unpopulated / unused options
-todo
+todo  
+* VRM phases
+* M.2 slots
+* Sata ports
+* Riser slots
+* DC headers
+* Fan headers
+* more?
+
 
 # Riser types
 todo
