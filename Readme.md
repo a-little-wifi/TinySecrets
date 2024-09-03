@@ -108,8 +108,8 @@ todo
 ## PSU ID / Current limiting circuit
 todo
 
-## Adding unpopulated M.2 slots
-todo / see other repo
+## Unpopulated / unused options
+todo
 
 # Riser types
 todo
