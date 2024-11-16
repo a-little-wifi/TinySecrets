@@ -138,6 +138,8 @@ todo
 | Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 0.5      | Q670?   | 2x DDR5      | 3 / 3       | 1 / 1       |                                   |
 
 # Parts links with hi-res images
+<details>
+<summary># Parts links with hi-res images</summary>
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m700-tiny/10hy/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m710q/10mr/parts/display/compatible  
@@ -202,6 +204,7 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/mi
 
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-ultra/12w1/parts/display/compatible  
 
+</detials>
 
 # Dell Optiplex Micro/MFF and Precision Compact
 
