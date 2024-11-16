@@ -87,8 +87,8 @@ todo
 * Starting with the Tiny6 generation, most boards have unpopulated B-key M.2 WWAN and SIM card slots, might be meant for IoT/Edge/Server versions like the ThinkEdge SE50, but I can't find any other model beyond that one.
 * The M90q gen 2 and P350 have an unpopulated footprint for a 3rd M-key M.2 NVMe slot, would be cool to try soldering that on and seeing if it works.
 
-# Schematic observations / potential mods
-## Board ID straps
+## Schematic observations / potential mods
+### Board ID straps
 Many of these boards have a set of resistor straps that are used to set the specific SKU of the system, they often share the same board and firmware. At its simplest there is of course the different tiers from the main series, but there's also some interesting options:  
 * NEC variants are for the NEC rebranded versions of these systems, setting it reduces the amount of BIOS settings and changes the boot logo to the NEC logo
 * Server and Amazon versions in the Tiny6 generation? Neither of these exist publicly as far as I know, I'd love to know more about them.
@@ -106,13 +106,13 @@ Many of these boards have a set of resistor straps that are used to set the spec
 
 > ID straps from Tiny6 gen NM-C901
 
-## Power rail capacity
+### Power rail capacity
 todo
 
-## PSU ID / Current limiting circuit
+### PSU ID / Current limiting circuit
 todo
 
-## Unpopulated / unused options
+### Unpopulated / unused options
 todo  
 * VRM phases
 * M.2 slots
@@ -123,13 +123,13 @@ todo
 * more?
 
 
-# Riser types
+## Riser types
 todo
 
-# NEC rebrands
+## NEC rebrands
 todo
 
-# Known prototype boards
+## Known prototype boards
 
 | Generation  | Riser slot type            | Board name | Design | Model | Board code | Revision | Chipset | Memory type  | M-key slots | B-key slots | Comment                           |
 |-------------|----------------------------|------------|--------|-------|------------|----------|---------|--------------|-------------|-------------|-----------------------------------|
@@ -137,7 +137,7 @@ todo
 | Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | LCFC   | HQ570 | NM-D321    | 0.5      | Q570?   |              | 3 / 3       | 1 / 1       |                                   |
 | Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 0.5      | Q670?   | 2x DDR5      | 3 / 3       | 1 / 1       |                                   |
 
-# Parts links with hi-res images
+## Parts links with hi-res images
 <details>
 <summary> Click here to view links </summary>
 
@@ -219,7 +219,13 @@ todo
 
 ## Spec pdfs:
 
+<details>
+
+<summary> Click here to view links </summary>
+
 https://dl.dell.com/content/manual24399514-precision-3240-compact-setup-and-specifications.pdf  
+
+</details>
 
 # HP Elitedesk and Prodesk Mini
 
