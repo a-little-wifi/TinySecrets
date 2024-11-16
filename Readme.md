@@ -199,6 +199,18 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/mi
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-ultra/12w1/parts/display/compatible  
 
 
+# Dell Optiplex Micro and Precision Compact
+
+todo
+
+# HP Elitedesk and Prodesk Mini
+
+todo
+
+# Acer Veriton N
+
+todo
+
 # In case you wanna help out
 
 I'm always looking for more schematics/boardviews and information about any unique parts, configs, mods and models (non-Lenovo too). If you have or know about anything you think might be of interest here, I'd love to hear about it in an issue on this repo or in my email listed on my profile. Thanks!
