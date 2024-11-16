@@ -139,7 +139,7 @@ todo
 
 # Parts links with hi-res images
 <details>
-<summary> # Parts links with hi-res images </summary>
+<summary> Click here to view links </summary>
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m700-tiny/10hy/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m710q/10mr/parts/display/compatible  
