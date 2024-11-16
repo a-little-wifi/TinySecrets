@@ -73,6 +73,10 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | Neo Ultra      | Tiny studio workstation | Tiny8/TinyMax? | Looks like Tiny8 x8+4 | IQ6X0IL1  | LCFC   | LQ674 | NM-G071    | 14th gen               | Q670    |              | 2 / 2       | 0 / 1       | Same board as M90q Gen 5          |
 
+# BTB modules
+
+todo
+
 # Random extra notes
 
 * Starting with the Tiny5 generation, the riser slot contains 2 PCIe links, a x8 link from the CPU and a x4 link from the PCH. The PCH link supports hot-plug (don't try it) and is for Thunderbolt support, the CPU link is for GPUs
@@ -208,7 +212,11 @@ todo
 | Optiplex  | 3020 Micro   | Entry, no vPro       | None                       | Dogfish_Entry | Wistron | PIH81R | 13124-1    | 4th gen                | H81     | 2x DDR3L     | 0 / 1       |                              |
 | Optiplex  | 3040 Micro   | Entry, no vPro       | None                       |               |         |        |            | 6th gen                | H110    | 2x DDR3L     | 0 / 1       |                              |
 |           |              |                      |                            |               |         |        |            |                        |         |              |             |                              |
-| Precision | 3240 Compact | Workstation          |
+| Precision | 3240 Compact | Workstation          | PCIe x8 double width       |               |         |        |            | 10th gen               | W480    | 2x DDR4 3200 | 2 / 2       |                              |
+
+## Spec pdfs:
+
+https://dl.dell.com/content/manual24399514-precision-3240-compact-setup-and-specifications.pdf  
 
 # HP Elitedesk and Prodesk Mini
 
