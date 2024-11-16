@@ -199,9 +199,16 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/mi
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-ultra/12w1/parts/display/compatible  
 
 
-# Dell Optiplex Micro and Precision Compact
+# Dell Optiplex Micro/MFF and Precision Compact
 
 todo
+
+| Series    | Model        | Class                | Riser slot type            | Board name    | Design  | Model  | Board code | CPU type               | Chipset | Memory type  | M-key slots | Comment                      |
+|-----------|--------------|----------------------|----------------------------|---------------|---------|--------|------------|------------------------|---------|--------------|-------------|------------------------------|
+| Optiplex  | 3020 Micro   | Entry, no vPro       | None                       | Dogfish_Entry | Wistron | PIH81R | 13124-1    | 4th gen                | H81     | 2x DDR3L     | 0 / 1       |                              |
+| Optiplex  | 3040 Micro   | Entry, no vPro       | None                       |               |         |        |            | 6th gen                | H110    | 2x DDR3L     | 0 / 1       |                              |
+|           |              |                      |                            |               |         |        |            |                        |         |              |             |                              |
+| Precision | 3240 Compact | Workstation          |
 
 # HP Elitedesk and Prodesk Mini
 
