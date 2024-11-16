@@ -214,6 +214,12 @@ todo
 |-----------|--------------|----------------------|----------------------------|---------------|---------|--------|------------|------------------------|---------|--------------|-------------|------------------------------|
 | Optiplex  | 3020 Micro   | Entry, no vPro       | None                       | Dogfish_Entry | Wistron | PIH81R | 13124-1    | 4th gen                | H81     | 2x DDR3L     | 0 / 1       |                              |
 | Optiplex  | 3040 Micro   | Entry, no vPro       | None                       |               |         |        |            | 6th gen                | H110    | 2x DDR3L     | 0 / 1       |                              |
+| Optiplex  | 3050 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
+| Optiplex  | 3060 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
+| Optiplex  | 3070 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
+| Optiplex  | 3080 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
+| Optiplex  | 3090 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
+| Optiplex  | 3000 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
 |           |              |                      |                            |               |         |        |            |                        |         |              |             |                              |
 | Precision | 3240 Compact | Workstation          | PCIe x8 double width       |               |         |        |            | 10th gen               | W480    | 2x DDR4 3200 | 2 / 2       |                              |
 
