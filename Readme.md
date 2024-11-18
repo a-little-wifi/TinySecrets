@@ -210,18 +210,26 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 
 todo
 
-| Series    | Model        | Class                | Riser slot type            | Board name    | Design  | Model  | Board code | CPU type               | Chipset | Memory type  | M-key slots | Comment                      |
-|-----------|--------------|----------------------|----------------------------|---------------|---------|--------|------------|------------------------|---------|--------------|-------------|------------------------------|
-| Optiplex  | 3020 Micro   | Entry, no vPro       | None                       | Dogfish_Entry | Wistron | PIH81R | 13124-1    | 4th gen                | H81     | 2x DDR3L     | 0 / 1       |                              |
-| Optiplex  | 3040 Micro   | Entry, no vPro       | None                       |               |         |        |            | 6th gen                | H110    | 2x DDR3L     | 0 / 1       |                              |
-| Optiplex  | 3050 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
-| Optiplex  | 3060 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
-| Optiplex  | 3070 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
-| Optiplex  | 3080 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
-| Optiplex  | 3090 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
-| Optiplex  | 3000 Micro   |                      |                            |               |         |        |            |                        |         |              |             |                              |
-|           |              |                      |                            |               |         |        |            |                        |         |              |             |                              |
-| Precision | 3240 Compact | Workstation          | PCIe x8 double width       |               |         |        |            | 10th gen               | W480    | 2x DDR4 3200 | 2 / 2       |                              |
+| Series    | Model           | Class       | Riser slot type            | Board name    | Design   | Model  | Board code | CPU type               | Chipset | Memory type  | M-key slots | Comment                                |
+|-----------|-----------------|-------------|----------------------------|---------------|----------|--------|------------|------------------------|---------|--------------|-------------|----------------------------------------|
+| Optiplex  | 3020 Micro      | Entry       | None                       | Dogfish_Entry | Wistron  | PIH81R | 13124-1    | 4th gen                | H81     | 2x DDR3L     | 0 / 1       |                                        |
+| Optiplex  | 3040 Micro      | Entry       | None                       |               |          |        |            | 6th gen                | H110    | 2x DDR3L     | 0 / 1       |                                        |
+| Optiplex  | 3050 Micro      | Entry       | None                       | DB-MFF-BF     | Pegatron |        |            | 6th/7th gen            | B250    | 2x DDR4 2400 | 1 / 1       |                                        |
+| Optiplex  | 3060 Micro      | Entry       | None                       | IPCFL-CG      | Pegatron |        |            | 8th gen                | H370    | 2x DDR4 2666 | 1 / 1       |                                        |
+| Optiplex  | 3070 Micro      | Entry       | None                       | IPCFL-CG      | Pegatron |        |            | 9th gen                | H370    | 2x DDR4 2666 | 1 / 1       | Same as 3060 Micro                     |
+| Optiplex  | 3080 Micro      | Entry       | None                       | IPCML-CT      | Pegatron |        |            | 10th gen               | B460    | 2x DDR4 2666 | 1 / 1       |                                        |
+| Optiplex  | 3090 Micro      | Entry       | None                       | IPCML-RN/ZB   | Pegatron |        |            | 10th gen               | Q470    | 2x DDR4 2666 | 1 / 2       | why Q470?                              |
+| Optiplex  | 3000 Micro      | Entry       | None                       | D1? ADL 6L    | Wistron  | ?      | ?          | 12th gen               | B660    | 2x DDR4 3200 | 1 / 2       | Back to Wistron lol (also it's yellow) |
+|           |                 |             |                            |               |          |        |            |                        |         |              |             |                                        |
+| Optiplex  | 5050 Micro      |             | None                       | DB-MFF-AF     | Pegatron |        |            |                        |         |              | 1 / 1       | Same as 3050 Micro but with more USB3? |
+|           |                 |             |                            |               |          |        |            |                        |         |              |             |                                        |
+|           |                 |             |                            |               |          |        |            |                        |         |              |             |                                        |
+|           |                 |             |                            |               |          |        |            |                        |         |              |             |                                        |
+|           |                 |             |                            |               |          |        |            |                        |         |              |             |                                        |
+| Optiplex  | 7020 Micro      |             |                            |               |          |        |            |                        |         |              |             |                                        |
+| Optiplex  | 7020 Micro Plus |             |                            |               |          |        |            |                        |         |              |             |                                        |
+|           |                 |             |                            |               |          |        |            |                        |         |              |             |                                        |
+| Precision | 3240 Compact    | Workstation | PCIe x8 double width       |               |          |        |            | 10th gen               | W480    | 2x DDR4 3200 | 2 / 2       |                                        |
 
 ## Spec pdfs:
 
@@ -229,6 +237,7 @@ todo
 
 <summary> Click here to view links </summary>
 
+https://i.dell.com/sites/doccontent/shared-content/data-sheets/en/Documents/OptiPlex-3050-Towers-Technical-Specifications.pdf  
 https://dl.dell.com/content/manual24399514-precision-3240-compact-setup-and-specifications.pdf  
 
 </details>
