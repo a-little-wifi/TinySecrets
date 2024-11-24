@@ -210,46 +210,47 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 
 todo
 
-| Series    | Model           | Class       | Riser slot type      | Board name      | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                        |
-|-----------|-----------------|-------------|----------------------|-----------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------------|
-| Optiplex  | 3020 Micro      | Entry       | None                 | Dogfish_Entry   | Wistron  | PIH81R | 13124-1    | 4th gen       | H81     | 2x DDR3L     | 0 / 1       |                                                                |
-| Optiplex  | 3040 Micro      | Entry       | None                 | ?               | ?        |        |            | 6th gen       | H110    | 2x DDR3L     | 0 / 1       | Maybe made by Foxconn?                                         |
-| Optiplex  | 3050 Micro      | Entry       | None                 | DB-MFF-BF       | Pegatron |        |            | 6th/7th gen   | B250    | 2x DDR4 2400 | 1 / 1       |                                                                |
-| Optiplex  | 3060 Micro      | Entry       | None                 | IPCFL-CG        | Pegatron |        |            | 8th gen       | H370    | 2x DDR4 2666 | 1 / 1       |                                                                |
-| Optiplex  | 3070 Micro      | Entry       | None                 | IPCFL-CG        | Pegatron |        |            | 8th/9th gen   | H370    | 2x DDR4 2666 | 1 / 1       | Same as 3060 Micro                                             |
-| Optiplex  | 3080 Micro      | Entry       | None                 | IPCML-CT        | Pegatron |        |            | 10th gen      | B460    | 2x DDR4 2666 | 1 / 1       |                                                                |
-| Optiplex  | 3090 Micro      | Entry       | None                 | IPCML-RN/ZB     | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2666 | 1 / 2       | why Q470?                                                      |
-| Optiplex  | 3000 Micro      | Entry       | None                 | D1? ADL 6L      | Wistron  | 0FJ05? | ??_040-1A  | 12th gen      | B660    | 2x DDR4 3200 | 1 / 2       | Back to Wistron lol (also it's yellow)                         |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-| Optiplex  | 5050 Micro      |             | None                 | DB-MFF-AF       | Pegatron |        |            | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       | 3050 Micro but Q270 and more USB3                              |
-| Optiplex  | 5060 Micro      |             | None                 | IPCFL-BS/EK     | Pegatron |        |            | 8th gen       | Q370    | 2x DDR4 2666 | 1 / 1       | 3060 Micro but Q370, USB-C, more USB3 and 2x DP                |
-| Optiplex  | 5070 Micro      |             | None                 | IPCFL-BS/EK     | Pegatron |        |            | 8th/9th gen   | Q370    | 2x DDR4 2666 | 1 / 1       | Same as 5060 Micro                                             |
-| Optiplex  | 5080 Micro      |             | None                 | IPCML-RN/ZB     | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2666 | 1 / 2       | Same as 3090 Micro but with extra front USB-C                  |
-| Optiplex  | 5090 Micro      |             | None                 | IPRKL-BO/CB     | Pegatron |        |            | 10th/11th gen | Q570    | 2x DDR4 3200 | 1 / 2       |                                                                |
-| Optiplex  | 5000 Micro      |             | None                 | D12 ADL 6L      | Wistron  | 0FJ04? | ??_040-1A  | 12th gen      | Q670    | 2x DDR4 3200 | 1 / 2       | 3000 Micro but Q670, front/rear(option) USB-C, 2xDP, more USB3 |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-| Optiplex  | 7040 Micro      |             | None                 | ?               | ?        |        |            | 6th gen       | Q170    | 2x DDR4 2133 | 1 / 1       | Same as 3040 Micro but Q170, DDR4, more USB3, M-key populated  |
-| Optiplex  | 7050 Micro      |             | None                 | DB-MFF-SF       | Pegatron |        |            | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       | Same as 3050 Micro but Q270, USB-C and more USB3               |
-| Optiplex  | 7050 Micro 65W  |             | None                 | DB-MFF-SF65     | Pegatron |        |            | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       | 7050 Micro with more CPU VRM phases for 65W CPU?               |
-| Optiplex  | 7060 Micro      |             | None                 | IPCFL-BS/EK     | Pegatron |        |            | 8th gen       | Q370    | 2x DDR4 2666 | 1 / 1       | Identical to the 5060 Micro?                                   |
-| Optiplex  | 7060 Micro 65W  |             | None                 | IPCFL-BS 65W    | Pegatron |        |            | 8th gen       | Q370    | 2x DDR4 2666 | 1 / 1       | 7060 Micro with more CPU VRM phases for 65W CPU?               |
-| Optiplex  | 7070 Micro      |             | None                 | IPCFL-BS/EK     | Pegatron |        |            | 8th/9th gen   | Q370    | 2x DDR4 2666 | 1 / 1       | Same as 7060 Micro                                             |
-| Optiplex  | 7070 Micro 65W  |             | None                 | IPCFL-BS 65W    | Pegatron |        |            | 8th/9th gen   | Q370    | 2x DDR4 2666 | 1 / 1       | Same as 7060 Micro 65W                                         |
-| Optiplex  | 7080 Micro      |             | None                 | IPCML-RN/ZB     | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Same as 5080 Micro but 2x M-key and higher memory rating?      |
-| Optiplex  | 7080 Micro 65W  |             | Unpopulated PCIe x8  | IPCML-RN65/DGFX | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Same as GPU one, but has 6 VRM phases for 65W and no PCIe slot |
-| Optiplex  | 7080 Micro GPU  |             | PCIe x8 single width | IPCML-RN65/DGFX | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Same as 65W one, but has 4 VRM phases for 35W and PCIe slot    |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-| Optiplex  | 7010 Micro      |             |                      |                 |          |        |            |               | Q670    | 2x DDR4 3200 |             |                                                                |
-| Optiplex  | 7010 Micro Plus |             |                      |                 |          |        |            |               | Q670    | 2x DDR5 4800 |             |                                                                |
-| Optiplex  | 7020 Micro      |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-| Optiplex  | 7020 Micro Plus |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-| Optiplex  | 9020 Micro      |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-|           |                 |             |                      |                 |          |        |            |               |         |              |             |                                                                |
-| Precision | 3240 Compact    | Workstation | PCIe x8 double width |                 | ?        |        |            | 10th gen      | W480    | 2x DDR4 3200 | 2 / 2       |                                                                |
+| Series    | Model           | Riser slot type      | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                        |
+|-----------|-----------------|----------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------------|
+| Optiplex  | 3020 Micro      | None                 | Dogfish_Entry              | Wistron  | PIH81R | 13124-1    | 4th gen       | H81     | 2x DDR3L     | 0 / 1       |                                                                |
+| Optiplex  | 3040 Micro      | None                 | ?                          | ?        |        |            | 6th gen       | H110    | 2x DDR3L     | 0 / 1       | Maybe made by Foxconn?                                         |
+| Optiplex  | 3050 Micro      | None                 | DB-MFF-BF                  | Pegatron |        |            | 6th/7th gen   | B250    | 2x DDR4 2400 | 1 / 1       |                                                                |
+| Optiplex  | 3060 Micro      | None                 | IPCFL-CG                   | Pegatron |        |            | 8th gen       | H370    | 2x DDR4 2666 | 1 / 1       |                                                                |
+| Optiplex  | 3070 Micro      | None                 | IPCFL-CG                   | Pegatron |        |            | 8th/9th gen   | H370    | 2x DDR4 2666 | 1 / 1       | Same as 3060 Micro                                             |
+| Optiplex  | 3080 Micro      | None                 | IPCML-CT                   | Pegatron |        |            | 10th gen      | B460    | 2x DDR4 2666 | 1 / 1       |                                                                |
+| Optiplex  | 3090 Micro      | None                 | IPCML-RN/ZB                | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2666 | 1 / 2       | why Q470?                                                      |
+| Optiplex  | 3000 Micro      | None                 | D1? ADL 6L                 | Wistron  | 0FJ05? | ??_040-1A  | 12th gen      | B660    | 2x DDR4 3200 | 1 / 2       | Back to Wistron lol (also it's yellow)                         |
+|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
+| Optiplex  | 5050 Micro      | None                 | DB-MFF-AF                  | Pegatron |        |            | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       | 3050 Micro but Q270 and more USB3                              |
+| Optiplex  | 5060 Micro      | None                 | IPCFL-BS/EK                | Pegatron |        |            | 8th gen       | Q370    | 2x DDR4 2666 | 1 / 1       | 3060 Micro but Q370, USB-C, more USB3 and 2x DP                |
+| Optiplex  | 5070 Micro      | None                 | IPCFL-BS/EK                | Pegatron |        |            | 8th/9th gen   | Q370    | 2x DDR4 2666 | 1 / 1       | Same as 5060 Micro                                             |
+| Optiplex  | 5080 Micro      | None                 | IPCML-RN/ZB                | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2666 | 1 / 2       | Same as 3090 Micro but with extra front USB-C                  |
+| Optiplex  | 5090 Micro      | None                 | IPRKL-BO/CB                | Pegatron |        |            | 10th/11th gen | Q570    | 2x DDR4 3200 | 1 / 2       |                                                                |
+| Optiplex  | 5000 Micro      | None                 | D12 ADL 6L                 | Wistron  | 0FJ04? | 202040-1A  | 12th gen      | Q670    | 2x DDR4 3200 | 1 / 2       | 3000 Micro but Q670, front/rear(option) USB-C, 2xDP, more USB3 |
+|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
+| Optiplex  | 7040 Micro      | None                 | ?                          | ?        |        |            | 6th gen       | Q170    | 2x DDR4 2133 | 1 / 1       | Same as 3040 Micro but Q170, DDR4, more USB3, M-key populated  |
+| Optiplex  | 7050 Micro      | None                 | DB-MFF-SF                  | Pegatron |        |            | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       | Same as 3050 Micro but Q270, USB-C and more USB3               |
+| Optiplex  | 7050 Micro 65W  | None                 | DB-MFF-SF65                | Pegatron |        |            | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       | 7050 Micro with more CPU VRM phases for 65W CPU?               |
+| Optiplex  | 7060 Micro      | None                 | IPCFL-BS/EK                | Pegatron |        |            | 8th gen       | Q370    | 2x DDR4 2666 | 1 / 1       | Identical to the 5060 Micro?                                   |
+| Optiplex  | 7060 Micro 65W  | None                 | IPCFL-BS 65W               | Pegatron |        |            | 8th gen       | Q370    | 2x DDR4 2666 | 1 / 1       | 7060 Micro with more CPU VRM phases for 65W CPU?               |
+| Optiplex  | 7070 Micro      | None                 | IPCFL-BS/EK                | Pegatron |        |            | 8th/9th gen   | Q370    | 2x DDR4 2666 | 1 / 1       | Same as 7060 Micro                                             |
+| Optiplex  | 7070 Micro 65W  | None                 | IPCFL-BS 65W               | Pegatron |        |            | 8th/9th gen   | Q370    | 2x DDR4 2666 | 1 / 1       | Same as 7060 Micro 65W                                         |
+| Optiplex  | 7080 Micro      | None                 | IPCML-RN/ZB                | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Same as 5080 Micro but 2x M-key and higher memory rating?      |
+| Optiplex  | 7080 Micro 65W  | PCIe x8 unpopulated  | IPCML-RN65/DGFX            | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Same as GPU one, but 6 VRM phases for 65W, no PCIe slot, 5x USB3 |
+| Optiplex  | 7080 Micro GPU  | PCIe x8 single width | IPCML-RN65/DGFX            | Pegatron |        |            | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Same as 65W one, but 4 VRM phases for 35W, PCIe slot, 4x USB3  |
+| Optiplex  | 7090 Micro      | None                 | IPRKL-BO/CB                | Pegatron |        |            | 10th/11th gen | Q570    | 2x DDR4 3200 | 2 / 2       | Same as 5090 Micro but 2x M-key                                |
+| Optiplex  | 7090 Micro 65W  | PCIe x8 unpopulated  | IPRKL-BO65/DGFX            | Pegatron |        |            | 10th/11th gen | Q570    | 2x DDR4 3200 | 2 / 2       | Same as 7080 Micro 65W but Q570                                |
+| Optiplex  | 7090 Micro GPU  | PCIe x8 single width | IPRKL-BO65/DGFX            | Pegatron |        |            | 10th/11th gen | Q570    | 2x DDR4 3200 | 2 / 2       | Same as 7080 Micro GPU but Q570                                |
+| Optiplex  | 7000 Micro 35W  | None                 | D1? ADL 6L HF              | Wistron  | 0FK10? | ??_007-1A  | 12th gen      | Q670    | 2x DDR4 3200 | 2 / 2       | Similar but not quite a 5000 Micro?                            |
+| Optiplex  | 7000 Micro 65W  | PCIe x8 unpopulated  | D12 ADL 8L                 | Wistron  | 0FF08? | 202008-1A  | 12th gen      | Q670    | 2x DDR5 4800 | 2 / 2       | 3x DP                                                          |
+| Optiplex  | Micro 7010      | None                 | D13 MF? Lu?                | Wistron  | 0G803? | ??2045-??  | 12th/13th gen | Q670    | 2x DDR4 3200 | 1 / 2       | DP + HDMI, one M-key populated. Is this 5000 series rebranded? |
+| Optiplex  | Micro Plus 7010 | PCIe x8 unpopulated  | D12 ADL 8L 3rd X01         | Wistron  | 0FF15? | 222016-SB  | 13th gen      | Q670    | 2x DDR5 4800 | 2 / 2       | 3x DP                                                          |
+| Optiplex  | Micro 7020      | None                 | OPTI 3 D13.5 MFF LUXOR-LOW | Wistron  | 0HH03? | 222035-1A  | 12th/14th gen | Q670    |              |             |                                                                |
+| Optiplex  | Micro Plus 7020 |                      |                            |          |        |            |               |         |              |             |                                                                |
+|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
+| Optiplex  | 9020 Micro      |                      |                            |          |        |            |               |         |              |             |                                                                |
+|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
+| Precision | 3240 Compact    | PCIe x8 double width |                            | ?        |        |            | 10th gen      | W480    | 2x DDR4 3200 | 2 / 2       |                                                                |
 
 ## Spec pdfs:
 
@@ -273,6 +274,18 @@ https://c-data.co.il/Content/Images/uploaded/OptiPlex%207050%20Towers%20Technica
 https://dl.dell.com/topicspdf/optiplex-7060-desktop_specifications3_en-us.pdf  
 https://www.dignited.com/wp-content/uploads/2022/05/opti7070-micro-setup-specs-en-us.pdf  
 https://hardware-corner.net/wp-content/uploads/2021/02/dell-optiplex-7080-datasheet.pdf  
+https://dl.dell.com/content/manual16805704-optiplex-7080-micro-setup-and-specifications-guide.pdf  
+https://dl.dell.com/content/manual46045081-optiplex-7080-micro-service-manual.pdf  
+https://www.informatika.com/wp-content/uploads/2021/09/optiplex-7090-towers-spec-sheet.pdf  
+https://www.dell.com/support/manuals/en-us/optiplex-7090-micro/opti7090mff_sm/removing-the-system-board?guid=guid-d5acf4ad-c1b0-4b08-aad7-34b02a22d203&lang=en-us  
+https://doi-product-assets.s3.amazonaws.com/pub/User-Manual/1077151049.pdf  
+https://www.dell.com/support/manuals/en-us/optiplex-7000-micro/optiplex_7000_mff_sm/removing-the-system-board?guid=guid-75f5a150-d1b4-461a-a920-9c40b6fc9d70&lang=en-us  
+https://www.delltechnologies.com/asset/en-us/products/desktops-and-all-in-ones/technical-support/optiplex-micro-7010-technical-guidebook.pdf  
+https://dl.dell.com/content/manual17424428-optiplex-micro-7010-owner-s-manual.pdf  
+https://dl.dell.com/content/manual17560719-optiplex-micro-plus-7010-owner-s-manual.pdf  
+https://www.dell.com/support/manuals/en-us/optiplex-7020-micro/optiplex-micro-7020-owners-manual/removing-the-system-board?guid=guid-c6e84b88-7ce3-4fe7-90cd-a0f9257249b0&lang=en-us  
+
+
 
 https://dl.dell.com/content/manual24399514-precision-3240-compact-setup-and-specifications.pdf  
 
