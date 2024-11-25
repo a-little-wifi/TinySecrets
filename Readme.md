@@ -208,8 +208,6 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 
 # Dell Optiplex Micro/MFF and Precision Compact/CFF
 
-todo
-
 | Series    | Model           | Riser slot type      | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                        |
 |-----------|-----------------|----------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------------|
 | Optiplex  | 3020M           | None                 | Dogfish_Entry              | Wistron  | PIH81R | 13124-1    | 4th gen       | H81     | 2x DDR3L     | 0 / 1       |                                                                |
@@ -300,9 +298,39 @@ https://dl.dell.com/content/manual23490351-precision-3280-cff-owner-s-manual.pdf
 
 </details>
 
-# HP Elitedesk and Prodesk Mini
+# HP EliteDesk and ProDesk Mini
 
 todo
+
+| Series    | Model           | Expansion slots      | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                        |
+|-----------|-----------------|----------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------------|
+| ProDesk   | 400 G1 Mini     | None                 | BILBO                      |          |        |            | 4th gen       | H81     | 2x DDR3L     | 1 / 1       |                                                                |
+| ProDesk   | 400 G2 Mini     | None                 | DINO                       |          |        |            | 6th gen       | H110    | 2x DDR4 2133 | 1 / 1       |                                                                |
+| ProDesk   | 400 G3 Mini     | Flex IO v1           | Virgo MB Rev A             | Wistron  | 07N02? | 16514-1    | 6th/7th gen   |         | 2x DDR4 2400 | 1 / 1       |                                                                |
+|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
+|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
+|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
+| EliteDesk | 800 G1 USDT     | MXM + mSATA          |                            |          |        |            |               |         |              |             |                                                                |
+| ?         | 260 G1          | None                 | ?                          | ?        | ?      | ?          | 4th gen U     | SoC     | 2x DDR3L     | 1 / 1       |                                                                |
+
+## Spec links
+
+<details>
+
+<summary> Click here to view links </summary>
+
+Why'd HP take down all the older spec pages SMH
+
+400 G1: https://web.archive.org/web/20210917143329/https://support.hp.com/us-en/document/c04564879  
+400 G2: https://web.archive.org/web/20210920075058/https://support.hp.com/ie-en/document/c04843458  
+400 G3: https://web.archive.org/web/20210924223229/https://support.hp.com/us-en/document/c05364056  
+
+
+
+
+
+</details>
+
 
 # Acer Veriton N
 
