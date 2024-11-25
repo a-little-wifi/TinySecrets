@@ -299,6 +299,25 @@ todo
 
 todo
 
+
+# Schematics
+
+Currently available schematics I know about:
+
+- ThinkCentre M720q/M920q/M920x + ThinkStation P330 Tiny
+- ThinkCentre M90q gen 1 + ThinkStation P340 Tiny
+- ThinkCentre M75q gen 1
+- ThinkCentre M75q gen 2
+- ThinkCentre M90n-1 Nano
+- ThinkCentre M700/M900/M900x Tiny
+
+- Optiplex 3070 Micro
+- Optiplex 5050 Micro
+
+- Acer Veriton N4660G
+
+If you're looking for one of these, feel free to email me at the address listed on my profile, I'll gladly send them to you.
+
 # In case you wanna help out
 
 I'm always looking for more schematics/boardviews and information about any unique parts, configs, mods and models (non-Lenovo too). If you have or know about anything you think might be of interest here, I'd love to hear about it in an issue on this repo or in my email listed on my profile. Thanks!
