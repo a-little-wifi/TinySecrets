@@ -304,21 +304,23 @@ todo
 
 | Series    | Model           | Expansion slots      | Board name                 | Design   | Model  | Board code        | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                  |
 |-----------|-----------------|----------------------|----------------------------|----------|--------|-------------------|---------------|---------|--------------|-------------|----------------------------------------------------------|
-| ProDesk   | 400 G1 Mini     | None                 | BILBO                      |          |        |                   | 4th gen       | H81     | 2x DDR3L     | 1 / 1       |                                                          |
-| ProDesk   | 400 G2 Mini     | None                 | DINO                       |          |        |                   | 6th gen       | H110    | 2x DDR4 2133 | 1 / 1       |                                                          |
+| ProDesk   | 400 G1 Mini     | None                 | BILBO                      | Foxconn? |        |                   | 4th gen       | H81     | 2x DDR3L     | 1 / 1       |                                                          |
+| ProDesk   | 400 G2 Mini     | None                 | DINO                       | Foxconn? |        |                   | 6th gen       | H110    | 2x DDR4 2133 | 1 / 1       |                                                          |
 | ProDesk   | 400 G3 Mini     | Flex IO v1           | Virgo MB Rev A             | Wistron  | 07N02? | 16514-1           | 6th/7th gen   | H270    | 2x DDR4 2400 | 1 / 1       |                                                          |
 | ProDesk   | 400 G4 Mini     | Flex IO v1           | Mandolin Rev A             | Quanta   | F80    | DA0F80MB6A0 REV:A | 8th gen       | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
 | ProDesk   | 400 G5 Mini     | Flex IO v1           | Mandolin-R Rev 0A          | Quanta   | F80B   | DAF80BMB6D0 REV:D | 8th/9th gen   | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
 | ProDesk   | 400 G6 Mini     | Flex IO v2, 2nd      | Missandei Rev A            | Quanta   | F91    | DA0F91MB6F0 REV:F | 10th gen      | Q470    | 2x DDR4 2933 | 1 / 2       | Unpopulated dGPU connector and why Q470??? (again??)     |
 | Pro       | Mini 400 G9     | Flex IO v?           | ?                          | ?        | ?      | ?                 | 12/13/14th gen| Q670    | ?            | 1 / 2       | Unpopulated dGPU connector and why Q670???               |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+| ProDesk   | 600 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   | 4th gen       | Q85     | 2x DDR3L     | 1 / 1       | Looks identical to 400 G1 Mini with extra DP populated   |
+| ProDesk   | 600 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   | 6th gen       | Q150    | 2x DDR4 2133 | 1 / 1       |                                                          |
+| ProDesk   | 600 G3 Mini     | Flex IO v1           | Scorpius Rev A             | Wistron  | 06N35  | 16515-1           |               |         |              |             |                                                          |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | ProDesk   | 405 G8 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | EliteDesk | 800 G1 USDT     | MXM + mSATA          |                            |          |        |                   |               |         |              |             |                                                          |
 | ?         | 260 G1          | None                 | ?                          | ?        | ?      | ?                 | 4th gen U     | SoC     | 2x DDR3L     | 1 / 1       |                                                          |
+
+-- note: don't forget random 700 models
 
 ## Spec links
 
@@ -336,6 +338,11 @@ https://www.bargainhardware.co.uk/media/quick-specs/desktops/HP-ProDesk-400-G3-M
 400 G5: https://web.archive.org/web/20210613003747/https://support.hp.com/us-en/document/c06403257  
 https://www8.hp.com/h20195/v2/GetPDF.aspx/4AA7-5394EEAP.pdf  
 400 G6: https://www8.hp.com/h20195/v2/GetPDF.aspx/c06640086.pdf  
+400 G9: https://h20195.www2.hp.com/v2/GetPDF.aspx/c08161382.pdf  
+
+600 G1: https://www.hp.com/hpinfo/newsroom/press_kits/2013/HPDiscoverBarcelona/ProDesk_600_G1_Desktop_Mini_QuickSpecs.pdf  
+600 G2: https://web.archive.org/web/20211119121706/https://support.hp.com/us-en/document/c04819833  
+
 
 
 
