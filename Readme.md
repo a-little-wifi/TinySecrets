@@ -206,13 +206,13 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 
 </details>
 
-# Dell Optiplex Micro/MFF and Precision Compact
+# Dell Optiplex Micro/MFF and Precision Compact/CFF
 
 todo
 
 | Series    | Model           | Riser slot type      | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                        |
 |-----------|-----------------|----------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------------|
-| Optiplex  | 3020 Micro      | None                 | Dogfish_Entry              | Wistron  | PIH81R | 13124-1    | 4th gen       | H81     | 2x DDR3L     | 0 / 1       |                                                                |
+| Optiplex  | 3020M           | None                 | Dogfish_Entry              | Wistron  | PIH81R | 13124-1    | 4th gen       | H81     | 2x DDR3L     | 0 / 1       |                                                                |
 | Optiplex  | 3040 Micro      | None                 | ?                          | ?        |        |            | 6th gen       | H110    | 2x DDR3L     | 0 / 1       | Maybe made by Foxconn?                                         |
 | Optiplex  | 3050 Micro      | None                 | D8-MFF-BF                  | Pegatron |        |            | 6th/7th gen   | B250    | 2x DDR4 2400 | 1 / 1       |                                                                |
 | Optiplex  | 3060 Micro      | None                 | IPCFL-CG                   | Pegatron |        |            | 8th gen       | H370    | 2x DDR4 2666 | 1 / 1       |                                                                |
@@ -248,9 +248,12 @@ todo
 | Optiplex  | Micro 7020      | None                 | OPTI 3 D13.5 MFF LUXOR-LOW | Wistron  | 0HH03? | 222035-1A  | 12th/14th gen | Q670    | 2x DDR5 5600 | 2 / 2       | Back to 2x M-key and got DDR5 now                              |
 | Optiplex  | Micro Plus 7020 | PCIe x8 unpopulated  | D13.5 MFF Luxor High       | Wistron  | 0HG04? | 232014-SA  | 14th gen      | Q670    | 2x DDR5 5600 | 2 / 2       | 3x DP                                                          |
 |           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
-| Optiplex  | 9020 Micro      |                      |                            |          |        |            |               |         |              |             |                                                                |
+| Optiplex  | 9020M           | None                 | ?                          | ?        | ?      | ?          | 4th gen       | Q87     | 2x DDR3L     | 1 / 1       | Looks like the 3020M but with M-key populated and more USB3    |
 |           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
-| Precision | 3240 Compact    | PCIe x8 double width |                            | ?        |        |            | 10th gen      | W480    | 2x DDR4 3200 | 2 / 2       |                                                                |
+| Precision | 3240 Compact    | PCIe x8 double width | IPCML-RN65/DGFX            | Pegatron |        |            | 10th gen      | W480    | 2x DDR4 3200 | 2 / 2       | Same board as 7080 Micro 65W/GPU but fully featured            |
+| Precision | 3260 Compact    | PCIe x8 double width | D12 ADL 8L                 | Wistron  | 0FF07? | 202008-1A  | 12th/13th gen | W680    | 2x DDR5 5600 | 2 / 2       | Same board as 7000 Micro 65W but with PCIe populated           |
+| Precision | 3280 CFF        | PCIe x8 + x1 Custom  |                            | Wistron  | 0HF03? | 222043-1A  | 14th gen      | W680    | 2x DDR5 5600 | 2 / 2       | Fully custom board with weird PCIe riser slot                  |
+
 
 ## Spec pdfs:
 
@@ -286,9 +289,14 @@ https://dl.dell.com/content/manual17560719-optiplex-micro-plus-7010-owner-s-manu
 https://dl.dell.com/content/manual43193729-optiplex-micro-7020-owner-s-manual.pdf  
 https://dl.dell.com/content/manual32906471-optiplex-micro-plus-7020-owner-s-manual.pdf  
 
-
+https://dl.dell.com/topicspdf/optiplex-9020m-desktop_owners-manual_en-us.pdf  
 
 https://dl.dell.com/content/manual24399514-precision-3240-compact-setup-and-specifications.pdf  
+https://dl.dell.com/topicspdf/precision-3240-workstation_owners-manual_en-us.pdf  
+https://dl.dell.com/content/manual34204451-precision-3260-compact-setup-and-specifications.pdf  
+https://dl.dell.com/content/manual27296999-precision-3260-compact-service-manual.pdf  
+
+https://dl.dell.com/content/manual23490351-precision-3280-cff-owner-s-manual.pdf  
 
 </details>
 
