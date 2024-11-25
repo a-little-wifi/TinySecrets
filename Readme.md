@@ -245,8 +245,8 @@ todo
 | Optiplex  | 7000 Micro 65W  | PCIe x8 unpopulated  | D12 ADL 8L                 | Wistron  | 0FF08? | 202008-1A  | 12th gen      | Q670    | 2x DDR5 4800 | 2 / 2       | 3x DP                                                          |
 | Optiplex  | Micro 7010      | None                 | D13 MF? Lu?                | Wistron  | 0G803? | ??2045-??  | 12th/13th gen | Q670    | 2x DDR4 3200 | 1 / 2       | DP + HDMI, one M-key populated. Is this 5000 series rebranded? |
 | Optiplex  | Micro Plus 7010 | PCIe x8 unpopulated  | D12 ADL 8L 3rd X01         | Wistron  | 0FF15? | 222016-SB  | 13th gen      | Q670    | 2x DDR5 4800 | 2 / 2       | 3x DP                                                          |
-| Optiplex  | Micro 7020      | None                 | OPTI 3 D13.5 MFF LUXOR-LOW | Wistron  | 0HH03? | 222035-1A  | 12th/14th gen | Q670    |              |             |                                                                |
-| Optiplex  | Micro Plus 7020 |                      |                            |          |        |            |               |         |              |             |                                                                |
+| Optiplex  | Micro 7020      | None                 | OPTI 3 D13.5 MFF LUXOR-LOW | Wistron  | 0HH03? | 222035-1A  | 12th/14th gen | Q670    | 2x DDR5 5600 | 2 / 2       | Back to 2x M-key and got DDR5 now                              |
+| Optiplex  | Micro Plus 7020 | PCIe x8 unpopulated  | D13.5 MFF Luxor High       | Wistron  | 0HG04? | 232014-SA  | 14th gen      | Q670    | 2x DDR5 5600 | 2 / 2       | 3x DP                                                          |
 |           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
 | Optiplex  | 9020 Micro      |                      |                            |          |        |            |               |         |              |             |                                                                |
 |           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
@@ -277,13 +277,14 @@ https://hardware-corner.net/wp-content/uploads/2021/02/dell-optiplex-7080-datash
 https://dl.dell.com/content/manual16805704-optiplex-7080-micro-setup-and-specifications-guide.pdf  
 https://dl.dell.com/content/manual46045081-optiplex-7080-micro-service-manual.pdf  
 https://www.informatika.com/wp-content/uploads/2021/09/optiplex-7090-towers-spec-sheet.pdf  
-https://www.dell.com/support/manuals/en-us/optiplex-7090-micro/opti7090mff_sm/removing-the-system-board?guid=guid-d5acf4ad-c1b0-4b08-aad7-34b02a22d203&lang=en-us  
+https://dl.dell.com/content/manual18875407-optiplex-7090-micro-form-factor-service-manual.pdf  
 https://doi-product-assets.s3.amazonaws.com/pub/User-Manual/1077151049.pdf  
-https://www.dell.com/support/manuals/en-us/optiplex-7000-micro/optiplex_7000_mff_sm/removing-the-system-board?guid=guid-75f5a150-d1b4-461a-a920-9c40b6fc9d70&lang=en-us  
+https://dl.dell.com/content/manual21273838-optiplex-7000-micro-service-manual.pdf  
 https://www.delltechnologies.com/asset/en-us/products/desktops-and-all-in-ones/technical-support/optiplex-micro-7010-technical-guidebook.pdf  
 https://dl.dell.com/content/manual17424428-optiplex-micro-7010-owner-s-manual.pdf  
 https://dl.dell.com/content/manual17560719-optiplex-micro-plus-7010-owner-s-manual.pdf  
-https://www.dell.com/support/manuals/en-us/optiplex-7020-micro/optiplex-micro-7020-owners-manual/removing-the-system-board?guid=guid-c6e84b88-7ce3-4fe7-90cd-a0f9257249b0&lang=en-us  
+https://dl.dell.com/content/manual43193729-optiplex-micro-7020-owner-s-manual.pdf  
+https://dl.dell.com/content/manual32906471-optiplex-micro-plus-7020-owner-s-manual.pdf  
 
 
 
