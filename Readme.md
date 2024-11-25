@@ -1,6 +1,6 @@
 # Tiny secrets
 
-Here is my research with as many technical details about Lenovo's small PCs as I can find  
+Here is my research with as many technical details about Lenovo's, Dell's, HP's and Acer's small PCs as I can find  
 There's some interesting modding opportunities that haven't been explored yet as far as I can tell, and I don't have access to most of the hardware to try it myself
 
 Below is an overview of the different system boards used inside each model, with the shipped vs theoretical maximum potential configuration
