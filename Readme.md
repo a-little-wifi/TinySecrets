@@ -302,16 +302,23 @@ https://dl.dell.com/content/manual23490351-precision-3280-cff-owner-s-manual.pdf
 
 todo
 
-| Series    | Model           | Expansion slots      | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                        |
-|-----------|-----------------|----------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------------|
-| ProDesk   | 400 G1 Mini     | None                 | BILBO                      |          |        |            | 4th gen       | H81     | 2x DDR3L     | 1 / 1       |                                                                |
-| ProDesk   | 400 G2 Mini     | None                 | DINO                       |          |        |            | 6th gen       | H110    | 2x DDR4 2133 | 1 / 1       |                                                                |
-| ProDesk   | 400 G3 Mini     | Flex IO v1           | Virgo MB Rev A             | Wistron  | 07N02? | 16514-1    | 6th/7th gen   |         | 2x DDR4 2400 | 1 / 1       |                                                                |
-|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
-|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
-|           |                 |                      |                            |          |        |            |               |         |              |             |                                                                |
-| EliteDesk | 800 G1 USDT     | MXM + mSATA          |                            |          |        |            |               |         |              |             |                                                                |
-| ?         | 260 G1          | None                 | ?                          | ?        | ?      | ?          | 4th gen U     | SoC     | 2x DDR3L     | 1 / 1       |                                                                |
+| Series    | Model           | Expansion slots      | Board name                 | Design   | Model  | Board code        | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                  |
+|-----------|-----------------|----------------------|----------------------------|----------|--------|-------------------|---------------|---------|--------------|-------------|----------------------------------------------------------|
+| ProDesk   | 400 G1 Mini     | None                 | BILBO                      |          |        |                   | 4th gen       | H81     | 2x DDR3L     | 1 / 1       |                                                          |
+| ProDesk   | 400 G2 Mini     | None                 | DINO                       |          |        |                   | 6th gen       | H110    | 2x DDR4 2133 | 1 / 1       |                                                          |
+| ProDesk   | 400 G3 Mini     | Flex IO v1           | Virgo MB Rev A             | Wistron  | 07N02? | 16514-1           | 6th/7th gen   | H270    | 2x DDR4 2400 | 1 / 1       |                                                          |
+| ProDesk   | 400 G4 Mini     | Flex IO v1           | Mandolin Rev A             | Quanta   | F80    | DA0F80MB6A0 REV:A | 8th gen       | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
+| ProDesk   | 400 G5 Mini     | Flex IO v1           | Mandolin-R Rev 0A          | Quanta   | F80B   | DAF80BMB6D0 REV:D | 8th/9th gen   | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
+| ProDesk   | 400 G6 Mini     | Flex IO v2, 2nd      | Missandei Rev A            | Quanta   | F91    | DA0F91MB6F0 REV:F | 10th gen      | Q470    | 2x DDR4 2933 | 1 / 2       | Unpopulated dGPU connector and why Q470??? (again??)     |
+| Pro       | Mini 400 G9     | Flex IO v?           | ?                          | ?        | ?      | ?                 | 12/13/14th gen| Q670    | ?            | 1 / 2       | Unpopulated dGPU connector and why Q670???               |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+| ProDesk   | 405 G8 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
+| EliteDesk | 800 G1 USDT     | MXM + mSATA          |                            |          |        |                   |               |         |              |             |                                                          |
+| ?         | 260 G1          | None                 | ?                          | ?        | ?      | ?                 | 4th gen U     | SoC     | 2x DDR3L     | 1 / 1       |                                                          |
 
 ## Spec links
 
@@ -324,12 +331,20 @@ Why'd HP take down all the older spec pages SMH
 400 G1: https://web.archive.org/web/20210917143329/https://support.hp.com/us-en/document/c04564879  
 400 G2: https://web.archive.org/web/20210920075058/https://support.hp.com/ie-en/document/c04843458  
 400 G3: https://web.archive.org/web/20210924223229/https://support.hp.com/us-en/document/c05364056  
-
+https://www.bargainhardware.co.uk/media/quick-specs/desktops/HP-ProDesk-400-G3-Mini-Quick-Specs.pdf  
+400 G4: https://web.archive.org/web/20220111065823/https://support.hp.com/us-en/document/c06047054  
+400 G5: https://web.archive.org/web/20210613003747/https://support.hp.com/us-en/document/c06403257  
+https://www8.hp.com/h20195/v2/GetPDF.aspx/4AA7-5394EEAP.pdf  
+400 G6: https://www8.hp.com/h20195/v2/GetPDF.aspx/c06640086.pdf  
 
 
 
 
 </details>
+
+## Flex IO module overview
+
+todo
 
 
 # Acer Veriton N
@@ -358,3 +373,6 @@ If you're looking for one of these, feel free to email me at the address listed 
 # In case you wanna help out
 
 I'm always looking for more schematics/boardviews and information about any unique parts, configs, mods and models (non-Lenovo too). If you have or know about anything you think might be of interest here, I'd love to hear about it in an issue on this repo or in my email listed on my profile. Thanks!
+
+# More todo:
+download Lenovo PSREF, Dell owners/service manual, HP Quickspec, Acer Lifecycle Extension Guide PDFs into repo
