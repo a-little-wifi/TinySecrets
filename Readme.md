@@ -310,11 +310,19 @@ todo
 | ProDesk   | 400 G4 Mini     | Flex IO v1           | Mandolin Rev A             | Quanta   | F80    | DA0F80MB6A0 REV:A | 8th gen       | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
 | ProDesk   | 400 G5 Mini     | Flex IO v1           | Mandolin-R Rev 0A          | Quanta   | F80B   | DAF80BMB6D0 REV:D | 8th/9th gen   | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
 | ProDesk   | 400 G6 Mini     | Flex IO v2, 2nd      | Missandei Rev A            | Quanta   | F91    | DA0F91MB6F0 REV:F | 10th gen      | Q470    | 2x DDR4 2933 | 1 / 2       | Unpopulated dGPU connector and why Q470??? (again??)     |
-| Pro       | Mini 400 G9     | Flex IO v?           | ?                          | ?        | ?      | ?                 | 12/13/14th gen| Q670    | ?            | 1 / 2       | Unpopulated dGPU connector and why Q670???               |
+| Pro       | Mini 400 G9     | Flex IO v?           | ?                          | Quanta   | F96    | DA0F96MB8F0 REV:F | 12/13/14th gen| Q670    | 2x DDR4 ?    | 1 / 2       | Unpopulated dGPU connector and why Q670???               |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | ProDesk   | 600 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   | 4th gen       | Q85     | 2x DDR3L     | 1 / 1       | Looks identical to 400 G1 Mini with extra DP populated   |
 | ProDesk   | 600 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   | 6th gen       | Q150    | 2x DDR4 2133 | 1 / 1       |                                                          |
-| ProDesk   | 600 G3 Mini     | Flex IO v1           | Scorpius Rev A             | Wistron  | 06N35  | 16515-1           |               |         |              |             |                                                          |
+| ProDesk   | 600 G3 Mini     | Flex IO v1           | Scorpius Rev A             | Wistron  | 06N35  | 16515-1           | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       |                                                          |
+| ProDesk   | 600 G4 Mini     | Flex IO v1           | Harp/Lute Rev A            | Quanta   | F81    | DA0F81MB6A0 REV:A | 8th gen       | Q370    | 2x DDR4 2666 | 2 / 2       |                                                          |
+| ProDesk   | 600 G5 Mini     | Flex IO v1           | Harp-R/Lute-R REV.0A       | Quanta   | F81B   | DAF81BMB6D0 REV:D | 8th/9th gen   | Q370    | 2x DDR4 2666 | 2 / 2       | Looks identical to 600 G4 Mini                           |
+| ProDesk   | 600 G6 Mini     | Flex IO v2, 2nd      | Drogo Daario -AUD Rev. B   | Quanta   | F93    | DAF93MB26B0 REV:B | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Unpopulated dGPU connector                               |
+| ProDesk   | 600 G8 Mini     | ?                    | ?                          | ?        | ?      | ?                 | ?             | ?       | ?            | ?           | Its existence is implied but there is like no info???    |
+| Elite     | Mini 600 G9     | ?                    | ?                          | ?        | ?      | ?                 | 12th/13th gen | Q670    | 2x DDR5 4800?| 2 / 2?      | Too new, not much info yet                               |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+| EliteDesk | 800 G1 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | ProDesk   | 405 G8 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | EliteDesk | 800 G1 USDT     | MXM + mSATA          |                            |          |        |                   |               |         |              |             |                                                          |
@@ -342,10 +350,15 @@ https://www8.hp.com/h20195/v2/GetPDF.aspx/4AA7-5394EEAP.pdf
 
 600 G1: https://www.hp.com/hpinfo/newsroom/press_kits/2013/HPDiscoverBarcelona/ProDesk_600_G1_Desktop_Mini_QuickSpecs.pdf  
 600 G2: https://web.archive.org/web/20211119121706/https://support.hp.com/us-en/document/c04819833  
+600 G3: https://content.etilize.com/Manufacturer-Brochure/1061323301.pdf  
+600 G4: https://web.archive.org/web/20230326103332/https://support.hp.com/us-en/document/c06057132  
+600 G5: https://web.archive.org/web/20240603170755/https://support.hp.com/ca-en/document/c06403574  
+https://www8.hp.com/h20195/v2/GetPDF.aspx/4AA7-5393EEAP.pdf  
+600 G6: https://www8.hp.com/h20195/v2/GetPDF.aspx/c06640111.pdf  
+600 G9: https://h20195.www2.hp.com/v2/GetPDF.aspx/c08050134.pdf  
 
 
-
-
+HP part search with images: https://partsurfer.hp.com
 
 </details>
 
