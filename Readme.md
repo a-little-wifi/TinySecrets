@@ -321,11 +321,14 @@ todo
 | ProDesk   | 600 G8 Mini     | ?                    | ?                          | ?        | ?      | ?                 | ?             | ?       | ?            | ?           | Its existence is implied but there is like no info???    |
 | Elite     | Mini 600 G9     | ?                    | ?                          | ?        | ?      | ?                 | 12th/13th gen | Q670    | 2x DDR5 4800?| 2 / 2?      | Too new, not much info yet                               |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| EliteDesk | 800 G1 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
+| EliteDesk | 800 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   | 4th gen       | Q87     | 2x DDR3L     | 1 / 1       | Same as 600 G1 Mini but with Q87 and more USB3           |
+| EliteDesk | 800 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   | 6th gen       | Q170    | 2x DDR4 2133 | 1 / 1       | Same as 600 G2 Mini but with Q170 and more USB3                                                        |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | ProDesk   | 405 G8 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| EliteDesk | 800 G1 USDT     | MXM + mSATA          |                            |          |        |                   |               |         |              |             |                                                          |
+| EliteDesk | 800 G1 USDT     | MXM                  |                            |          |        |                   |               |         | 2x DDR3L     | 1x mSATA    |                                                          |
 | ?         | 260 G1          | None                 | ?                          | ?        | ?      | ?                 | 4th gen U     | SoC     | 2x DDR3L     | 1 / 1       |                                                          |
 
 -- note: don't forget random 700 models
@@ -356,6 +359,9 @@ https://www8.hp.com/h20195/v2/GetPDF.aspx/4AA7-5394EEAP.pdf
 https://www8.hp.com/h20195/v2/GetPDF.aspx/4AA7-5393EEAP.pdf  
 600 G6: https://www8.hp.com/h20195/v2/GetPDF.aspx/c06640111.pdf  
 600 G9: https://h20195.www2.hp.com/v2/GetPDF.aspx/c08050134.pdf  
+
+800 G1: https://www.hp.com/hpinfo/newsroom/press_kits/2013/HPDiscoverBarcelona/EliteDesk800G1_Desktop_Mini_Datasheet.pdf  
+800 G2: https://h30434.www3.hp.com/psg/attachments/psg/HardwareDPC/221621/1/HP%20EliteDesk%20800%20G2%20QuickSpecs%20v31.pdf  
 
 
 HP part search with images: https://partsurfer.hp.com
