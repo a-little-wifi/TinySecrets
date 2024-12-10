@@ -26,7 +26,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M900 Tiny      | Entry, vPro          | Tiny3       | None                       | IS1XX1H    | LiteON | JC110 |            | 6th gen                | Q170    |              | 1 / 1       | 0 / 0       | Board name also IQ170IH1?         |
 | M910q          | Entry, vPro          | Tiny4       | x8 no riser                | IQ2X0IH    | LiteON | JC113 |            | 6th/7th gen            | Q270    |              | 1 / 2       | 0 / 0       |                                   |
 | M920q          | Entry, vPro          | Tiny5       | Tiny5 x8+4                 | IQ3X0IL    | LCFC   | EQ370 | NM-B551    | 8th/9th gen            | Q370    |              | 1 / 2       | 0 / 0       |                                   |
-| M80q gen 1     | Entry, vPro          | Tiny6       | Tiny6 x8 unpopulated       | IQ4X0IL1   | LCFC   | GH470 | NM-C621    | 10th gen               | Q470    |              | 1 / 2       | 0 / 1       | Sometimes called M930q            |
+| M80q gen 1     | Entry, vPro          | Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL1   | LCFC   | GH470 | NM-C621    | 10th gen               | Q470    |              | 1 / 2       | 0 / 1       | Sometimes called M930q            |
 | M80q gen 2     | doesn’t exist lmaooo |             |                            |            |        |       |            |                        |         |              |             |             | doesn't exist lmaooo              |
 | M80q gen 3     | Entry, vPro          | Tiny8       | Tiny8 x8+4 unpopulated     | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 12th gen               | Q670    |              | 2 / 2       | 0 / 1       |                                   |
 | M80q gen 4     | Entry, vPro          | Also Tiny8? | Tiny8 x8+4 unpopulated     | IQ6X0IL1   | LCFC   | KQ674 | NM-E881    | 13th gen               | Q670    |              | 2 / 2       | 0 / 1       |                                   |
@@ -377,9 +377,9 @@ todo
 
 todo
 
-| Model           | Expansion slots                                         | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                  |
-|-----------------|---------------------------------------------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------|
-| N4660G          | PCIe x16 (2L), SATA box (3L), Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | B360    | 2x DDR4 2666 | 2 / 2       |                                                          |
+| Model           | Expansion slots                               | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                  |
+|-----------------|-----------------------------------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------|
+| N4660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | B360    | 2x DDR4 2666 | 2 / 2       |                                                          |
 
 
 # Schematics
