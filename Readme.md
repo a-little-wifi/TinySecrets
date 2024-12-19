@@ -379,6 +379,8 @@ todo
 
 | Model           | Expansion slots                               | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                         |
 |-----------------|-----------------------------------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|-------------------------------------------------|
+| N4630G          | PCIe x1, ?                                    |                            |          |        |            | 4th gen       | H81     | 2x DDR3L     | 0 / 0       |                                                 |
+| N4640G          | PCIe x16, ?                                   |                            |          |        |            | 6th/7th gen   | H110    | 2x DDR4 2400 | 1 / 1       |                                                 |
 | N4660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | B360    | 2x DDR4 2666 | 2 / 2       |                                                 |
 | N4670G          |                                               |                            |          |        |            |               |         |              |             |                                                 |
 | N4670GT?        |                                               |                            |          |        |            |               |         |              |             |                                                 |
