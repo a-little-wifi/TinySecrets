@@ -377,11 +377,23 @@ todo
 
 todo
 
-| Model           | Expansion slots                               | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                  |
-|-----------------|-----------------------------------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|----------------------------------------------------------|
-| N4660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | B360    | 2x DDR4 2666 | 2 / 2       |                                                          |
-| VN6720GT        | PCIe x16, SATA box, Display/USB/Serial option | PIQ67L-vAbraR MB           | Wistron  | 0HA03? | 232007-1   | ?/13th/? gen  | B760    | 2x DDR5 ?    | 2 / ?       |
-
+| Model           | Expansion slots                               | Board name                 | Design   | Model  | Board code | CPU type      | Chipset | Memory type  | M-key slots | Comment                                         |
+|-----------------|-----------------------------------------------|----------------------------|----------|--------|------------|---------------|---------|--------------|-------------|-------------------------------------------------|
+| N4660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | B360    | 2x DDR4 2666 | 2 / 2       |                                                 |
+| N6660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | Q370    | 2x DDR4 2666 | 2 / 2       | Same as N4660G but with Q370 and more USB3      |
+| N4670G          |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| N4670GT?        |                                               |                            |          |        |            |               |         |              |             |                                                 |
+|                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| N4680GT         |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| N6680G          | PCIe x16, SATA box, Display/USB/Serial option |                            |          |        |            | 11th gen      |         | 2x DDR4 3200 | 2 / ?       |                                                 |
+| N4690GT         |                                               |                            |          |        |            |               |         |              |             |                                                 |
+|                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| N4710GT         |                                               |                            |          |        |            |               |         |              |             |                                                 |
+|                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| VN4720GT        |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| VN6720GT        | PCIe x16, SATA box, Display/USB/Serial option | PIQ67L-vAbraR MB           | Wistron  | 0HA03? | 232007-1   | ?/13/14th gen | B760    | 2x DDR5 4800?| 2 / ?       |                                                 |
+|                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
+|                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
 # Schematics
 
 Currently available schematics I know about:
