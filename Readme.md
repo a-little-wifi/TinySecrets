@@ -62,7 +62,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M715q          | Entry, AMD           | Tiny3?      | None                       | AM4IH      | LiteON |       |            | PRO A6/A10/A12 8k/9k-E | B300    |              | 1 / 1       | 0 / 0       |                                   |
 | M715q 2nd gen  | Entry, AMD           | Tiny3?      | None                       | AM4IH      | LiteON |       |            | ^ + Ryzen (PRO) 2k-GE  | B300    |              | 1 / 1       | 0 / 0       |                                   |
-| M75q gen 1     | Entry, AMD           | Tiny5?      | None                       | AM4KIH     | LiteON |       |            | Ryzen PRO 2000/3000    | PRO 500 |              | 1 / 1       | 0 / 0       |                                   |
+| M75q gen 1     | Entry, AMD           | Tiny5?      | None                       | AM4KIH     | LiteON |       |            | Ryzen PRO 2000/3000    | PRO 500 |              | 1 / 1       | 0 / 0       | Sometimes called M735q            |
 | M75q gen 2     | Entry, AMD           | Tiny6?      | Tiny6 x4-only unpopulated  | AM4IV      | USI    |       |            | Ryzen PRO 3k/4k/5k     | PRO 500 |              | 1 / 2       | 0 / 1       |                                   |
 | M75q gen 5     | Entry, AMD           | Tiny8?      | None                       | AM5IL      | LCFC   | LKN30 | NM-F661    | Ryzen (PRO) 8000       | PRO 600 |              | 2 / 2       | 0 / 0       | An AMD one made by LCFC           |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
@@ -107,7 +107,7 @@ Many of these boards have a set of resistor straps that are used to set the spec
 > ID straps from Tiny6 gen NM-C901
 
 ### Power rail capacity
-todo
+todo (add info about 12V rail capacity per generation)
 
 ### PSU ID / Current limiting circuit
 todo
@@ -384,7 +384,7 @@ todo
 | N4660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | B360    | 2x DDR4 2666 | 2 / 2       |                                                 |
 | N4670G          |                                               |                            |          |        |            |               |         |              |             |                                                 |
 | N4670GT?        |                                               |                            |          |        |            |               |         |              |             |                                                 |
-| N4680GT         |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| N4680GT         | PCIe x16, ?                                   | PIQ57L-VRABOOT             | Wistron  | 0ET08? | 202017-1A  | 10th/11th gen | B560    | 2x DDR4 ?    | 2 / ?       |                                                 |
 | N4690GT         |                                               |                            |          |        |            |               |         |              |             |                                                 |
 | N4710GT         |                                               |                            |          |        |            |               |         |              |             |                                                 |
 | VN4720GT        |                                               |                            |          |        |            |               |         |              |             |                                                 |
@@ -392,6 +392,8 @@ todo
 | N6660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | Q370    | 2x DDR4 2666 | 2 / 2       | Same as N4660G but with Q370 and more USB3      |
 | N6680G          | PCIe x16, SATA box, Display/USB/Serial option |                            |          |        |            | 11th gen      |         | 2x DDR4 3200 | 2 / ?       |                                                 |
 | VN6720GT        | PCIe x16, SATA box, Display/USB/Serial option | PIQ67L-vAbraR MB           | Wistron  | 0HA03? | 232007-1   | ?/13/14th gen | B760    | 2x DDR5 4800?| 2 / ?       |                                                 |
+|                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
+| Chromebox CXI5  | ?                                             | PIADLL-MOLI MB             | Wistron  | 0FV06? | 212050-1A  | 12th/? gen    | SoC     | 2x ?         | 2 / ?       | one m-key is 2230 for emmc                      |
 |                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
 # Schematics
 
