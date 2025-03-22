@@ -130,13 +130,13 @@ todo
 todo
 ### 3rd party
 todo
-| Name                      | Creator           | Compatibility             | Riser slot type  | Slots                                                                   | Other features               | Comment                                  |
-|---------------------------|-------------------|---------------------------|------------------|-------------------------------------------------------------------------|------------------------------|------------------------------------------|
-| Tinyriser v1              | WifiCable (me :3) | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 |                              |                                          |
-| Tinyriser v2              | WifiCable         | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 | Fan header, SSD activity LED |                                          |
-| Tinyriser v2.1            | WifiCable         | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 | Fan header, SSD activity LED |                                          |
-| Tiny5 M.2 Riser           | j4cbo             | M920q, M920x, P330        | Tiny5 x8+4       | PCIe x4 (open ended, CPU, x4), M-key M.2 (CPU, x4), M-key M.2 (PCH, x4) | Fan header                   | Requires motherboard mod for bifurcation |
-
+| Name                                       | Creator           | Compatibility             | Riser slot type  | Slots                                                                   | Other features               | Comment                                  | Link                                                                    |
+|--------------------------------------------|-------------------|---------------------------|------------------|-------------------------------------------------------------------------|------------------------------|------------------------------------------|-------------------------------------------------------------------------|
+| Tinyriser v1                               | WifiCable (me :3) | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 |                              |                                          |                                                                         |
+| Tinyriser v2                               | WifiCable         | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 | Fan header, SSD activity LED |                                          |                                                                         |
+| Tinyriser v2.1                             | WifiCable         | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 | Fan header, SSD activity LED |                                          | https://github.com/a-little-wifi/Tinyriser                              |
+| Tiny5 M.2 Riser                            | j4cbo             | M920q, M920x, P330        | Tiny5 x8+4       | PCIe x4 (open ended, CPU, x4), M-key M.2 (CPU, x4), M-key M.2 (PCH, x4) | Fan header                   | Requires motherboard mod for bifurcation | https://github.com/j4cbo/tiny5-m2-riser                                 |
+| Tiny6-P340-pcie-bifurcation-expansion-card | qq8322302         | M90q gen 1, P340          | Tiny6 x8+4       | PCIe x4 (open ended, CPU, x4), M-key M.2 (CPU, x4), M-key M.2 (PCH, x4) | Fan header, MicroSD slot     | Requires motherboard mod for bifurcation | https://github.com/qq8322302/Tiny6-P340-pcie-bifurcation-expansion-card |
 
 
 ## NEC rebrands
