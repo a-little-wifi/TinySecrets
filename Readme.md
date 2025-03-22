@@ -143,6 +143,9 @@ https://github.com/a-little-wifi/Tinyriser
 https://github.com/j4cbo/tiny5-m2-riser  
 https://github.com/qq8322302/Tiny6-P340-pcie-bifurcation-expansion-card  
 
+Pictures:  
+https://github.com/a-little-wifi/TinySecrets/tree/main/riserpics  
+
 ## NEC rebrands
 todo
 
