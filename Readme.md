@@ -126,6 +126,18 @@ todo
 
 ## Riser types
 todo
+### Official
+todo
+### 3rd party
+todo
+| Name                      | Creator           | Compatibility             | Riser slot type  | Slots                                                                   | Other features               | Comment                                  |
+|---------------------------|-------------------|---------------------------|------------------|-------------------------------------------------------------------------|------------------------------|------------------------------------------|
+| Tinyriser v1              | WifiCable (me :3) | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 |                              |                                          |
+| Tinyriser v2              | WifiCable         | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 | Fan header, SSD activity LED |                                          |
+| Tinyriser v2.1            | WifiCable         | M720q, M920q, M920x, P330 | Tiny5 x8+4       | PCIe x16 (CPU, x8), M-key M.2 (PCH, x4)                                 | Fan header, SSD activity LED |                                          |
+| Tiny5 M.2 Riser           | j4cbo             | M920q, M920x, P330        | Tiny5 x8+4       | PCIe x4 (open ended, CPU, x4), M-key M.2 (CPU, x4), M-key M.2 (PCH, x4) | Fan header                   | Requires motherboard mod for bifurcation |
+
+
 
 ## NEC rebrands
 todo
@@ -136,6 +148,7 @@ todo
 |-------------|----------------------------|------------|--------|-------|------------|----------|---------|--------------|-------------|-------------|-----------------------------------|
 | Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL    | LCFC   | GH470 | NM-C621    | 0.2      | H470?   | 2x DDR4      | 1 / 2       | 0 / 1       |                                   |
 | Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | LCFC   | HQ570 | NM-D321    | 0.5      | Q570?   |              | 3 / 3       | 1 / 1       |                                   |
+| Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | LCFC   | HQ570 | NM-D321    | 0.4      | Q570?   |              | 3 / 3       | 0 / 1       | has some 0Ω jumpers where rev 1.0 has them embedded in the pcb |
 | Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 0.5      | Q670?   | 2x DDR5      | 3 / 3       | 1 / 1       |                                   |
 
 ## Parts links with hi-res images
