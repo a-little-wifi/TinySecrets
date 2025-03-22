@@ -148,6 +148,8 @@ Links:
 Tinyriser:         https://github.com/a-little-wifi/Tinyriser  
 Tiny5 M.2 Riser:   https://github.com/j4cbo/tiny5-m2-riser  
 Tiny6-X4+M2+M2+TF: https://github.com/qq8322302/Tiny6-P340-pcie-bifurcation-expansion-card  
+Tiny4/Tiny5 qq8322302: https://github.com/qq8322302/Lenovo-Tiny-Serial-PCIE-Expansion-Card  
+
 
 Pictures:  
 https://github.com/a-little-wifi/TinySecrets/tree/main/riserpics  
