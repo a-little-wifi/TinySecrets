@@ -422,9 +422,10 @@ todo
 |                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
 | N6660G          | PCIe x16, SATA box, Display/USB/Serial option | PIQ37L-Copperbox           | Wistron  | 0BB09? | 17557-1N   | 8th/9th gen   | Q370    | 2x DDR4 2666 | 2 / 2       | Same as N4660G but with Q370 and more USB3      |
 | N6680G          | PCIe x16, SATA box, Display/USB/Serial option |                            |          |        |            | 11th gen      |         | 2x DDR4 3200 | 2 / ?       |                                                 |
+| VN6710GT        | PCIe x16, ?                                   |                            |          |        |            | ?/13th/? gen  |         |              |             |                                                 |
 | VN6720GT        | PCIe x16, SATA box, Display/USB/Serial option | PIQ67L-vAbraR MB           | Wistron  | 0HA03? | 232007-1   | ?/13/14th gen | B760    | 2x DDR5 4800?| 2 / ?       |                                                 |
 |                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
-| Chromebox CXI5  | ?                                             | PIADLL-MOLI MB             | Wistron  | 0FV06? | 212050-1A  | 12th/? gen    | SoC     | 2x ?         | 2 / ?       | one m-key is 2230 for emmc                      |
+| Chromebox CXI5  | ?                                             | PIADLL-MOLI MB             | Wistron  | 0FV06? | 212050-1A  | 12th/? gen U  | SoC     | 2x ?         | 2 / ?       | one m-key is 2230 for emmc                      |
 |                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
 # Schematics
 
