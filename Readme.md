@@ -362,10 +362,11 @@ todo
 | Elite     | Mini 600 G9     | ?                    | ?                          | ?        | ?      | ?                 | 12th/13th gen | Q670    | 2x DDR5 4800?| 2 / 2?      | Too new, not much info yet                               |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | EliteDesk | 800 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   | 4th gen       | Q87     | 2x DDR3L     | 1 / 1       | Same as 600 G1 Mini but with Q87 and more USB3           |
-| EliteDesk | 800 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   | 6th gen       | Q170    | 2x DDR4 2133 | 1 / 1       | Same as 600 G2 Mini but with Q170 and more USB3                                                        |
+| EliteDesk | 800 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   | 6th gen       | Q170    | 2x DDR4 2133 | 1 / 1       | Same as 600 G2 Mini but with Q170 and more USB3          |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+| EliteDesk | 8 Mini G1i      | Flex IO v3, 2nd ?    |                            |          |        |                   | Ultra 200     | Q870    | 2x DDR5 5600 | 3 / 3 ?     |                                                          |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
+| Z2        | Mini G1i        | Flex IO v?           |                            |          |        |                   | Ultra 200     | W880    | 2x DDR5 6400 | 2 / 2 ?     |                                                          |
 |           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | ProDesk   | 405 G8 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
 | EliteDesk | 800 G1 USDT     | MXM                  |                            |          |        |                   |               |         | 2x DDR3L     | 1x mSATA    |                                                          |
@@ -403,6 +404,11 @@ https://www8.hp.com/h20195/v2/GetPDF.aspx/4AA7-5393EEAP.pdf
 800 G1: https://www.hp.com/hpinfo/newsroom/press_kits/2013/HPDiscoverBarcelona/EliteDesk800G1_Desktop_Mini_Datasheet.pdf  
 800 G2: https://h30434.www3.hp.com/psg/attachments/psg/HardwareDPC/221621/1/HP%20EliteDesk%20800%20G2%20QuickSpecs%20v31.pdf  
 
+8 G1i: https://kaas.hpcloud.hp.com/pdf-public/pdf_12049039_en-US-1.pdf
+
+Z2 G1i: https://kaas.hpcloud.hp.com/pdf-public/pdf_12080525_en-US-1.pdf
+
+kaas :sob:
 
 HP part search with images: https://partsurfer.hp.com
 
