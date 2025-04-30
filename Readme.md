@@ -76,7 +76,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M60e           | A Little low power pc| Tiny6       | None                       | IICLUIV    | LiteON |       |            | 10th gen Ice Lake      | SoC     |              | 1 / 1       | 0 / 0       |                                   |
 | M60q Chromebox | Chromebox lol        | Tiny8       | None                       | ILGOO      | Compal |       | LA-M541P   | 12th gen U             | SoC     |              | 1 / 1       | 0 / 0       | Wow they had Compal make one      |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
-| ThinkSmart Core| Video confernce unit |             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    |         |              | 1 / 2       | 0 / 1       | Board looks the same as SE30      |
+| ThinkSmart Core| Video conference unit|             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    |         |              | 1 / 2       | 0 / 1       | Board looks the same as SE30      |
 | ThinkSmart Core Gen 2| Video conference unit|       | None                       | LMLH2      | LCFC   |       | NM-G051    | Ultra 100              | SoC     | 2x DDR5 5600 | 1 / 1       | 0 / 1 ?     | HDMI input optional               |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
