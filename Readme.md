@@ -77,6 +77,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M60q Chromebox | Chromebox lol        | Tiny8       | None                       | ILGOO      | Compal |       | LA-M541P   | 12th gen U             | SoC     |              | 1 / 1       | 0 / 0       | Wow they had Compal make one      |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkSmart Core| Video confernce unit |             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    |         |              | 1 / 2       | 0 / 1       | Board looks the same as SE30      |
+| ThinkSmart Core Gen 2| Video conference unit|       | None                       | LMLH2      | LCFC   |       | NM-G051    | Ultra 100              | SoC     | 2x DDR5 5600 | 1 / 1       | 0 / 1 ?     | HDMI input optional               |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
 # BTB modules
@@ -243,6 +244,7 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/chromebox/thinkcentre-m60q-chromebox/12c6/parts/display/compatible  
 
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-core-ip-controller-full-room-kit-microsoft-teams-rooms/12qn/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-core-gen-2-and-ip-controller-room-kits/12we/parts/display/compatible  
 
 
 
