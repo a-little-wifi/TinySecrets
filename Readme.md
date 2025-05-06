@@ -62,9 +62,10 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | Neo 50q QC     | lil office pc        | ?           | ?                          | ?          | ?      | ?     | ?          | Snapdragon X (Plus)    | SoC     | ? LPDDR5X    | 2 / ? ?     | ?           |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | IdeaCentre 620S-03IKL     | lil office pc | Tiny4?  | Tiny2?? likely Tiny4 x8    | IB250IH    | LiteON |       |            | 7th gen                | B250    |              | 1 / 1       | 0 / 0       | Cursed B250 M910x without front io|
-| IdeaCentre Mini 01IRH8    | lil office pc |         | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     | 2x DDR4 3200 | 2 / 2       | 0 / 0       | Built in Thunderbolt 4            |
-| IdeaCentre Mini 5 01IAQ7  | lil office pc | Tiny8?  | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    |              | 1 / 2       | 0 / 1       | Missing one of the BTB ports      |
 | IdeaCentre Mini 5 01IMH05 | lil office pc | Tiny6?  | Tiny6 x8+4 unpopulated     | IQ4X0IL1   | LCFC   | GH470 | NM-C621    | 10th gen               | H470    |              | 1 / 2       | 0 / 1       | Sometimes called T550q            |
+| IdeaCentre Mini 5 01IAQ7  | lil office pc | Tiny8?  | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    |              | 1 / 2       | 0 / 1       | Missing one of the BTB ports      |
+| IdeaCentre Mini 01IRH8    | lil office pc | Tiny8?  | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     | 2x DDR4 3200 | 2 / 2       | 0 / 0       | Built in Thunderbolt 4            |
+| IdeaCentre Mini x Gen 10  | lil office pc | ?       | ?                          | ?          | ?      | ?     | ?          | Snapdragon X           | SoC     | ? LPDDR5X    | 2 / ?       | ?           | Neo 50q QC but with built in psu? |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkEdge SE10 | Server               |             | None                       | IEHLNL     | LCFC   | KEHL0 | NM-F421    | Atom X Series          | SoC     | 2x DDR4 3200 | 1 / 1       | 2 / 2       |                                   |
 | ThinkEdge SE30 | Server               |             | None                       | ITGLNL     | LCFC   | GTU00 | NM-D241    | 11th gen Tiger Lake    |         |              | 2 / 2       | 1 / 1       |                                   |
@@ -229,9 +230,9 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-qc/13c8/parts/display/compatible  
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/600-series/620s-03ikl/90hc/parts/display/compatible  
-https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/lenovo-ideacentre-mini-01irh8/90w2/parts/display/compatible  
-https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/ideacentre-mini-5-01iaq7/90ub/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/mini-5-01imh05/90q6/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/ideacentre-mini-5-01iaq7/90ub/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/lenovo-ideacentre-mini-01irh8/90w2/parts/display/compatible  
 
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se10/12nh/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se30/11na/parts/display/compatible  
