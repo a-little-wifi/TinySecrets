@@ -14,13 +14,13 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 ###### lol this was a pain to format
 | Model          | Class                | Generation  | Riser slot type            | Board name | Design | Model | Board code | CPU type               | Chipset | Memory type  | M-key slots | B-key slots | Comment                           |
 |----------------|----------------------|-------------|----------------------------|------------|--------|-------|------------|------------------------|---------|--------------|-------------|-------------|-----------------------------------|
-| M700 Tiny      | Entry, no vPro       | Tiny3       | None                       | IS1XX1H    | LiteON | JC110 |            | 6th gen                | B150    |              | 1 / 1       | 0 / 0       | Board name also IQ170IH1?         |
-| M710q          | Entry, no vPro       | Tiny4       | Tiny4 x8 unpopulated       | IQ2X0IH    | LiteON | JC113 |            | 6th/7th gen            | B250    |              | 1 / 2       | 0 / 0       |                                   |
-| M720q          | Entry, no vPro       | Tiny5       | Tiny5 x8+4                 | IQ3X0IL    | LCFC   | EQ370 | NM-B551    | 8th/9th gen            | B360    |              | 1 / 2       | 0 / 0       |                                   |
-| M70q gen 1     | Entry, no vPro       | Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL1   | LCFC   | GH470 | NM-C621    | 10th gen               | H470    |              | 1 / 2       | 0 / 1       |                                   |
-| M70q gen 2     | Entry, no vPro       | Tiny7       | Tiny6 x8+4 unpopulated     | IB5X0IL2   | LCFC   | HB560 | NM-D331    | 10th/11th gen          | B560    |              | 1 / 2       | 0 / 1       |                                   |
-| M70q gen 3     | Entry, vPro          | Tiny8       | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    |              | 1 / 2       | 0 / 1       | Does have a vPro option?          |
-| M70q gen 4     | Entry, vPro          | Also Tiny8? | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | KQ672 | NM-E871    | 13th gen               | Q670    |              | 1 / 2       | 0 / 1       | Also has vPro option              |
+| M700 Tiny      | Entry, no vPro       | Tiny3       | None                       | IS1XX1H    | LiteON | JC110 |            | 6th gen                | B150    | 2x DDR4 2133 | 1 / 1       | 0 / 0       | Board name also IQ170IH1?         |
+| M710q          | Entry, no vPro       | Tiny4       | Tiny4 x8 unpopulated       | IQ2X0IH    | LiteON | JC113 |            | 6th/7th gen            | B250    | 2x DDR4 2400 | 1 / 2       | 0 / 0       |                                   |
+| M720q          | Entry, no vPro       | Tiny5       | Tiny5 x8+4                 | IQ3X0IL    | LCFC   | EQ370 | NM-B551    | 8th/9th gen            | B360    | 2x DDR4 2666 | 1 / 2       | 0 / 0       |                                   |
+| M70q gen 1     | Entry, no vPro       | Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL1   | LCFC   | GH470 | NM-C621    | 10th gen               | H470    | 2x DDR4 2933 | 1 / 2       | 0 / 1       |                                   |
+| M70q gen 2     | Entry, no vPro       | Tiny7       | Tiny6 x8+4 unpopulated     | IB5X0IL2   | LCFC   | HB560 | NM-D331    | 10th/11th gen          | B560    | 2x DDR4 3200?| 1 / 2       | 0 / 1       |                                   |
+| M70q gen 3     | Entry, vPro          | Tiny8       | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Does have a vPro option?          |
+| M70q gen 4     | Entry, vPro          | Also Tiny8? | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | KQ672 | NM-E871    | 13th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Also has vPro option              |
 | M70q gen 5     | Entry, vPro          | Tiny10?     | None                       | IQ6X0IL4   | LCFC   | LQ672 | NM-F911    | 13th/14th gen          | Q670    | 2x DDR5 5600 | 2 / 2       | 0 / 0       | Totally different board layout    |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M900 Tiny      | Entry, vPro          | Tiny3       | None                       | IS1XX1H    | LiteON | JC110 |            | 6th gen                | Q170    |              | 1 / 1       | 0 / 0       | Board name also IQ170IH1?         |
@@ -81,6 +81,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkSmart Core| Video conference unit|             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    |         |              | 1 / 2       | 0 / 1       | Board looks the same as SE30      |
 | ThinkSmart Core Gen 2| Video conference unit|       | None                       | LMLH2      | LCFC   |       | NM-G051    | Ultra 100              | SoC     | 2x DDR5 5600 | 1 / 1       | 0 / 1 ?     | HDMI input optional               |
+| ThinkSmart Tiny Kit | Video conference unit|        | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | KQ672 | NM-E871    | 13th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | M70q gen 4 without DP and -1 USB3 |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
 # BTB modules
@@ -249,6 +250,7 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/chromebox/t
 
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-core-ip-controller-full-room-kit-microsoft-teams-rooms/12qn/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-core-gen-2-and-ip-controller-room-kits/12we/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-tiny-kit/12xh/parts/display/compatible  
 
 
 
