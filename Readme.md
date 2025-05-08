@@ -63,6 +63,9 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | Neo 50q gen 5  | lil office pc        | ?           | ?                          | ?          | ?      | ?     | ?          | Core 200 H             | SoC     | ?            | ?           | ?           | same board as gen 4 probably....  |
 | Neo 50q QC     | lil office pc        | ?           | ?                          | ?          | ?      | ?     | ?          | Snapdragon X (Plus)    | SoC     | ? LPDDR5X    | 2 / ? ?     | ?           |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
+| M90n-1 Nano    | cuteee               | ?           | None                       | IWHLNL     | LCFC   | FU420/FU421/FU422 | NM-C401 | 8.5th gen U   | SoC     | 0x DDR4 2400 | 2 / 2       | 0 / 1       | Says M930n on the board           |
+| M75n           | cuteee               | ?           | None                       |            | LCFC   | GFP50/GFP51 | NM-C751 | Ryzen PRO 3000 U    | SoC     | 0x DDR4 2400 | 2 / 2       | 0 / 1       |                                   |
+|                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | IdeaCentre 620S-03IKL     | lil office pc | Tiny4?  | Tiny2?? likely Tiny4 x8    | IB250IH    | LiteON |       |            | 7th gen                | B250    |              | 1 / 1       | 0 / 0       | Cursed B250 M910x without front io|
 | IdeaCentre Mini 5 01IMH05 | lil office pc | Tiny6?  | Tiny6 x8+4 unpopulated     | IQ4X0IL1   | LCFC   | GH470 | NM-C621    | 10th gen               | H470    |              | 1 / 2       | 0 / 1       | Sometimes called T550q            |
 | IdeaCentre Mini 5 01IAQ7  | lil office pc | Tiny8?  | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    |              | 1 / 2       | 0 / 1       | Missing one of the BTB ports      |
@@ -71,18 +74,22 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkEdge SE10 | Server               |             | None                       | IEHLNL     | LCFC   | KEHL0 | NM-F421    | Atom X Series          | SoC     | 2x DDR4 3200 | 1 / 1       | 2 / 2       |                                   |
 | ThinkEdge SE30 | Server               |             | None                       | ITGLNL     | LCFC   | GTU00 | NM-D241    | 11th gen Tiger Lake    |         |              | 2 / 2       | 1 / 1       |                                   |
-| ThinkEdge SE50 | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     |        |       |            | 8th gen U              | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
-| EPC300         | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     |        |       |            | 8th gen U              | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
+| ThinkEdge SE50 | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     |        |       |            | 8.5th gen U            | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
+| EPC300         | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     |        |       |            | 8.5th gen U            | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M625q          | Idk it sucks lol     |             | None                       | FT4IH      | LiteON |       |            | AMD xx-9xxx            | SoC     |              | 1 / 1       | 0 / 0       |                                   |
-| M630e          | Thin client          | Tiny5       | Tiny5 x4-only unpopulated  | IWLUIA     |        |       |            | 8th gen U              | SoC     |              | 1 / 2       | 0 / 2       | 1 / 2 SODIMM slots populated      |
+| M630e          | Thin client          | Tiny5       | Tiny5 x4-only unpopulated  | IWLUIA     |        |       |            | 8.5th gen U            | SoC     |              | 1 / 2       | 0 / 2       | 1 / 2 SODIMM slots populated      |
 | M60e           | A Little low power pc| Tiny6       | None                       | IICLUIV    | LiteON |       |            | 10th gen Ice Lake      | SoC     |              | 1 / 1       | 0 / 0       |                                   |
 | M60q Chromebox | Chromebox lol        | Tiny8       | None                       | ILGOO      | Compal |       | LA-M541P   | 12th gen U             | SoC     |              | 1 / 1       | 0 / 0       | Wow they had Compal make one      |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
-| ThinkSmart Core| Video conference unit|             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    |         |              | 1 / 2       | 0 / 1       | Board looks the same as SE30      |
+| ThinkSmart Core| Video conference unit|             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    | SoC     | 0x DDR4 3200 | 1 / 2       | 0 / 1       | Board looks the same as SE30      |
 | ThinkSmart Core Gen 2| Video conference unit|       | None                       | LMLH2      | LCFC   |       | NM-G051    | Ultra 100              | SoC     | 2x DDR5 5600 | 1 / 1       | 0 / 1 ?     | HDMI input optional               |
-| ThinkSmart Tiny Kit | Video conference unit|        | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | KQ672 | NM-E871    | 13th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | M70q gen 4 without DP and -1 USB3 |
+| ThinkSmart Tiny Kit| Video conference unit|         | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | KQ672 | NM-E871    | 13th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | M70q gen 4 without DP and -1 USB3 |
+| ThinkSmart Hub 500| Video conference unit|          | Tiny4 x8 unpopulated       | IQ270IH    | LiteON | ?     |            | 7th gen                | Q270    | 2x DDR4 2400 | 1 / 2       | 0 / 0       | M910q without front IO and 2x HDMI|
+| ThinkSmart Hub | Video conference unit|             | None                       | IWHLNL     | LCFC   | FU423 | NM-C701    | 8.5th gen U            | SoC     | 0x DDR4 2400 | 1 / 2       | 0 / 1       | Modified M90n-1?                  |
+| ThinkSmart One | Sound bar???         |             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    | SoC     | 0x DDR4 3200 | 1 / 2       | 0 / 1       | Core Gen 1 without DP and -2 USB3 |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
+
 
 # BTB modules
 
@@ -233,6 +240,9 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-5/13b9/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-qc/13c8/parts/display/compatible  
 
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m90n-1/11ad/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75n/11bs/parts/display/compatible  
+
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/600-series/620s-03ikl/90hc/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/mini-5-01imh05/90q6/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/ideacentre-mini-5-01iaq7/90ub/parts/display/compatible  
@@ -251,8 +261,9 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/chromebox/t
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-core-ip-controller-full-room-kit-microsoft-teams-rooms/12qn/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-core-gen-2-and-ip-controller-room-kits/12we/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-tiny-kit/12xh/parts/display/compatible  
-
-
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-hub-500/10v5/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-hub-zoom/11h2/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-one-ip-controller-microsoft-teams-rooms/12bw/parts/display/compatible  
 
 
 </details>
