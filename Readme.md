@@ -60,6 +60,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M75q gen 5     | Entry, AMD           | Tiny8?      | None                       | AM5IL      | LCFC   | LKN30 | NM-F661    | Ryzen (PRO) 8000       | PRO 600 |              | 2 / 2       | 0 / 0       | An AMD one made by LCFC           |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | Neo 50q gen 4  | lil office pc        | Tiny8?      | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     |              | 1 / 2       | 0 / 0       | 1 / 2 ram slots on low end config |
+| Neo 50q gen 5  | lil office pc        | ?           | ?                          | ?          | ?      | ?     | ?          | Core 200 H             | SoC     | ?            | ?           | ?           | same board as gen 4 probably....  |
 | Neo 50q QC     | lil office pc        | ?           | ?                          | ?          | ?      | ?     | ?          | Snapdragon X (Plus)    | SoC     | ? LPDDR5X    | 2 / ? ?     | ?           |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | IdeaCentre 620S-03IKL     | lil office pc | Tiny4?  | Tiny2?? likely Tiny4 x8    | IB250IH    | LiteON |       |            | 7th gen                | B250    |              | 1 / 1       | 0 / 0       | Cursed B250 M910x without front io|
@@ -228,6 +229,7 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75q-gen-5/12rq/parts/display/compatible  
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-4/12lh/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-5/13b9/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-qc/13c8/parts/display/compatible  
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/600-series/620s-03ikl/90hc/parts/display/compatible  
