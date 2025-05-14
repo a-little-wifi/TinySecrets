@@ -22,6 +22,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M70q gen 3     | Entry, vPro          | Tiny8       | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Does have a vPro option?          |
 | M70q gen 4     | Entry, vPro          | Also Tiny8? | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | KQ672 | NM-E871    | 13th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Also has vPro option              |
 | M70q gen 5     | Entry, vPro          | Tiny10?     | None                       | IQ6X0IL4   | LCFC   | LQ672 | NM-F911    | 13th/14th gen          | Q670    | 2x DDR5 5600 | 2 / 2       | 0 / 0       | Totally different board layout    |
+| M70q gen 6     |                      | ?           | ?                          | ?          | ?      | ?     | ?          | Ultra 200?             | Q870    |              |             |             |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M900 Tiny      | Entry, vPro          | Tiny3       | None                       | IS1XX1H    | LiteON | JC110 |            | 6th gen                | Q170    |              | 1 / 1       | 0 / 0       | Board name also IQ170IH1?         |
 | M910q          | Entry, vPro          | Tiny4       | Tiny4 x8 unpopulated       | IQ2X0IH    | LiteON | JC113 |            | 6th/7th gen            | Q270    |              | 1 / 2       | 0 / 0       |                                   |
@@ -200,6 +201,7 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m70q-gen-3/11t3/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m70q-gen-4/12e6/parts/display/compatible  
 https://pcsupport.lenovo.com/bl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m70q-gen-5/12td/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m70q-gen-6/13a4/parts/display/compatible  
 
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m900/10fc/parts/display/compatible  
