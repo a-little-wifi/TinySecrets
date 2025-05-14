@@ -40,7 +40,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M90q gen 3     | Performance, vPro    | Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 12th gen               | Q670    | 2x DDR5 4800 | 2 / 2       | 0 / 1       | Sometimes called M950q            |
 | M90q gen 4     | Performance, vPro    | Also Tiny8? | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | KQ674 | NM-E881    | 13th gen               | Q670    | 2x DDR5 5600 | 2 / 2       | 0 / 1       |                                   |
 | M90q gen 5     | Performance, vPro    | Tiny10      | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | LQ674 | NM-G071    | 13th/14th gen          | Q670    | 2x DDR5 5600 | 2 / 2       | 0 / 1       | Are these staying the same now?   |
-| M90q gen 6     |                      | ?           | ?                          | ?          | ?      | ?     | ?          | Ultra 200?             | Q870?   | 2x DDR5 ?    | 3 / ?       | ?           |                                   |
+| M90q gen 6     |                      | Tiny11?     | ?                          | ?          | ?      | ?     | ?          | Ultra 200?             | Q870?   | 2x DDR5 ?    | 3 / ?       | ?           |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | P320 Tiny      | Workstation, vPro    | Tiny4       | Tiny4 x8                   | IQ2X0IH    | LiteON | JC113 |            | 6th/7th gen            | Q270    |              | 2 / 2       | 0 / 0       |                                   |
 | P330 Tiny      | Workstation, vPro    | Tiny5       | Tiny5 x8+4                 | IQ3X0IL    | LCFC   | EQ370 | NM-B551    | 8th/9th gen            | Q370    |              | 2 / 2       | 0 / 0       |                                   |
@@ -48,10 +48,11 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | P350 Tiny      | Workstation, vPro    | Tiny7       | Tiny6 x8+4                 | IQ5X0IL1   | LCFC   | HQ570 | NM-D321    | 10th/11th gen          | Q570    |              | 2 / 3       | 0 / 1       | Unpopulated 3rd M-key slot        |
 | P360 Tiny      | Workstation, vPro    | Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 12th gen               | Q670    |              | 2 / 2       | 0 / 1       |                                   |
 | P3 Tiny        | Workstation, vPro    | Also Tiny8? | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | KQ674 | NM-E881    | 13th/14th gen          | Q670    |              | 2 / 2       | 0 / 1       |                                   |
+| P3 Tiny Gen 2  | AI-Ready Workstation | Tiny11?     |                            |            |        |       |            | Ultra 200              | Q870    | 2x DDR5 6400 | 3 / ?       | 0 / ? ?     |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | P360 Ultra     | Workstation, vPro    | Tiny8?      | P360/P3 Ultra specific x16 |            |        |       |            | 12th gen               | W680    | 4x DDR5 4800 | 2 / 2       | 0 / 0       | Board says 'Saiph' on it          |
 | P3 Ultra       | Workstation, vPro    | Also Tiny8? | P360/P3 Ultra specific x16 | IW680IV    |        |       |            | 12th/13th/14th gen     | W680    | 4x DDR5 4800 | 2 / 2       | 0 / 0       | Board says 'Saiph-R' on it        |
-| P3 Ultra Gen 2 | AI-Ready Workstation |             | something x16 or x8x8      |            |        |       |            | Ultra 200              | W880    | 2x DDR5 6400 | 4 / ? ?     | ?           |                                   |
+| P3 Ultra SFF Gen 2 | AI-Ready Workstation |         | something x16 or x8x8      |            |        |       |            | Ultra 200              | W880    | 2x DDR5 6400 | 4 / ? ?     | ?           |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | Neo Ultra      | Tiny studio workstation | Tiny8/TinyMax? | Looks like Tiny8 x8+4 | IQ6X0IL1  | LCFC   | LQ674 | NM-G071    | 14th gen               | Q670    |              | 2 / 2       | 0 / 1       | Same board as M90q Gen 5          |
 | Neo Ultra 2025 | Tiny studio workstation | ?        | ?                          | ?          | ?      | ?     | ?          | Ultra 200?             | Q870?   | 2x DDR5 ?    | ?           | ?           |                                   |
@@ -232,6 +233,7 @@ https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-w
 
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p360-ultra/30g2/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p3-ultra/30ha/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p3-ultra-sff-gen-2/30j3/parts/display/compatible  
 
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-ultra/12w1/parts/display/compatible  
 
