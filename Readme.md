@@ -178,6 +178,56 @@ Tiny4/Tiny5 qq8322302: https://github.com/qq8322302/Lenovo-Tiny-Serial-PCIE-Expa
 Pictures:  
 https://github.com/a-little-wifi/TinySecrets/tree/main/riserpics  
 
+## PCIe layout
+todo  
+### Tiny5:
+#### M720q, M920q, M920x and P330 (NM-B551):
+* DMI 3.0 x4 from CPU to PCH (B360 or Q370)
+* Riser PCIe 3.0 x8 from CPU (lanes 0-7)
+* Riser PCIe 3.0 x4 from PCH (lanes 9-12)
+* SSD1 PCIe 3.0 x4 from PCH (lanes 21-24)
+* SSD2 PCIe 3.0 x4 from PCH (lanes 17-20) (SATA support on lane 17) (PCIe not supported on B360/M720q, only SATA)
+* 2.5" SATA 6Gb/s from PCH (lane 13)
+* LAN PCIe 3.0 x1 from PCH (lane 5)
+* Wifi PCIe 3.0 x1 from PCH (lane 6)
+* BTB USB 3.0 from PCH (lane 1) (not supported on B360/M720q)
+
+### Tiny6:
+#### M70q gen 1 and M80q gen 1 (NM-C621):
+* DMI 3.0 x4 from CPU to PCH (H470 or Q470)
+* ?
+
+#### P340 and M90q gen 1 (NM-C901):
+* DMI 3.0 x4 from CPU to PCH (Q470)
+* Riser PCIe 3.0 x8 from CPU (lanes 8-15)
+* Riser PCIe 3.0 x4 from PCH (lanes 9-12)
+* SSD1 PCIe 3.0 x4 from PCH (lanes 21-24)
+* SSD2 PCIe 3.0 x4 from PCH (lanes 17-20) (SATA support on lane 17)
+* 2.5" SATA 6Gb/s from PCH (lane 13)
+* LAN PCIe 3.0 x1 from PCH (lane 5)
+* Wifi PCIe 3.0 x1 from PCH (lane 6)
+* BTB USB 3.0 from PCH (lane 1)
+* USB-C USB 3.0 from PCH (lane 2)
+* WWAN PCIe 3.0 x1 from PCH (lane 15)
+
+### Tiny7:
+#### P350 and M90q gen 2 (NM-D321):
+* DMI 3.0 x8 from CPU to PCH (Q570)
+* Riser PCIe 3.0 x8 from CPU (lanes 0-7)
+* SSD1 PCIe 4.0 x4 from CPU (lanes ?-?)
+* SSD2 PCIe 4.0 x4 from CPU (lanes ?-?)
+* SSD3 PCIe 4.0? x4 from CPU (lanes 16-19) (unpopulated slot)
+* Riser PCIe 3.0 x4 from PCH (lanes ?-?)
+* 2.5" SATA 6Gb/s from PCH (lane ?)
+* unpopulated SATA2 from PCH (lane ?)
+* LAN PCIe 3.0 x1 from PCH (lane ?)
+* Wifi PCIe 3.0 x1 from PCH (lane ?)
+* WWAN PCIe 3.0 x1 from PCH (lane ?)
+
+P350/M90q gen 2 has the NVMe slots connected to the CPU instead of the PCH, for PCIe 4.0 support (Q570 itself doesn't support PCIe 4.0, 11th gen CPUs do).  
+Tiny7 is pretty awesome for SSD bandwidth, especially if you solder the 3rd slot.
+
+
 ## NEC rebrands
 todo
 
