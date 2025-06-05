@@ -132,59 +132,74 @@ Many of these boards have a set of resistor straps that are used to set the spec
 > ID straps from Tiny6 gen NM-C901
 
 ### Power rail capacity
-
-Tiny5 gen NM-B551
-M920X and P330 have additional VRM phase (PU404) allowing for more current draw for 65W CPU (list of elements below). 
-CPU power is configured by ID straps and PR234 (30K for 65W, 14.3K for 35W). The CPU ICCmax max rating is: 104A for 35W and 133A for 65W Cpu.
-There are aswell unpopulated capacitors PC459, PC484 (in all versions) refitting which could smooth CPU power spikes.
+#### Tiny5 NM-B551:
 
 Overall system max. current draw is:
-- 6.75A with 135W charger, system doesnt detect higher powered supply and power lines are not set to use any additional power above it
+- 6.75A with 135W charger, system doesnt detect higher powered supply and power straps are not set to use any additional power above it
 - 3.25A with 65W charger
-- 12V rail Imax is 5.5A
 
-List of elements missing on m720q/m920q for additional VRM:
-PC424 0.1U_0402_25V7-K
-PC426 10U_1206_25V7-K
-PC427 10U_1206_25V7-K
-PC428 10U_1206_25V7-K
-PC430 .22U_0603_16V7-K
-PC431 2.2U_0603_6.3V6K
-PC434 2.2U_0603_6.3V6K
-PC436 2200P_0603_50V7-K
-PC459 330U_D2_2V_M
-C1226 C1227 220P_0402_50V7-K
-C1227 220P_0402_50V7-K
+Power rail capacity:
+- 12V rail Iout is 5.5A (66W)  
+- 5V rail Iout is 16A (80W)  
+- 3.3V rail Iout is 14A (46.2W)  
 
-PU404 NCP302040MNTW G_PQFN33-19_5X5
+The CPU ICCmax max rating is: 104A for 35W and 133A for 65W CPU.  
 
-PR408 4.7_0805_5%
-PR410 2.2_0603_1%
-PR413 0_0402_5%
-PR414 0_0402_5%
-PR412 2.2_1206_5%
-PR351 21K_0402_1%
-PR367 45.3K_0402_1%
-PR330 42.2K_0402_1%
-PR365 133K_0402_1%
-PR331 100K_0402_1%
-PR335 10_0402_1%
-PR234 30K_0402_1%
-PR322 remove 
-
-PL408 0.22UH_SPS-06DZIR22MEM2_32A_20%
-
-PJ407 Jumper
-PJ408 Jumper
-
-
-todo (add info about 12V rail capacity per generation)
+#### Tiny6 NM-C901:
+- 12V rail Iout is 10A (120W)  
+- 5V rail Iout is 16A (80W)  
+- 3.3V rail Iout is 14A (46.2W)  
 
 ### PSU ID / Current limiting circuit
-todo
+#### Tiny5 NM-B551:
+Max system power is configured by ADP_ID signals (controlled by EC based on PSU detection) connecting different combinations of PR233, PR234 (30K for 65W, 14.3K for 35W) and PR235 to the current sensor limit setting pin.  
+Exceeding the limit triggers prochot and throttles the CPU  
+> <img src='docpics/Tiny5_psu_straps.png' width=30%/>
 
 ### Unpopulated / unused options
-todo  
+#### Tiny5 NM-B551 VRM:
+M920X and P330 have additional VRM phase (PU404) allowing for more current draw for 65W CPU (list of elements below).  
+There are also unpopulated capacitors PC459, PC484 (in all versions) refitting which could smooth CPU power spikes.  
+
+<details>
+<summary> List of elements missing on m720q/m920q for additional VRM: </summary>
+
+TODO: double check this list, doesn't 100% match previous attempt at figuring this out
+
+PC424 0.1U_0402_25V7-K  
+PC426 10U_1206_25V7-K  
+PC427 10U_1206_25V7-K  
+PC428 10U_1206_25V7-K  
+PC430 .22U_0603_16V7-K  
+PC431 2.2U_0603_6.3V6K  
+PC434 2.2U_0603_6.3V6K  
+PC436 2200P_0603_50V7-K  
+PC459 330U_D2_2V_M  
+C1226 C1227 220P_0402_50V7-K  
+C1227 220P_0402_50V7-K  
+
+PU404 NCP302040MNTW G_PQFN33-19_5X5  
+
+PR408 4.7_0805_5%  
+PR410 2.2_0603_1%  
+PR413 0_0402_5%  
+PR414 0_0402_5%  
+PR412 2.2_1206_5%  
+PR351 21K_0402_1%  
+PR367 45.3K_0402_1%  
+PR330 42.2K_0402_1%  
+PR365 133K_0402_1%  
+PR331 100K_0402_1%  
+PR335 10_0402_1%  
+PR234 30K_0402_1%  
+PR322 remove  
+
+PL408 0.22UH_SPS-06DZIR22MEM2_32A_20%  
+
+PJ407 Jumper  
+PJ408 Jumper  
+</details>
+<!---
 * VRM phases
 * M.2 slots
 * Sata ports
@@ -192,7 +207,7 @@ todo
 * DC headers
 * Fan headers
 * more?
-
+--->
 
 ## Riser types
 todo
