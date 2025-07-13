@@ -282,6 +282,7 @@ https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-w
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p350-tiny/30eg/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p360-tiny/30f8/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p3-tiny/30h2/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/tihnkstation-p3-tiny-gen-2/30k3/parts/display/compatible  
 
 
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p360-ultra/30g2/parts/display/compatible  
