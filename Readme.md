@@ -133,39 +133,51 @@ Many of these boards have a set of resistor straps that are used to set the spec
 
 ### Power rail capacity
 #### Tiny5 NM-B551:
+- 12V: 5.5A(66W), 10A(120W) OCP  
+- 5V: 16A(80W)  
+- 3.3V: 14A(46.2W)  
+- CPU Core max rating is 104A for 35W and 133A for 65W  
 
-Overall system max. current draw is:
-- 6.75A with 135W charger, system doesnt detect higher powered supply and power straps are not set to use any additional power above it
-- 3.25A with 65W charger
+#### Tiny6 NM-C901 & NM-C621:
+- 12V: 10A(120W), 15A(180W) OCP (models with riser slot)
+- 12V: 2A(24W), 5.1A(61.2W) OCP (models without riser slot)  
+- 5V: 16A(80W)  
+- 3.3V: 14A(46.2W)  
+- CPU Core max rating is 104A for 35W and 133A for 65W  
 
-Power rail capacity:
-- 12V rail Iout is 5.5A (66W)  
-- 5V rail Iout is 16A (80W)  
-- 3.3V rail Iout is 14A (46.2W)  
-
-The CPU ICCmax max rating is: 104A for 35W and 133A for 65W CPU.  
-
-#### Tiny6 NM-C901:
-- 12V rail Iout is 10A (120W)  
-- 5V rail Iout is 16A (80W)  
-- 3.3V rail Iout is 14A (46.2W)  
+12V is shared between PCIe slot and fans
 
 ### PSU ID / Current limiting circuit
-#### Tiny5 NM-B551:
-Max system power is configured by ADP_ID signals (controlled by EC based on PSU detection) connecting different combinations of PR233, PR234 (30K for 65W, 14.3K for 35W) and PR235 to the current sensor limit setting pin.  
-Exceeding the limit triggers prochot and throttles the CPU  
+#### Tiny5 NM-B551: 
+
+System current limit is configured by ADP_ID signals (controlled by EC based on PSU detection) connecting different combinations of PR233, PR234 (30K for 65W, 14.3K for 35W) and PR235 to the current limiter setting pin. Exceeding the limit triggers prochot and throttles the CPU.  
 > <img src='docpics/Tiny5_psu_straps.png' width=30%/>
+
+
+Full system current limit:
+- 3.86A with 65W charger (35W models)
+- 4.03A with 65W charger (65W models)
+- 5.18A with 90W charger (35W models)
+- 5.04A with 90W charger (65W models)
+- 6.97A with 135W charger (35W & 65W  models)
+
+System doesnt detect higher powered supplies and current limit can't be set to allow any additional power above it, may even default to 65W limit on larger supplies (needs more research) 
+
 
 ### Unpopulated / unused options
 #### Tiny5 NM-B551 VRM:
-M920X and P330 have additional VRM phase (PU404) allowing for more current draw for 65W CPU (list of elements below).  
-There are also unpopulated capacitors PC459, PC484 (in all versions) refitting which could smooth CPU power spikes.  
+M920X and P330 have an additional VRM phase (PU404) allowing for more current draw for 65W CPU (list of parts below).  
+There are also unpopulated capacitors PC458 and PC482 (in all versions) refitting which could smooth CPU power spikes.  
 
 <details>
-<summary> List of elements missing on m720q/m920q for additional VRM: </summary>
+<summary> List of parts to add/change on m720q/m920q for 65W config: </summary>
 
-TODO: double check this list, doesn't 100% match previous attempt at figuring this out
+Add:  
+PU404 NCP302040MNTW G_PQFN33-19_5X5  
 
+PL408 0.22UH_SPS-06DZIR22MEM2_32A_20%  
+
+PC317 0.1U_0402_25V7-K  
 PC424 0.1U_0402_25V7-K  
 PC426 10U_1206_25V7-K  
 PC427 10U_1206_25V7-K  
@@ -174,30 +186,53 @@ PC430 .22U_0603_16V7-K
 PC431 2.2U_0603_6.3V6K  
 PC434 2.2U_0603_6.3V6K  
 PC436 2200P_0603_50V7-K  
-PC459 330U_D2_2V_M  
-C1226 C1227 220P_0402_50V7-K  
-C1227 220P_0402_50V7-K  
 
-PU404 NCP302040MNTW G_PQFN33-19_5X5  
-
-PR408 4.7_0805_5%  
-PR410 2.2_0603_1%  
-PR413 0_0402_5%  
-PR414 0_0402_5%  
-PR412 2.2_1206_5%  
-PR351 21K_0402_1%  
-PR367 45.3K_0402_1%  
-PR330 42.2K_0402_1%  
-PR365 133K_0402_1%  
+PR323 2.37K_0402_1%  
 PR331 100K_0402_1%  
 PR335 10_0402_1%  
+PR408 4.7_0805_5%  
+PR410 2.2_0603_1%  
+PR412 2.2_1206_5%  
+PR413 0_0402_5%  
+PR414 0_0402_5%  
+
+Replace:  
 PR234 30K_0402_1%  
-PR322 remove  
+PR330 42.2K_0402_1%  
+PR351 21K_0402_1%  
+PR365 133K_0402_1%  
+PR367 45.3K_0402_1%  
 
-PL408 0.22UH_SPS-06DZIR22MEM2_32A_20%  
+Remove:  
+PR322  
 
-PJ407 Jumper  
-PJ408 Jumper  
+BOM:  
+Fet & inductor:
+- 1x NCP302040MNTW
+- 1x 0.22UH SPS-06DZIR22MEM2 32A 20%
+
+Capacitors:
+- 2x 0.1U 0402 25V7-K
+- 3x 10U 1206 25V7-K
+- 1x .22U 0603 16V7-K
+- 2x 2.2U 0603 6.3V6K
+- 1x 2200P 0603 50V7-K
+
+Resistors:
+- 1x 2.37KΩ 0402 1%
+- 1x 100KΩ 0402 1%
+- 1x 10Ω 0402 1%
+- 1x 4.7Ω 0805 5%
+- 1x 2.2Ω 0603 1%
+- 1x 2.2Ω 1206 5%
+- 2x 0Ω 0402 5% (or just jump the pads with wire)
+- 1x 30KΩ 0402 1%  
+- 1x 42.2KΩ 0402 1%  
+- 1x 21KΩ 0402 1%  
+- 1x 133KΩ 0402 1%  
+- 1x 45.3KΩ 0402 1%  
+
+
 </details>
 <!---
 * VRM phases
