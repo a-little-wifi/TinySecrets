@@ -82,6 +82,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | ThinkEdge SE10 | Server               |             | None                       | IEHLNL     | LCFC   | KEHL0 | NM-F421    | Atom X Series          | SoC     | 2x DDR4 3200 | 1 / 1       | 2 / 2       |                                   |
 | ThinkEdge SE30 | Server               |             | None                       | ITGLNL     | LCFC   | GTU00 | NM-D241    | 11th gen Tiger Lake    |         |              | 2 / 2       | 1 / 1       | board says NANO2 on it            |
 | ThinkEdge SE50 | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     |        |       |            | 8.5th gen U            | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
+| ThinkEdge SE70 | Server               |             | None                       |            |        |       |            | Nvidia Jetson Xavier NX| SoM     | 4x LPDDR4x   | 1 / 1       | 1 / 1       | I really (I really) like Nvidiiia♫|
 | EPC300         | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     |        |       |            | 8.5th gen U            | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M625q          | Idk it sucks lol     |             | None                       | FT4IH      | LiteON |       |            | AMD xx-9xxx            | SoC     |              | 1 / 1       | 0 / 0       |                                   |
@@ -95,6 +96,8 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | ThinkSmart Hub 500| Video conference unit|          | Tiny4 x8 unpopulated       | IQ270IH    | LiteON | ?     |            | 7th gen                | Q270    | 2x DDR4 2400 | 1 / 2       | 0 / 0       | M910q without front IO and 2x HDMI|
 | ThinkSmart Hub | Video conference unit|             | None                       | IWHLNL     | LCFC   | FU423 | NM-C701    | 8.5th gen U            | SoC     | 0x DDR4 2400 | 1 / 2       | 0 / 1       | Modified M90n-1?                  |
 | ThinkSmart One | Sound bar???         |             | None                       | ITGLNL     | LCFC   | HU420 | NM-D411    | 11th gen Tiger Lake    | SoC     | 0x DDR4 3200 | 1 / 2       | 0 / 1       | Core Gen 1 without DP and -2 USB3 |
+|                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
+| ThinkCentre POS| POS                  | Tiny8?      | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Pretty much an M70q gen 3         |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
 
@@ -314,6 +317,7 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/id
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se10/12nh/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se30/11na/parts/display/compatible  
 https://smartsupport.lenovo.com/us/en/products/smart/smart-edge/thinkedge-se50/11rj/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se70/12a6/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/commercial-iot/epc300/11b3/parts/display/compatible  
 
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m625q/10tj/parts/display/compatible  
@@ -327,6 +331,9 @@ https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksm
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-hub-500/10v5/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-hub-zoom/11h2/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksmart-one-ip-controller-microsoft-teams-rooms/12bw/parts/display/compatible  
+
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-retail/thinkcentre-pos/12su/parts/display/compatible  
+
 
 
 </details>
