@@ -232,6 +232,26 @@ todo
 P350/M90q gen 2 has the NVMe slots connected to the CPU instead of the PCH, for PCIe 4.0 support (Q570 itself doesn't support PCIe 4.0, 11th gen CPUs do).  
 Tiny7 is pretty awesome for SSD bandwidth, especially if you solder the 3rd slot.
 
+### Tiny8:
+#### NM-D581 Rev 0.5 prototype board:
+* DMI 4.0 x8 from CPU to PCH (Q670 ES)
+* Riser PCIe ?.0 x8 from CPU (lanes 8-15)
+
+### Tiny9:
+#### P3 Tiny and M90q gen 4 (NM-E881):
+* DMI 4.0 x8 from CPU to PCH (Q670)
+* Riser PCIe 4.0 x8 from CPU (lanes ?-?)
+* SSD1 PCIe 4.0 x4 from PCH (lanes 21-24/25-28?)
+* SSD2 PCIe 4.0 x4 from PCH (lanes 21-24/25-28?)
+* Riser PCIe ?.0 x4 from PCH (lanes ?-?)
+* 2.5" SATA 6Gb/s from PCH (lane ?)
+* unpopulated SATA2 from PCH (lane ?)
+* LAN PCIe ?.0 x1 fro PCH (lane ?)
+* Wifi PCIe 3.0 x1 from PCH (lane 8)
+* WWAN PCIe ?.0 x1 from PCH (lane ?)
+
+> !! **Help requested:** If you have a machine not (completely) listed here running Windows, a screenshot of Device Manager in 'Devices by connection' mode or HWINFO showing all the PCIe devices and associated root ports would be very helpful for documenting this across all generations. (better to have as many slots populated as possible for this)
+
 
 ## NEC rebrands
 todo
