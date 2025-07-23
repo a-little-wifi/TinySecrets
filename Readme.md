@@ -240,7 +240,7 @@ Tiny7 is pretty awesome for SSD bandwidth, especially if you solder the 3rd slot
 ### Tiny9:
 #### P3 Tiny and M90q gen 4 (NM-E881):
 * DMI 4.0 x8 from CPU to PCH (Q670)
-* Riser PCIe 4.0 x8 from CPU (lanes ?-?)
+* Riser PCIe 4.0 x8 from CPU (lanes 0-7)
 * SSD1 PCIe 4.0 x4 from PCH (lanes 21-24/25-28?)
 * SSD2 PCIe 4.0 x4 from PCH (lanes 21-24/25-28?)
 * Riser PCIe ?.0 x4 from PCH (lanes ?-?)
