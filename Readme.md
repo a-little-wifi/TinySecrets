@@ -115,7 +115,7 @@ todo
 * Starting with the Tiny6 generation, most boards have unpopulated B-key M.2 WWAN and SIM card slots, might be meant for IoT/Edge/Server versions like the ThinkEdge SE50, but I can't find any other model beyond that one.
 * The M90q gen 2 and P350 have an unpopulated footprint for a 3rd M-key M.2 NVMe slot, would be cool to try soldering that on and seeing if it works.
 
-## Schematic observations / potential mods
+## Schematic observations / possible mods
 ### Board ID straps
 Many of these boards have a set of resistor straps that are used to set the specific SKU of the system, they often share the same board and firmware. At its simplest there is of course the different tiers from the main series, but there's also some interesting options:  
 * NEC variants are for the NEC rebranded versions of these systems, setting it reduces the amount of BIOS settings and changes the boot logo to the NEC logo
@@ -140,6 +140,20 @@ Many of these boards have a set of resistor straps that are used to set the spec
 - 5V: 16A(80W)  
 - 3.3V: 14A(46.2W)  
 - CPU Core max rating is 104A for 35W and 133A for 65W  
+
+12V rail OCP threshold can be increased by replacing PR1111 (12kΩ stock) with a larger size resistor (15kΩ-20kΩ) range, helps prevent shutdowns from GPU power spikes.
+> <img src='docpics/Tiny5_OCP_resistor.png' width=20%/>
+> <img src='docpics/Tiny5_OCP_resistor_schem.png' width=22%/>
+
+> PR1111 (Rocset) location on board and in circuit diagram
+
+<details>
+<summary>Thanks u/limping_bear for figuring this out!</summary>
+
+https://www.reddit.com/r/sffpc/comments/1mciui6/1l_1080p_sleeper_thinkstation_p330_rtx_a2000/
+
+https://www.reddit.com/r/sffpc/comments/1ibpyud/lenovo_p330_tiny_i78700t_and_rtx_a2000_very/n5hem99/
+</details>
 
 #### Tiny6 NM-C901 & NM-C621:
 - 12V: 10A(120W), 15A(180W) OCP (models with riser slot)
