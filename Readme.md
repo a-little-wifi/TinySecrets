@@ -522,6 +522,8 @@ https://smartsupport.lenovo.com/nl/en/products/smart/smart-retail/thinkcentre-po
 | Precision | 3260 Compact       | PCIe x8 double width | D12 ADL 8L                 | Wistron  | 0FF07? | 202008-1A  | 12th/13th gen | W680    | 2x DDR5 5600 | 2 / 2       | Same board as 7000 Micro 65W but with PCIe populated           |
 | Precision | 3280 CFF           | PCIe x8 + x1 Custom  |                            | Wistron  | 0HF03? | 222043-1A  | 14th gen      | W680    | 2x DDR5 5600 | 2 / 2       | Fully custom board with weird PCIe riser slot                  |
 | Dell Pro  | Max Micro FCM2250  | PCIe x8 + x1 Custom  |                            | Wistron  | 0JG03? | 232024-1A  | Ultra 200     | W880    | 2x DDR5 6400 | 2 / 2       | Same board as Micro Plus QBM1250 but with riser slot populated |
+|           |                    |                      |                            |          |        |            |               |         |              |             |                                                                |
+| Dell Pro  | Micro QCM1255      | None                 | ?                          | Wistron  | ?      | ?          | Ryzen 8000GE  | Pro 665 | 2x DDR5 4800 | 2 / 2       | Dell made an AMD one!!!                                        |
 
 
 ## Spec pdfs:
@@ -569,6 +571,8 @@ https://dl.dell.com/content/manual34204451-precision-3260-compact-setup-and-spec
 https://dl.dell.com/content/manual27296999-precision-3260-compact-service-manual.pdf  
 https://dl.dell.com/content/manual23490351-precision-3280-cff-owner-s-manual.pdf  
 https://dl.dell.com/content/manual37202989-dell-pro-max-micro-fcm2250-owner-s-manual.pdf  
+
+https://dl.dell.com/content/manual39398283-dell-pro-micro-qcm1255-owner-s-manual.pdf  
 
 </details>
 
