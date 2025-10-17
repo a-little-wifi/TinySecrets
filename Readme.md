@@ -54,6 +54,8 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | P3 Ultra       | Workstation, vPro    | Tiny9?      | Ultra x16 riser + x8(x4) slot | IW680IV |        |       |            | 12th/13th/14th gen     | W680    | 4x DDR5 4800 ECC | 2 / 2   | 0 / 0       | Board says 'Saiph-R' on it        |
 | P3 Ultra SFF Gen 2 | AI-Ready Workstation |         | Ultra x16/x8x8 riser + x8(x4) slot |    |        |       |            | Ultra 200              | W880    | 2x DDR5 6400 ECC | 3 / 3   | 0 / 0       | Board says 'Petunia' on it        |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
+| PGX            | That-Nvida-Thing     |             | None                       |            |        |       |            | GB10 sUpErChIp         | SoC     | 256b LPDDR5x | 1 / 1       | 0 / 0       | Yet Another DGX Spark             |
+|                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | Neo Ultra      | Tiny studio workstation | Tiny10/TinyMax? | Tiny8 x8+4          | IQ6X0IL1   | LCFC   | LQ674 | NM-G071    | 14th gen               | Q670    | 2x DDR5 5200?| 2 / 2       | 0 / 1       | Same board as M90q Gen 5          |
 | Neo Ultra Gen 2| Tiny studio workstation | Tiny11/TinyMax??| Tiny8 x8+4          | IQ870IL1   | LCFC   | LQ870 | NM-G181    | Ultra 200              | Q870    | 2x DDR5 5600 | 3 / 3       | 0 / 0       | Same board as M90q Gen 6 but 1xBTB|
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
@@ -67,6 +69,9 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | Neo 50q gen 4  | lil office pc        | Tiny8?      | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     |              | 1 / 2       | 0 / 0       | 1 / 2 ram slots on low end config |
 | Neo 50q gen 5  | lil office pc        | ?           | None                       | IRPL_RIL   | LCFC   | MTY04/MTY05 | NM-G881 | Core 200 H          | SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | New BTB connector, 2nd on bottom? |
 | Neo 50q QC     | lil office pc        | ?           | other weird x4 unpopulated | QX1PIL1    | LCFC   | LB380/MTYA0 | NM-G401 | Snapdragon X (Plus) | SoC     | 4x LPDDR5X   | 2 / 2       | 0 / 0       | Unpop x4 riser slot diff from M70q|
+| Neo 55q Gen 6  | lil office pc        |             |                            |            |        |       |            | Ryzen (AI) 5 200/300   | SoC     | 2x DDR5 5600 | 2 / ?       | ? / ?       | yay more AMD                      |
+|                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
+| V100q          | little guy           |             |                            |            |        |       |            | Intel N-series         | SoC     | 1x DDR5 5600 | 1 / ?       | ? / ?       |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M90n-1 Nano    | cuteee               | ?           | None                       | IWHLNL     | LCFC   | FU420/FU421/FU422 | NM-C401 | 8.5th gen U   | SoC     | 0x DDR4 2400 | 2 / 2       | 0 / 1       | Says M930n and NANO1 on the board |
 | M90n-1 Nano iot| cuteee               | ?           | None                       | IWHLNL     | LCFC   | FU420/FU421/FU422 | NM-C401 | 8.5th gen U   | SoC     | 0x DDR4 2400 | 2 / 2       | 0 / 1       | M90n but 2xCOM 2xLAN -1USB fanless|
@@ -424,6 +429,8 @@ https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-w
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p3-ultra/30ha/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-p3-ultra-sff-gen-2/30j3/parts/display/compatible  
 
+https://pcsupport.lenovo.com/nl/en/products/workstations/thinkstation-p-series-workstations/thinkstation-pgx/30kl/parts/display/compatible  
+
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-ultra/12w1/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-ultra-gen-2/13bg/parts/display/compatible  
 
@@ -436,6 +443,9 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-4/12lh/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-5/13b9/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-qc/13c8/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-55q-gen-6/13gn/parts/display/compatible  
+
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/v-series-desktops-and-aio/lenovo-v100q/13ge/parts/display/compatible  
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m90n-1/11ad/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75n/11bs/parts/display/compatible  
