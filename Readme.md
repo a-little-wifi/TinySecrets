@@ -111,6 +111,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M4350q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
 | M4500q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
 | M6600q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
+| M730q          |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
 
