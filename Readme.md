@@ -106,6 +106,12 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ECG-P50        | ?                    | ?           | None                       | ECB-NT10   | ?      |       |            | 11th gen Tiger Lake-U  | SoC     | 2x DDR4 2400?| 1 / ?       | 0 / ?       | Mysterious China-only device      |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
+| M3500q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | china rebrand of some other model |
+| M3600c-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
+| M4350q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
+| M4500q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
+| M6600q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
+|                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
 
 # BTB modules
