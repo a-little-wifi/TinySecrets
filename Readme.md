@@ -445,7 +445,9 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-qc/13c8/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-55q-gen-6/13gn/parts/display/compatible  
 
-https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/v-series-desktops-and-aio/lenovo-v100q/13ge/parts/display/compatible  
+~~https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/v-series-desktops-and-aio/lenovo-v100q/13ge/parts/display/compatible~~  
+https://pcsupport.lenovo.com/nl/nl/products/desktops-and-all-in-ones/v-series-desktops-and-aio/lenovo-v100q/13gf/parts/display/compatible  
+
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m90n-1/11ad/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75n/11bs/parts/display/compatible  
