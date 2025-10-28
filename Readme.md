@@ -106,12 +106,14 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ECG-P50        | ?                    | ?           | None                       | ECB-NT10   | ?      |       |            | 11th gen Tiger Lake-U  | SoC     | 2x DDR4 2400?| 1 / ?       | 0 / ?       | Mysterious China-only device      |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
+| M2000q         |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M3500q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | china rebrand of some other model |
 | M3600c-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
 | M4350q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
 | M4500q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
 | M6600q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
 | M730q          |                      |             |                            |            |        |       |            |                        |         |              |             |             | ^                                 |
+| M740q          |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
 
@@ -298,7 +300,7 @@ todo
 
 Links:  
 Tinyriser:         https://github.com/a-little-wifi/Tinyriser  
-Tinyriser6:        https://github.com/a-little-wifi/Tinyriser6 (still private)  
+Tinyriser6:        https://github.com/a-little-wifi/Tinyriser6  
 Tiny5 M.2 Riser:   https://github.com/j4cbo/tiny5-m2-riser  
 Tiny6-X4+M2+M2+TF: https://github.com/qq8322302/Tiny6-P340-pcie-bifurcation-expansion-card  
 Tiny4/Tiny5 qq8322302: https://github.com/qq8322302/Lenovo-Tiny-Serial-PCIE-Expansion-Card  
