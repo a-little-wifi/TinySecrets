@@ -719,6 +719,14 @@ Currently available schematics I know about:
 
 If you're looking for one of these, feel free to email me at the address listed on my profile, I'll gladly send them to you.
 
+# Useful links:
+
+Info about ES Intel CPUs: https://e5450.com/socket-1151/all-es-versions/  
+Latest Lenovo products: https://psref.lenovo.com/new/  
+Lenovo support with part images: https://pcsupport.lenovo.com  
+HP part search with images: https://partsurfer.hp.com
+
+
 # In case you wanna help out
 
 I'm always looking for more schematics/boardviews and information about any unique parts, configs, mods and models (non-Lenovo too). If you have or know about anything you think might be of interest here, I'd love to hear about it in an issue on this repo or in my email listed on my profile. Thanks!
