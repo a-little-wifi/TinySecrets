@@ -309,6 +309,25 @@ Tiny4/Tiny5 qq8322302: https://github.com/qq8322302/Lenovo-Tiny-Serial-PCIE-Expa
 Pictures:  
 https://github.com/a-little-wifi/TinySecrets/tree/main/riserpics  
 
+### Tiny8 x16 riser issues:
+
+There seem to be problems with certain PCIe cards not working in the official Tiny8 x16 riser, mostly x4 and x1 width cards.  
+It does not seem to be an issue with the PRSNT pins on the PCIe slot, it's been confirmed that there is continuity between the pins for x1, x4 and x8 to the one for x16.  
+I can't really figure out why some cards wouldn't be working in this riser, maybe something weird about the CPU lanes only supporting certain kinds of cards on this generation?  
+Any information about known working/not working cards would be helpful to see if there's any pattern/consistency to it.  
+
+<details>
+<summary> List of tested cards: </summary>
+
+Working:
+- Intel X520-DA2 PCIe x8 (E10G42BTDA)
+
+Not Working:
+- StarTech I225-V PCIe x4 (PR42GI-NETWORK-CARD)
+- Dynamode USB 3.0 PCIe x1
+
+</details>
+
 ## PCIe layout
 todo  
 ### Tiny5:
