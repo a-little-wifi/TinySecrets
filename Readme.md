@@ -69,7 +69,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | Neo 50q gen 4  | lil office pc        | Tiny8?      | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     |              | 1 / 2       | 0 / 0       | 1 / 2 ram slots on low end config |
 | Neo 50q gen 5  | lil office pc        | ?           | None                       | IRPL_RIL   | LCFC   | MTY04/MTY05 | NM-G881 | Core 200 H          | SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | New BTB connector, 2nd on bottom? |
 | Neo 50q QC     | lil office pc        | ?           | other weird x4 unpopulated | QX1PIL1    | LCFC   | LB380/MTYA0 | NM-G401 | Snapdragon X (Plus) | SoC     | 4x LPDDR5X   | 2 / 2       | 0 / 0       | Unpop x4 riser slot diff from M70q|
-| Neo 55q Gen 6  | lil office pc        |             |                            |            |        |       |            | Ryzen (AI) 5 200/300   | SoC     | 2x DDR5 5600 | 2 / ?       | ? / ?       | yay more AMD                      |
+| Neo 55q Gen 6  | lil office pc        |             | None                       | FP8IL      | LCFC   | NTY58/NTY59 | NM-H371 | Ryzen (AI) 5 200/300| SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | PCB has footprints for USB-C USB4?|
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | V100q          | little guy           |             |                            |            |        |       |            | Intel N-series         | SoC     | 1x DDR5 5600 | 1 / ?       | ? / ?       |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
@@ -743,7 +743,8 @@ If you're looking for one of these, feel free to email me at the address listed 
 Info about ES Intel CPUs: https://e5450.com/socket-1151/all-es-versions/  
 Latest Lenovo products: https://psref.lenovo.com/new/  
 Lenovo support with part images: https://pcsupport.lenovo.com  
-HP part search with images: https://partsurfer.hp.com
+HP part search with images: https://partsurfer.hp.com  
+Thinkcentre bios modding guide: https://web.archive.org/web/20241109114346/https://blog.nero.gay/lenovo/thinkcentre/index.html
 
 
 # In case you wanna help out
