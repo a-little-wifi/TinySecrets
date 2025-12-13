@@ -725,7 +725,8 @@ todo
 Currently available schematics I know about:
 
 - ThinkCentre M720q/M920q/M920x + ThinkStation P330 Tiny
-- ThinkCentre M90q gen 1 + ThinkStation P340 Tiny
+- ThinkCentre M70q/M80q gen 1 (NM-C621 schematic)
+- ThinkCentre M90q gen 1 + ThinkStation P340 Tiny (NM-C901 boardview)
 - ThinkCentre M75q gen 1
 - ThinkCentre M75q gen 2
 - ThinkCentre M90n-1 Nano
@@ -741,10 +742,12 @@ If you're looking for one of these, feel free to email me at the address listed 
 # Useful links:
 
 Info about ES Intel CPUs: https://e5450.com/socket-1151/all-es-versions/  
+Lots of Intel cpu info: https://forums.overclockers.ru/viewforum.php?f=2&sid=093ead931ff01f3690441c8a38c881b4  
 Latest Lenovo products: https://psref.lenovo.com/new/  
 Lenovo support with part images: https://pcsupport.lenovo.com  
 HP part search with images: https://partsurfer.hp.com  
-Thinkcentre bios modding guide: https://web.archive.org/web/20241109114346/https://blog.nero.gay/lenovo/thinkcentre/index.html
+Another HP part search: https://parts.hp.com  
+Thinkcentre bios modding guide: https://web.archive.org/web/20241109114346/https://blog.nero.gay/lenovo/thinkcentre/index.html  
 
 
 # In case you wanna help out
