@@ -609,8 +609,8 @@ https://dl.dell.com/content/manual24399514-precision-3240-compact-setup-and-spec
 https://dl.dell.com/topicspdf/precision-3240-workstation_owners-manual_en-us.pdf  
 https://dl.dell.com/content/manual34204451-precision-3260-compact-setup-and-specifications.pdf  
 https://dl.dell.com/content/manual27296999-precision-3260-compact-service-manual.pdf  
-https://dl.dell.com/content/manual23490351-precision-3280-cff-owner-s-manual.pdf  
-https://dl.dell.com/content/manual37202989-dell-pro-max-micro-fcm2250-owner-s-manual.pdf  
+https://dl.dell.com/content/manual23490351-precision-3280-cff-owner-s-manual.pdf    
+https://dl.dell.com/content/manual21401009-dell-pro-max-micro-fcm2250-owner-s-manual.pdf  
 
 https://dl.dell.com/content/manual39398283-dell-pro-micro-qcm1255-owner-s-manual.pdf  
 
