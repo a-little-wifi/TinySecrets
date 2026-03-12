@@ -359,10 +359,13 @@ Any information about known working/not working cards would be helpful to see if
 
 Working:
 - Intel X520-DA2 PCIe x8 (E10G42BTDA)
+- Radeon Pro WX 2100 (PCIe x8)
 
 Not Working:
 - StarTech I225-V PCIe x4 (PR42GI-NETWORK-CARD)
 - Dynamode USB 3.0 PCIe x1
+- Radeon Pro WX 2100 (PCIe x4, 8th lane taped)
+- XFX RX 6400 (PCIe x4)
 
 </details>
 
