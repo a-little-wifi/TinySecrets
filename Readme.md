@@ -9,6 +9,11 @@ See the boardpics directory for high-resolution images of each model's system bo
 
 See the riserpics directory for images of each type of PCIe riser I'm aware of
 
+## Table of contents (test):
+> ### <a name="Schematic observations / possible mods">Mods</a>  
+> ### <a name="schematic-observations--possible-mods">Mods</a>  
+> ### <a name="Riser types">Riser types</a>
+
 
 # Lenovo Tiny Motherboard comparison table
 ###### lol this was a pain to format
