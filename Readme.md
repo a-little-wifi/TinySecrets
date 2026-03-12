@@ -285,6 +285,17 @@ Resistors:
 todo
 ### Official
 todo
+| FRU         | Name                                 | Riser slot type     | Slots                            | Shipped with                                                        | Comment                       |
+|-------------|--------------------------------------|---------------------|----------------------------------|---------------------------------------------------------------------|-------------------------------|
+| 5C50W00909  | BA7K76 Rev 1.1                       | Tiny8               | PCIe x4 (PCH)                    | M90q Gen 3, 4, 5 & 6, P360, P3 & P3 Gen 2 Tiny                      | direct PRSNT -> CLKREQ        |
+| 5C50W00910  | BA7K78 Rev 1.1                       | Tiny8               | PCIe x16(x8, CPU)                | P360 Tiny                                                           | direct PRSNT -> CLKREQ        |
+| 5C50W00933  | BA7K78 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU)                | M90q Gen 3, P360, P3 & P3 Gen 2 Tiny                                | direct PRSNT -> CLKREQ        |
+| 5C50W32107  | BA7K78 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU)                | M90q Gen 6, P3 & P3 Gen 2 Tiny                                      | uses weird CLKREQ circuit     |
+| 5C50W32124  | Taisol Riser card AIC_PCIEx4         | Tiny8               | PCIe x4?                         | P3 & P3 Gen 2 Tiny                                                  | doesn't exist irl? no pics... |
+| 5C50W32125  | Taisol Riser card AIC_PCIEx8 Rev 1.0 | Tiny8               | PCIe x16(x8, CPU)                | M90q Gen 5 & 6, P3 & P3 Gen 2 Tiny                                  | uses weird CLKREQ circuit     |
+| 5C50W32069  | BA7N76 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU) + M.2(x4, PCH) | Neo Ultra                                                           |                               |
+| 5C50W32118  | BA7O76 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU) + M.2(x4, PCH) | Neo Ultra Gen 2                                                     |                               |
+
 ### 3rd party
 todo
 | Name              | Creator           | Compatibility                   | Riser slot type  | Slots                                                                                      | Other features                                  | Comment                                                                                                                    |
