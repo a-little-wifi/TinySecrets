@@ -100,12 +100,12 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkEdge SE10 | Server               |             | None                       | IEHLNL     | LCFC   | KEHL0 | NM-F421    | Atom X Series          | SoC     | 2x DDR4 3200 | 1 / 1       | 2 / 2       |                                   |
 | ThinkEdge SE30 | Server               |             | None                       | ITGLNL     | LCFC   | GTU00 | NM-D241    | 11th gen Tiger Lake-U  | SoC     |              | 2 / 2       | 1 / 1       | board says NANO2 on it            |
-| ThinkEdge SE50 | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
+| ThinkEdge SE50 | Server               | Tiny5?      |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
 | ThinkEdge SE70 | Server               |             | None                       |            |        |       |            | Nvidia Jetson Xavier NX| SoM     | 4x LPDDR4x   | 1 / 1       | 1 / 1       | I really (I really) like Nvidiiia♫|
-| EPC300         | Server               | Tiny5?      | Tiny5 x4-only tall         | IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
+| EPC300         | Server               | Tiny5?      |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M625q          | Idk it sucks lol     |             | None                       | FT4IH      | LiteON |       |            | AMD xx-9xxx            | SoC     |              | 1 / 1       | 0 / 0       |                                   |
-| M630e          | Thin client          | Tiny5       | Tiny5 x4-only unpopulated  | IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     |              | 1 / 2       | 0 / 2       | 1 / 2 SODIMM slots populated      |
+| M630e          | Thin client          | Tiny5       |Tiny5 x4-only unpopulated rxtx swap| IWLUIA | AVC |       |            | 8.5th gen U            | SoC     |              | 1 / 2       | 0 / 2       | 1 / 2 SODIMM slots populated      |
 | M60e           | A Little low power pc| Tiny6       | None                       | IICLUIV    | LiteON |       |            | 10th gen Ice Lake      | SoC     |              | 1 / 1       | 0 / 0       |                                   |
 | M60q Chromebox | Chromebox lol        | Tiny8       | None                       | ILGOO      | Compal |       | LA-M541P   | 12th gen U             | SoC     |              | 1 / 1       | 0 / 0       | Wow they had Compal make one      |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
@@ -292,22 +292,35 @@ Resistors:
 --->
 
 ## Riser types
-todo
 ### Official
-todo
 | FRU         | Name                                 | Riser slot type     | Slots                            | Shipped with                                                        | Comment                       |
 |-------------|--------------------------------------|---------------------|----------------------------------|---------------------------------------------------------------------|-------------------------------|
+| 01AJ902     | Tiny 4 Riser Card                    | Tiny4               | PCIe x16(x8, CPU)                | M910x & P320 Tiny                                                   |                               |
+|             |                                      |                     |                                  |                                                                     |                               |
+| 01AJ928     | Tiny5 Pcie4 Riser card               | Tiny5               | PCIe x4?                         | M720q                                                               | doesn't exist? no pics        |
+| 01AJ929     | BA7H68 Rev 1.1                       | Tiny5               | PCIe x4 (PCH)                    | M720q, M920q, M920x & P330 Tiny                                     |                               |
+| 01AJ940     | BA7H70 Rev 1.2                       | Tiny5               | PCIe x16(x8, CPU)                | M920x & P330 Tiny                                                   |                               |
+|             |                                      |                     |                                  |                                                                     |                               |
+| 5C50W00876  | BA7J56 Rev 1.0                       | Tiny6               | PCIe x4 (PCH)                    | M90q Gen 1 & 2, P340 & P350 Tiny                                    |                               |
+| 5C50W00877  | BA7J58 Rev 1.0                       | Tiny6               | PCIe x16(x8, CPU)                | P340 & P350 Tiny                                                    |                               |
+|             |                                      |                     |                                  |                                                                     |                               |
 | 5C50W00909  | BA7K76 Rev 1.1                       | Tiny8               | PCIe x4 (PCH)                    | M90q Gen 3, 4, 5 & 6, P360, P3 & P3 Gen 2 Tiny                      | direct PRSNT -> CLKREQ        |
 | 5C50W00910  | BA7K78 Rev 1.1                       | Tiny8               | PCIe x16(x8, CPU)                | P360 Tiny                                                           | direct PRSNT -> CLKREQ        |
 | 5C50W00933  | BA7K78 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU)                | M90q Gen 3, P360, P3 & P3 Gen 2 Tiny                                | direct PRSNT -> CLKREQ        |
 | 5C50W32107  | BA7K78 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU)                | M90q Gen 6, P3 & P3 Gen 2 Tiny                                      | uses weird CLKREQ circuit     |
 | 5C50W32124  | Taisol Riser card AIC_PCIEx4         | Tiny8               | PCIe x4?                         | P3 & P3 Gen 2 Tiny                                                  | doesn't exist irl? no pics... |
 | 5C50W32125  | Taisol Riser card AIC_PCIEx8 Rev 1.0 | Tiny8               | PCIe x16(x8, CPU)                | M90q Gen 5 & 6, P3 & P3 Gen 2 Tiny                                  | uses weird CLKREQ circuit     |
+|             |                                      |                     |                                  |                                                                     |                               |
 | 5C50W32069  | BA7N76 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU) + M.2(x4, PCH) | Neo Ultra                                                           |                               |
 | 5C50W32118  | BA7O76 Rev 1.2                       | Tiny8               | PCIe x16(x8, CPU) + M.2(x4, PCH) | Neo Ultra Gen 2                                                     |                               |
+|             |                                      |                     |                                  |                                                                     |                               |
+| 5C51D95675  | ORION_RISER_CARD                     | P3(60) Ultra        | PCIe x16 (CPU)                   | P360 Ultra & P3 Ultra                                               |                               |
+| 5C51K23021  |                                      | P3(60) Ultra        | PCIe x16 (CPU)                   | P360 Ultra, P3 Ultra & P3 Ultra Gen 2                               |                               |
+| 5C51M21374  | MS-CG02 VER:1.1 Petunia Riser card   | P3(60) Ultra        | 2x PCIe x16(x8, CPU)             | P3 Ultra Gen 2                                                      |                               |
+|             |                                      |                     |                                  |                                                                     |                               |
+
 
 ### 3rd party
-todo
 | Name              | Creator           | Compatibility                   | Riser slot type  | Slots                                                                                      | Other features                                  | Comment                                                                                                                    |
 |-------------------|-------------------|---------------------------------|------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Tinyriser v1      | WifiCable (me :3) | M720q, M920q, M920x, P330       | Tiny5 x8+4       | PCIe x16 (CPU, x8), <br>M-key M.2 (PCH, x4)                                                |                                                 |                                                                                                                            |
