@@ -10,10 +10,14 @@ See the boardpics directory for high-resolution images of each model's system bo
 See the riserpics directory for images of each type of PCIe riser I'm aware of
 
 ## Table of contents (test):
-- ### [Mods](#schematic-observations--possible-mods)  
-- ### <a name="schematic-observations--possible-mods">Mods</a>  
-- ### <a name="Riser types">Riser types</a>
-
+- ### [Lenovo](#lenovo-tiny-motherboard-comparison-table)
+    - ### [Mods](#schematic-observations--possible-mods)  
+    - ### [Risers](#riser-types)
+    - ### [PCIe info](#pcie-layout)
+- ### [Dell](#dell-optiplex-micromff-and-precision-compactcff)
+- ### [HP](#hp-elitedesk-and-prodesk-mini)
+- ### [Acer](#acer-veriton-n)
+- ### [Schematics](#schematics)
 
 # Lenovo Tiny Motherboard comparison table
 ###### lol this was a pain to format
