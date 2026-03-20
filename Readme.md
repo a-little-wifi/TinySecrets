@@ -123,6 +123,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | ThinkCentre POS| POS                  | Tiny8?      | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Pretty much an M70q gen 3         |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ECG-P50        | ?                    | ?           | None                       | ECB-NT10   | ?      |       |            | 11th gen Tiger Lake-U  | SoC     | 2x DDR4 2400?| 1 / ?       | 0 / ?       | Mysterious China-only device      |
+| IoT520         |                      |             | None                       |            | Adlink |       | ABX-210    | Atom E39x0 Apollo Lake | SoC     | 1x DDR3 1600 | 1 mSATA     | 2 miniPCIe  | Rebranded Adlink MXE-210          |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M2000q         |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M3500q-N000    |                      |             |                            |            |        |       |            |                        |         |              |             |             | china rebrand of some other model |
@@ -554,6 +555,7 @@ https://smartsupport.lenovo.com/nl/en/products/smart/smart-collaboration/thinksm
 
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-retail/thinkcentre-pos/12su/parts/display/compatible  
 
+https://smartsupport.lenovo.com/us/en/products/smart/commercial-iot/iot-520/10yj/parts/display/compatible  
 
 
 </details>
@@ -784,6 +786,7 @@ Currently available schematics I know about:
 - ThinkCentre M90n-1 Nano
 - ThinkCentre M700/M900/M900x Tiny
 - ThinkCentre M630e/ThinkEdge SE50/EPC300
+- ThinkCentre M625q
 
 - Optiplex 3070 Micro
 - Optiplex 5050 Micro
