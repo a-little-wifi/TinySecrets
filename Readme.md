@@ -540,6 +540,7 @@ https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se30/1
 https://smartsupport.lenovo.com/us/en/products/smart/smart-edge/thinkedge-se50/11rj/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se70/12a6/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/commercial-iot/epc300/11b3/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se30n-gen2/13lv/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se60n-gen2/13mc/parts/display/compatible  
 
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m625q/10tj/parts/display/compatible  
