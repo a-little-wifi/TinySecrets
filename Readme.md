@@ -97,6 +97,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | IdeaCentre Mini 01IRH8    | lil office pc | Tiny8?  | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     | 2x DDR4 3200 | 2 / 2       | 0 / 0       | Built in Thunderbolt 4            |
 | IdeaCentre Mini 01Q8X10   | lil office pc | ?       | other weird x4 unpopulated | QX1PIL1    | LCFC   | LB380/MTYA0 | NM-G401 | Snapdragon X        | SoC     | 4x LPDDR5X   | 2 / 2       | 0 / 0       | Neo 50q QC with builtin psu & USB4|
 | IdeaCentre Mini 01IRH10R  | lil office pc | ?       | None                       | IRPL_RIL   | LCFC   | MTY04/MTY05 | NM-G881 | Core 200 H          | SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | Neo50q gen5 with builtin psu & TB4|
+| Yoga Mini 1IPH11 | rotund specimen    |             |                            |            |        |       |            | Core Ultra 300(H)      | SoC     | 128b LPDDR5x | 1 / ?       | 0 / ?       | IT IS ROUND WHY IS IT A CIRCLE    |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkEdge SE10 | Server               |             | None                       | IEHLNL     | LCFC   | KEHL0 | NM-F421    | Atom X Series          | SoC     | 2x DDR4 3200 | 1 / 1       | 2 / 2       |                                   |
 | ThinkEdge SE30 | Server               |             | None                       | ITGLNL     | LCFC   | GTU00 | NM-D241    | 11th gen Tiger Lake-U  | SoC     |              | 2 / 2       | 1 / 1       | board says NANO2 on it            |
@@ -534,6 +535,7 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/id
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/lenovo-ideacentre-mini-01irh8/90w2/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/ideacentre-mini-01q8x10/91b6/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/5-series/ideacentre-mini-01irh10r/91b2/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/yoga-mini-series/yoga-mini-01iph11/91e6/parts/display/compatible  
 
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se10/12nh/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se30/11na/parts/display/compatible  
