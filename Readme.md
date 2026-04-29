@@ -152,6 +152,10 @@ todo
 * The M90q gen 2 and P350 have an unpopulated footprint for a 3rd M-key M.2 NVMe slot, would be cool to try soldering that on and seeing if it works.
 
 ## Schematic observations / possible mods
+
+Tiny5 2nd NVMe mod by badger707: https://github.com/badger707/m920q-dual-NVME  
+Tiny5 PCIe bifurcation mod by badger707: https://github.com/badger707/m920q-pcie-bifurcation  
+
 ### Board ID straps
 Many of these boards have a set of resistor straps that are used to set the specific SKU of the system, they often share the same board and firmware. At its simplest there is of course the different tiers from the main series, but there's also some interesting options:  
 * NEC variants are for the NEC rebranded versions of these systems, setting it reduces the amount of BIOS settings and changes the boot logo to the NEC logo
@@ -332,8 +336,10 @@ Resistors:
 | Tinyriser v1      | WifiCable (me :3) | M720q, M920q, M920x, P330       | Tiny5 x8+4       | PCIe x16 (CPU, x8), <br>M-key M.2 (PCH, x4)                                                |                                                 |                                                                                                                            |
 | Tinyriser v2      | WifiCable         | M720q, M920q, M920x, P330       | Tiny5 x8+4       | PCIe x16 (CPU, x8), <br>M-key M.2 (PCH, x4)                                                | Fan header, SSD activity LED                    |                                                                                                                            |
 | Tinyriser v2.1    | WifiCable         | M720q, M920q, M920x, P330       | Tiny5 x8+4       | PCIe x16 (CPU, x8), <br>M-key M.2 (PCH, x4)                                                | Fan header, SSD activity LED                    |                                                                                                                            |
-| Tinyriser6 v1     | WifiCable         | M90q gen 1 & 2, P340, P350      | Tiny6 x8+4       | PCIe x16 (CPU, x8), <br>M-key M.2 (PCH, x4)                                                | Fan header, SSD activity LED, USB port, misc IO |                                                                                                                                                |
+| Tinyriser6 v1     | WifiCable         | M90q gen 1 & 2, P340, P350      | Tiny6 x8+4       | PCIe x16 (CPU, x8), <br>M-key M.2 (PCH, x4)                                                | Fan header, SSD activity LED, USB port, misc IO |                                                                                                                            |
 | Tiny5 M.2 Riser   | j4cbo             | M920q, M920x, P330              | Tiny5 x8+4       | PCIe x4 (open ended, CPU, x4), <br>M-key M.2 (CPU, x4), <br>M-key M.2 (PCH, x4)            | Fan header                                      | Requires motherboard mod for bifurcation                                                                                   |
+| PowerRiser        | NandFarm          | M720q, M920q, M920x, P330       | Tiny5 x8+4       | PCIe x8 (open ended, CPU, x8), <br>M-key M.2 (PCH, x4)                                     | Fan header                                      |                                                                                                                            |
+| M90-PowerRiser    | NandFarm          | M90q gen 1 & 2, P340, P350      | Tiny6 x8+4       | PCIe x8 (open ended, CPU, x8), <br>M-key M.2 (PCH, x4)                                     | Fan header                                      |                                                                                                                            |
 | Tiny6-X4+M2+M2+TF | qq8322302         | M90q gen 1, P340                | Tiny6 x8+4       | PCIe x4 (open ended, CPU, x4), <br>M-key M.2 (CPU, x4), <br>M-key M.2 (PCH, x4)            | Fan header, MicroSD slot                        | Requires motherboard mod for bifurcation                                                                                   |
 | Tiny4-X4M2SATA    | qq8322302         | M910q, M910x, P320              | Tiny4 x8         | PCIe x4 (open ended, CPU, x4), <br>M-key M.2 (CPU, x4), <br>M-key M.2 (SATA)               | Fan header                                      | Requires motherboard mod for bifurcation, uses SATA FFC for SATA M.2 slot                                                  |
 | Tiny4-HPX4M2SATA  | qq8322302         | M910q, M910x, P320              | Tiny4 x8         | HP FlexLOM PCIe x4 (open ended, CPU, x4), <br>M-key M.2 (CPU, x4), <br>M-key M.2 (SATA)    | Fan header                                      | Requires motherboard mod for bifurcation, uses SATA FFC fpr SATA M.2 slot, PCIe slot only compatible with HP FlexLOM cards |
@@ -346,6 +352,8 @@ Links:
 Tinyriser:         https://github.com/a-little-wifi/Tinyriser  
 Tinyriser6:        https://github.com/a-little-wifi/Tinyriser6  
 Tiny5 M.2 Riser:   https://github.com/j4cbo/tiny5-m2-riser  
+PowerRiser:        https://github.com/nandfarm/PowerRiser  
+M90-PowerRiser:    https://github.com/nandfarm/M90-PowerRiser  
 Tiny6-X4+M2+M2+TF: https://github.com/qq8322302/Tiny6-P340-pcie-bifurcation-expansion-card  
 Tiny4/Tiny5 qq8322302: https://github.com/qq8322302/Lenovo-Tiny-Serial-PCIE-Expansion-Card  
 
