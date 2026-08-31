@@ -33,7 +33,8 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M70q gen 3     | Entry, vPro          | Tiny8       | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | HB660 | NM-D861    | 12th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Does have a vPro option?          |
 | M70q gen 4     | Entry, vPro          | Tiny9?      | weird x4 unpopulated       | IQ6X0IL2   | LCFC   | KQ672 | NM-E871    | 13th gen               | Q670    | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Also has vPro option              |
 | M70q gen 5     | Entry, vPro          | Tiny10?     | None                       | IQ6X0IL4   | LCFC   | LQ672 | NM-F911    | 13th/14th gen          | Q670    | 2x DDR5 5600 | 2 / 2       | 0 / 0       | Totally different board layout    |
-| M70q gen 6     | AI-PC                | Tiny11      | None                       | IQ870IL0   | LCFC   | MQ868 | NM-G361    | Ultra 200              | Q870    | 2x DDR5 5600 | 2 / 2       | 0 / 0       | New BTB connector                 |
+| M70q gen 6 Q870| AI-PC                | Tiny11      | None                       | IQ870IL0   | LCFC   | MQ868 | NM-G361    | Ultra 200              | Q870    | 2x DDR5 5600 | 2 / 2       | 0 / 0       | New BTB connector                 |
+| M70q gen 6 B860| AI-PC                | Tiny11      | None                       | IB860IL0   | LCFC   | NTY0K | NM-H191    | Ultra 200              | B860    | 2x DDR5 5600 | 2 / 2       | 0 / 0       | Rear USB2 & Realtek LAN           |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M900 Tiny      | Entry, vPro          | Tiny3       | None                       | IS1XX1H    | LiteON | JC110 |            | 6th gen                | Q170    |              | 1 / 1       | 0 / 0       | Board name also IQ170IH1?         |
 | M910q          | Entry, vPro          | Tiny4       | Tiny4 x8 unpopulated       | IQ2X0IH    | LiteON | JC113 |            | 6th/7th gen            | Q270    | 2x DDR4 2400 ECC? | 1 / 2  | 0 / 0       |                                   |
@@ -81,6 +82,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | Neo 50q gen 4  | lil office pc        | Tiny8?      | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     |              | 1 / 2       | 0 / 0       | 1 / 2 ram slots on low end config |
 | Neo 50q gen 5  | lil office pc        | ?           | None                       | IRPL_RIL   | LCFC   | MTY04/MTY05 | NM-G881 | Core 200 H          | SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | New BTB connector, 2nd on bottom? |
 | Neo 50q Gen 6  | lil office pc        | ?           | None                       | ILNLIL     | LCFC   | NTY1Y | NM-H951    | Core Ultra 200 V       | SoC     | MoP          | 1 / 1       | 0 / 0       | Lunar Lake 🥺                     |
+| Neo 50q Gen 7  | lil office pc        | ?           | None                       | ?          | ?      | ?     | ?          | Core 300 (WCL)         | SoC     | 1x DDR5 5600 | 2 / ?       | 0 / ?       | Hello Wildcat lake                |
 | Neo 50q QC     | lil office pc        | ?           | other weird x4 unpopulated | QX1PIL1    | LCFC   | LB380/MTYA0 | NM-G401 | Snapdragon X (Plus) | SoC     | 4x LPDDR5X   | 2 / 2       | 0 / 0       | Unpop x4 riser slot diff from M70q|
 | Neo 55q Gen 6  | lil office pc        |             | None                       | FP8IL      | LCFC   | NTY58/NTY59 | NM-H371 | Ryzen (AI) 5 200/300| SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | PCB has footprints for USB-C USB4?|
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
@@ -97,7 +99,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | IdeaCentre Mini 01IRH8    | lil office pc | Tiny8?  | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     | 2x DDR4 3200 | 2 / 2       | 0 / 0       | Built in Thunderbolt 4            |
 | IdeaCentre Mini 01Q8X10   | lil office pc | ?       | other weird x4 unpopulated | QX1PIL1    | LCFC   | LB380/MTYA0 | NM-G401 | Snapdragon X        | SoC     | 4x LPDDR5X   | 2 / 2       | 0 / 0       | Neo 50q QC with builtin psu & USB4|
 | IdeaCentre Mini 01IRH10R  | lil office pc | ?       | None                       | IRPL_RIL   | LCFC   | MTY04/MTY05 | NM-G881 | Core 200 H          | SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | Neo50q gen5 with builtin psu & TB4|
-| Yoga Mini 01IPH11 | rotund specimen   |             |                            |            |        |       |            | Core Ultra 300(H)      | SoC     | 128b LPDDR5x | 1 / ?       | 0 / ?       | IT IS ROUND WHY IS IT A CIRCLE    |
+| Yoga Mini 01IPH11 | rotund specimen   |             | None                       | IPTLIL1    | LCFC   | NTY0V | NM-H621    | Core Ultra 300(H)      | SoC     | 128b LPDDR5x | 1 / 1       | 0 / 0       | IT IS ROUND WHY IS IT A CIRCLE    |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkEdge SE10 | Server               |             | None                       | IEHLNL     | LCFC   | KEHL0 | NM-F421    | Atom X Series          | SoC     | 2x DDR4 3200 | 1 / 1       | 2 / 2       |                                   |
 | ThinkEdge SE30 | Server               |             | None                       | ITGLNL     | LCFC   | GTU00 | NM-D241    | 11th gen Tiger Lake-U  | SoC     |              | 2 / 2       | 1 / 1       | board says NANO2 on it            |
@@ -136,7 +138,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M740q          |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 
-
+-- todo: add machine type column
 # BTB modules
 
 todo
@@ -303,7 +305,7 @@ Resistors:
 
 ## Riser types
 ### Official
-| FRU         | Name                                 | Riser slot type     | Slots                            | Shipped with                                                        | Comment                       |
+| FRU         | Name                                 | Riser slot type     | Slots                            | Shipped with (does not indicate compatibility, refer to slot type)  | Comment                       |
 |-------------|--------------------------------------|---------------------|----------------------------------|---------------------------------------------------------------------|-------------------------------|
 | 01AJ902     | Tiny 4 Riser Card                    | Tiny4               | PCIe x16(x8, CPU)                | M910x & P320 Tiny                                                   |                               |
 |             |                                      |                     |                                  |                                                                     |                               |
@@ -346,7 +348,13 @@ Resistors:
 | Tiny5-X4M2M2      | qq8322302         | M920q, M920x, P330              | Tiny5 x8+4       | PCIe x4 (open ended, CPU, x4), <br>M-key M.2 (CPU, x4), <br>M-key M.2 (PCH, x4)            | Fan header                                      | Requires motherboard mod for bifurcation                                                                                   |
 | Tiny5-HPX4M2M2    | qq8322302         | M920q, M920x, P330              | Tiny5 x8+4       | HP FlexLOM PCIe x4 (open ended, CPU, x4), <br>M-key M.2 (CPU, x4), <br>M-key M.2 (PCH, x4) | Fan header                                      | Requires motherboard mod for bifurcation, PCIe slot only compatible with HP FlexLOM cards                                  |
 | Tiny5-X8M2SATA    | qq8322302         | M720q(?), M920q, M920x, P330    | Tiny5 x8+4       | PCIe x8 (open ended, CPU, x8), <br>M-key M.2 (PCH, x4), <br>M-key M.2 (SATA)               | Fan header                                      | Uses SATA FFC for SATA M.2 slot, creator says M720q is not compatible but I think it should work in there, no bifurcation  |
-
+| Tiny8 x8 144W v1  | 飞雪007             |                                 |                  |                                                                                            |                                                 |                                                                                                                            |
+| Tiny8 x8 144W v2  | 飞雪007             |                                 |                  |                                                                                            |                                                 |                                                                                                                            |
+| Tiny8 x8+4 500W?  | 飞雪007             |                                 |                  |                                                                                            |                                                 |                                                                                                                            |
+|                   |                   |                                 |                  |                                                                                            |                                                 |                                                                                                                            |
+|                   |                   |                                 |                  |                                                                                            |                                                 |                                                                                                                            |
+|                   |                   |                                 |                  |                                                                                            |                                                 |                                                                                                                            |
+|                   |                   |                                 |                  |                                                                                            |                                                 |                                                                                                                            |
 
 Links:  
 Tinyriser:         https://github.com/a-little-wifi/Tinyriser  
@@ -357,6 +365,14 @@ M90-PowerRiser:    https://github.com/nandfarm/M90-PowerRiser
 Tiny6-X4+M2+M2+TF: https://github.com/qq8322302/Tiny6-P340-pcie-bifurcation-expansion-card  
 Tiny4/Tiny5 qq8322302: https://github.com/qq8322302/Lenovo-Tiny-Serial-PCIE-Expansion-Card  
 
+Tiny8 x8+4 300W: https://www.goofish.com/item?id=1031097583387  
+Tiny8 x8 144W v1: https://www.goofish.com/item?id=782784751132  
+Tiny8 x8 144W v2: https://www.goofish.com/item?id=1021220713307  
+Tiny8 x8+4 500W: https://www.goofish.com/item?id=1031100415913  
+P3 Ultra Gen 2 x8 + M.2: https://www.goofish.com/item?id=1021219197213  
+Tiny8 x8+4 150W: https://www.goofish.com/item?id=980539380390  
+Tiny5 x8+4xM2: https://www.goofish.com/item?id=995835849127  
+Tiny6 x4+M2+M2+TF: https://www.goofish.com/item?id=905599529763  
 
 Pictures:  
 https://github.com/a-little-wifi/TinySecrets/tree/main/riserpics  
@@ -440,7 +456,7 @@ Tiny7 is pretty awesome for SSD bandwidth, especially if you solder the 3rd slot
 ### Tiny9:
 #### P3 Tiny and M90q gen 4 (NM-E881):
 * DMI 4.0 x8 from CPU to PCH (Q670)
-* Riser PCIe 4.0 x8 from CPU (lanes 0-7)
+* Riser PCIe 4.0 x8 from CPU (lanes ?-?)
 * SSD1 PCIe 4.0 x4 from PCH (lanes 21-24/25-28?)
 * SSD2 PCIe 4.0 x4 from PCH (lanes 21-24/25-28?)
 * Riser PCIe ?.0 x4 from PCH (lanes ?-?)
@@ -458,12 +474,24 @@ todo
 
 ## Known prototype boards
 
-| Generation  | Riser slot type            | Board name | Design | Model | Board code | Revision | Chipset | Memory type  | M-key slots | B-key slots | Comment                           |
-|-------------|----------------------------|------------|--------|-------|------------|----------|---------|--------------|-------------|-------------|-----------------------------------|
-| Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL    | LCFC   | GH470 | NM-C621    | 0.2      | H470?   | 2x DDR4      | 1 / 2       | 0 / 1       |                                   |
-| Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | LCFC   | HQ570 | NM-D321    | 0.5      | Q570?   |              | 3 / 3       | 1 / 1       |                                   |
-| Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | LCFC   | HQ570 | NM-D321    | 0.4      | Q570?   |              | 3 / 3       | 0 / 1       | has some 0Ω jumpers where rev 1.0 has them embedded in the pcb |
-| Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | LCFC   | HQ670 | NM-D581    | 0.5      | Q670?   | 2x DDR5      | 3 / 3       | 1 / 1       |                                   |
+| Generation  | Riser slot type            | Board name | Color | Design | Model | Board code | Revision | Chipset | Memory type  | M-key slots | B-key slots | Comment                                                        |
+|-------------|----------------------------|------------|-------|--------|-------|------------|----------|---------|--------------|-------------|-------------|----------------------------------------------------------------|
+| Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL    | Blue  | LCFC   | GH470 | NM-C621    | 0.2      | H470?   | 2x DDR4      | 1-2 / 2     | 0 / 1       | Uses a different kind of ethernet jack                         |
+| Tiny6       | Tiny6 x8+4 unpopulated     | IQ4X0IL1   | Green | LCFC   | GH470 | NM-C621    | 0.3      | B460?   | 2x DDR4      | 1 / 2       | 0 / 1       |                                                                |
+| Tiny7       | Tiny6 x8+4 unpopulated     | IB5X0IL2   | Blue  | LCFC   | HB560 | NM-D331    | 0.2      |         | 2x DDR4      | 1 / 2       | 0 / 1       |                                                                |
+| Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | Blue  | LCFC   | HQ570 | NM-D321    | 0.3      | Q570?   |              | 3 / 3       | 1 / 1       |                                                                |
+| Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | Green | LCFC   | HQ570 | NM-D321    | 0.4      | Q570?   |              | 2-3 / 3     | 0 / 1       | has some 0Ω jumpers where rev 1.0 has them embedded in the pcb |
+| Tiny7       | Tiny6 x8+4                 | IQ5X0Il1   | Green | LCFC   | HQ570 | NM-D321    | 0.5      | Q570?   |              | 3 / 3       | 1 / 1       |                                                                |
+| Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | Blue  | LCFC   | HQ670 | NM-D581    | 0.5      | Q670?   | 2x DDR5      | 3 / 3       | 1 / 1       | has CFG2 pulled up correctly, unlike production model          |
+| Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | Green | LCFC   | HQ670 | NM-D581    | 0.6      | Q670?   |              | ? / 2       | 0?/ 1       |                                                                |
+| Tiny8       | Tiny8 x8+4                 | IQ6X0IL1   | Green | LCFC   | HQ670 | NM-D581    | 0.7      | Q670?   | 2x DDR5      | 2 / 2       | 0?/ 1       |                                                                |
+| Tiny8       | weird x4 unpopulated       | IQ6X0IL2   | Red   | LCFC   | HB660 | NM-D861    | 0.3      |         |              | ? / ?       | 0 / 1       | Sticker says 'Tiny 8 SDV2'                                     |
+| Tiny8?      | None                       | AM5IL      | Blue  | LCFC   | LKN30 | NM-F661    | 0.2      |         | 2x DDR5      | 2 / 2       | 0 / 0       |                                                                |
+| Tiny10      | None                       | IQ6X0IL4   | Blue  | LCFC   | LQ672 | NM-F911    | 0.2      |         | 2x DDR5      | 2 / 2       | 0 / 0       |                                                                |
+|             |                            |            |       |        |       |            |          |         |              |             |             |                                                                |
+|             |                            |            |       |        |       |            |          |         |              |             |             |                                                                |
+|             |                            |            |       |        |       |            |          |         |              |             |             |                                                                |
+|             |                            |            |       |        |       |            |          |         |              |             |             |                                                                |
 
 ## Parts links with hi-res images
 <details>
@@ -526,6 +554,7 @@ https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-4/12lh/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-5/13b9/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/nl/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-6/13hr/parts/display/compatible  
+https://pcsupport.lenovo.com/nl/nl/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-7/13ss/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-qc/13c8/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-55q-gen-6/13gn/parts/display/compatible  
 
@@ -681,35 +710,57 @@ https://dl.dell.com/content/manual39398283-dell-pro-micro-qcm1255-owner-s-manual
 
 todo
 
-| Series    | Model           | Expansion slots      | Board name                 | Design   | Model  | Board code        | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                  |
-|-----------|-----------------|----------------------|----------------------------|----------|--------|-------------------|---------------|---------|--------------|-------------|----------------------------------------------------------|
-| ProDesk   | 400 G1 Mini     | None                 | BILBO                      | Foxconn? |        |                   | 4th gen       | H81     | 2x DDR3L     | 1 / 1       |                                                          |
-| ProDesk   | 400 G2 Mini     | None                 | DINO                       | Foxconn? |        |                   | 6th gen       | H110    | 2x DDR4 2133 | 1 / 1       |                                                          |
-| ProDesk   | 400 G3 Mini     | Flex IO v1           | Virgo MB Rev A             | Wistron  | 07N02? | 16514-1           | 6th/7th gen   | H270    | 2x DDR4 2400 | 1 / 1       |                                                          |
-| ProDesk   | 400 G4 Mini     | Flex IO v1           | Mandolin Rev A             | Quanta   | F80    | DA0F80MB6A0 REV:A | 8th gen       | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
-| ProDesk   | 400 G5 Mini     | Flex IO v1           | Mandolin-R Rev 0A          | Quanta   | F80B   | DAF80BMB6D0 REV:D | 8th/9th gen   | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
-| ProDesk   | 400 G6 Mini     | Flex IO v2, 2nd      | Missandei Rev A            | Quanta   | F91    | DA0F91MB6F0 REV:F | 10th gen      | Q470    | 2x DDR4 2933 | 1 / 2       | Unpopulated dGPU connector and why Q470??? (again??)     |
-| Pro       | Mini 400 G9     | Flex IO v?           | ?                          | Quanta   | F96    | DA0F96MB8F0 REV:F | 12/13/14th gen| Q670    | 2x DDR4 ?    | 1 / 2       | Unpopulated dGPU connector and why Q670???               |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| ProDesk   | 600 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   | 4th gen       | Q85     | 2x DDR3L     | 1 / 1       | Looks identical to 400 G1 Mini with extra DP populated   |
-| ProDesk   | 600 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   | 6th gen       | Q150    | 2x DDR4 2133 | 1 / 1       |                                                          |
-| ProDesk   | 600 G3 Mini     | Flex IO v1           | Scorpius Rev A             | Wistron  | 06N35  | 16515-1           | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       |                                                          |
-| ProDesk   | 600 G4 Mini     | Flex IO v1           | Harp/Lute Rev A            | Quanta   | F81    | DA0F81MB6A0 REV:A | 8th gen       | Q370    | 2x DDR4 2666 | 2 / 2       |                                                          |
-| ProDesk   | 600 G5 Mini     | Flex IO v1           | Harp-R/Lute-R REV.0A       | Quanta   | F81B   | DAF81BMB6D0 REV:D | 8th/9th gen   | Q370    | 2x DDR4 2666 | 2 / 2       | Looks identical to 600 G4 Mini                           |
-| ProDesk   | 600 G6 Mini     | Flex IO v2, 2nd      | Drogo Daario -AUD Rev. B   | Quanta   | F93    | DAF93MB26B0 REV:B | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Unpopulated dGPU connector                               |
-| ProDesk   | 600 G8 Mini     | ?                    | ?                          | ?        | ?      | ?                 | ?             | ?       | ?            | ?           | Its existence is implied but there is like no info???    |
-| Elite     | Mini 600 G9     | ?                    | ?                          | ?        | ?      | ?                 | 12th/13th gen | Q670    | 2x DDR5 4800?| 2 / 2?      | Too new, not much info yet                               |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| EliteDesk | 800 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   | 4th gen       | Q87     | 2x DDR3L     | 1 / 1       | Same as 600 G1 Mini but with Q87 and more USB3           |
-| EliteDesk | 800 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   | 6th gen       | Q170    | 2x DDR4 2133 | 1 / 1       | Same as 600 G2 Mini but with Q170 and more USB3          |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| EliteDesk | 8 Mini G1i      | Flex IO v3, 2nd ?    |                            |          |        |                   | Ultra 200     | Q870    | 2x DDR5 5600 | 3 / 3 ?     |                                                          |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| Z2        | Mini G1i        | Flex IO v?           |                            |          |        |                   | Ultra 200     | W880    | 2x DDR5 6400 | 2 / 2 ?     |                                                          |
-|           |                 |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| ProDesk   | 405 G8 Mini     |                      |                            |          |        |                   |               |         |              |             |                                                          |
-| EliteDesk | 800 G1 USDT     | MXM                  |                            |          |        |                   |               |         | 2x DDR3L     | 1x mSATA    |                                                          |
-| ?         | 260 G1          | None                 | ?                          | ?        | ?      | ?                 | 4th gen U     | SoC     | 2x DDR3L     | 1 / 1       |                                                          |
+| Series    | Model           | Expansion slots      | Board name                 | Design   | Model  | Board code        | ID   | CPU type      | Chipset | Memory type  | M-key slots | Comment                                                  |
+|-----------|-----------------|----------------------|----------------------------|----------|--------|-------------------|------|---------------|---------|--------------|-------------|----------------------------------------------------------|
+| ProDesk   | 400 G1 Mini     | None                 | BILBO                      | Foxconn? |        |                   |      | 4th gen       | H81     | 2x DDR3L     | 1 / 1       |                                                          |
+| ProDesk   | 400 G2 Mini     | None                 | DINO                       | Foxconn? |        |                   |      | 6th gen       | H110    | 2x DDR4 2133 | 1 / 1       |                                                          |
+| ProDesk   | 400 G3 Mini     | Flex IO v1           | Virgo MB Rev A             | Wistron  | 07N02? | 16514-1           |      | 6th/7th gen   | H270    | 2x DDR4 2400 | 1 / 1       |                                                          |
+| ProDesk   | 400 G4 Mini     | Flex IO v1           | Mandolin Rev A             | Quanta   | F80    | DA0F80MB6A0 REV:A |      | 8th gen       | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
+| ProDesk   | 400 G5 Mini     | Flex IO v1           | Mandolin-R Rev 0A          | Quanta   | F80B   | DAF80BMB6D0 REV:D |      | 8th/9th gen   | B360    | 2x DDR4 2666 | 1 / 1       |                                                          |
+| ProDesk   | 400 G6 Mini     | Flex IO v2, 2nd      | Missandei Rev A            | Quanta   | F91    | DA0F91MB6F0 REV:F |      | 10th gen      | Q470    | 2x DDR4 2933 | 1 / 2       | Unpopulated dGPU connector and why Q470??? (again??)     |
+| Pro       | Mini 400 G9     | Flex IO v?           | ?                          | Quanta   | F96    | DA0F96MB8F0 REV:F |      | 12/13/14th gen| Q670    | 2x DDR4 ?    | 1 / 2       | Unpopulated dGPU connector and why Q670???               |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| ProDesk   | 600 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   |      | 4th gen       | Q85     | 2x DDR3L     | 1 / 1       | Looks identical to 400 G1 Mini with extra DP populated   |
+| ProDesk   | 600 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   |      | 6th gen       | Q150    | 2x DDR4 2133 | 1 / 1       |                                                          |
+| ProDesk   | 600 G3 Mini     | Flex IO v1           | Scorpius Rev A             | Wistron  | 06N35  | 16515-1           |      | 6th/7th gen   | Q270    | 2x DDR4 2400 | 1 / 1       |                                                          |
+| ProDesk   | 600 G4 Mini     | Flex IO v1           | Harp/Lute Rev A            | Quanta   | F81    | DA0F81MB6A0 REV:A |      | 8th gen       | Q370    | 2x DDR4 2666 | 2 / 2       |                                                          |
+| ProDesk   | 600 G5 Mini     | Flex IO v1           | Harp-R/Lute-R REV.0A       | Quanta   | F81B   | DAF81BMB6D0 REV:D |      | 8th/9th gen   | Q370    | 2x DDR4 2666 | 2 / 2       | Looks identical to 600 G4 Mini                           |
+| ProDesk   | 600 G6 Mini     | Flex IO v2, 2nd      | Drogo Daario -AUD Rev. B   | Quanta   | F93    | DAF93MB26B0 REV:B |      | 10th gen      | Q470    | 2x DDR4 2933 | 2 / 2       | Unpopulated dGPU connector                               |
+| ProDesk   | 600 G8 Mini     | ?                    | ?                          | ?        | ?      | ?                 |      | ?             | ?       | ?            | ?           | Its existence is implied but there is like no info???    |
+| Elite     | Mini 600 G9     | ?                    | ?                          | ?        | ?      | ?                 |      | 12th/13th gen | Q670    | 2x DDR5 4800?| 2 / 2?      | Too new, not much info yet                               |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| EliteDesk | 800 G1 Mini     | None                 | FRODO                      | Foxconn? |        |                   |      | 4th gen       | Q87     | 2x DDR3L     | 1 / 1       | Same as 600 G1 Mini but with Q87 and more USB3           |
+| EliteDesk | 800 G2 Mini     | Serial/DP option     | DOLOMITE REV A             | Foxconn? |        |                   |      | 6th gen       | Q170    | 2x DDR4 2133 | 1 / 1       | Same as 600 G2 Mini but with Q170 and more USB3          |
+|           | 800 G3 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 800 G4 Mini     |                      | Banjo/Huluhu REV:A         | Quanta   | F83    | DA?F83MB6A0 REV:A |      |               |         |              |             |                                                          |
+|           | 800 G5 Mini 35W |                      | Banjo-R/Huluhu-R REV:0A    | Quanta   | F83A   | DAF83AMB6D0 REV:D | 8595 |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 800 G6 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 800 G8 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| Elite     | Mini 800 G9     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| EliteDesk | 8 Mini G1i      | Flex IO v3, 2nd ?    |                            |          |        |                   |      | Ultra 200     | Q870    | 2x DDR5 5600 | 3 / 3 ?     |                                                          |
+|           | 8 Mini G2i?     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| Z2        | Mini G1i        | Flex IO v?           |                            |          |        |                   |      | Ultra 200     | W880    | 2x DDR5 6400 | 2 / 2 ?     |                                                          |
+| Z2        | Mini G1a        |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| ZGX       | Nano G1n        |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 405 G4 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 405 G6 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| ProDesk   | 405 G8 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 705 G2 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 705 G3 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 705 G4 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 705 G5 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 805 G6 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           | 805 G8 Mini     |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| EliteDesk | 8 Mini G1a      |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| EliteDesk | 8 Mini G2a      |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+|           |                 |                      |                            |          |        |                   |      |               |         |              |             |                                                          |
+| EliteDesk | 800 G1 USDT     | MXM                  |                            |          |        |                   |      |               |         | 2x DDR3L     | 1x mSATA    |                                                          |
+| ?         | 260 G1          | None                 | ?                          | ?        | ?      | ?                 |      | 4th gen U     | SoC     | 2x DDR3L     | 1 / 1       |                                                          |
 
 -- note: don't forget random 700 models
 
@@ -788,17 +839,21 @@ todo
 |                 |                                               |                            |          |        |            |               |         |              |             |                                                 |
 # Schematics
 
-Currently available schematics I know about:
+Currently available schematics/boardviews I know about:
 
-- ThinkCentre M720q/M920q/M920x + ThinkStation P330 Tiny
+- ThinkCentre M720q/M920q/M920x + ThinkStation P330 Tiny (NM-B551 schematic & boardview)
 - ThinkCentre M70q/M80q gen 1 (NM-C621 schematic)
 - ThinkCentre M90q gen 1 + ThinkStation P340 Tiny (NM-C901 boardview)
-- ThinkCentre M75q gen 1
-- ThinkCentre M75q gen 2
-- ThinkCentre M90n-1 Nano
-- ThinkCentre M700/M900/M900x Tiny
+- ThinkCentre M90q gen 3 + ThinkStation P360 Tiny (NM-D581 boardview)
+- ThinkCentre M715q/M715q 2nd Gen (AM4IH schematic)
+- ThinkCentre M75q gen 1 (AM4KIH schematic)
+- ThinkCentre M75q gen 2 (AM4IV schematic)
+- ThinkCentre M90n-1 Nano (NM-C401 schematic)
+- ThinkCentre M700/M900/M900x Tiny (JC110/IQ170IH1 schematic)
+- ThinkCentre M710q/M910q/M910x + ThinkStation P320 Tiny (JC113/IQ270IH1 schematic)
 - ThinkCentre M630e/ThinkEdge SE50/EPC300
-- ThinkCentre M625q
+- ThinkCentre M625q (FT4IH schematic)
+- ThinkCentre M70q gen 2 (NM-D331 schematic)
 
 - Optiplex 3070 Micro
 - Optiplex 5050 Micro
@@ -824,3 +879,7 @@ I'm always looking for more schematics/boardviews and information about any uniq
 
 # More todo:
 download Lenovo PSREF, Dell owners/service manual, HP Quickspec, Acer Lifecycle Extension Guide PDFs into repo
+
+restructure this whole thing lol, it's a mess:
+- add useful info section per generation (regulator power capacity, pcie lane shenanigans)
+- move highly specific things to separate files
