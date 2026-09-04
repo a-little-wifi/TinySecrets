@@ -68,6 +68,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | P3 Ultra SFF Gen 2 | AI-Ready Workstation |         | Ultra x16/x8x8 riser + x8(x4) slot Gen 4+4 |    | ? |    |            | Ultra 200              | W880    | 2x DDR5 6400 ECC | 3 / 3   | 0 / 0       | Board says 'Petunia' on it        |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | PGX            | That-Nvida-Thing     |             | None                       |            |        |       |            | GB10 sUpErChIp         | SoC     | 256b LPDDR5x | 1 / 1       | 0 / 0       | Yet Another DGX Spark             |
+| X Ultra        | That-big-AMD-APU     |             |                            |            |        |       |            | Ryzen AI Max+ Pro 495  | SoC     | 256b LPDDR5x |             |             |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | Neo Ultra      | Tiny studio workstation | Tiny10/TinyMax? | Tiny8 x8+4 Gen 4+?  | IQ6X0IL1   | LCFC   | LQ674 | NM-G071    | 14th gen               | Q670    | 2x DDR5 5200?| 2 / 2       | 0 / 1       | Same board as M90q Gen 5          |
 | Neo Ultra Gen 2| Tiny studio workstation | Tiny11/TinyMax??| Tiny8 x8+4 Gen 4+4  | IQ870IL1   | LCFC   | LQ870 | NM-G181    | Ultra 200              | Q870    | 2x DDR5 5600 | 3 / 3       | 0 / 0       | Same board as M90q Gen 6 but 1xBTB|
@@ -78,6 +79,7 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | M75q gen 2     | Entry, AMD           | Tiny6?      | Tiny6 x4-only unpopulated  | AM4IV V1.0 | USI    |       |            | Ryzen PRO 3k/4k        | PRO 500 | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Can flash v2 bios for 5000 support|
 | M75q gen 2 v2? | Entry, AMD           | Tiny6?      | Tiny6 x4-only unpopulated  | AM4IV V1.2/V1.3| USI|       |            | Ryzen PRO (3k/4k/)?5k  | PRO 500 | 2x DDR4 3200 | 1 / 2       | 0 / 1       |                                   |
 | M75q gen 5     | Entry, AMD           | Tiny8?      | None                       | AM5IL      | LCFC   | LKN30 | NM-F661    | Ryzen (PRO) 8000       | PRO 600 | 2x DDR5 5200 | 2 / 2       | 0 / 0       | An AMD one made by LCFC           |
+| M75q gen 6     | Entry, AMD           | Tiny11?     |                            |            |        |       |            | Ryzen AI (PRO) 400-GE  | PRO 600 | 2x DDR5 5600 | 2 / ?       | 0 / ?       | Same as Gen5 but new BTB and USB4?|
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | Neo 50q gen 4  | lil office pc        | Tiny8?      | None                       | IRPLIL     | LCFC   | KH450 | NM-E951    | 13th gen Raptor Lake-H | SoC     |              | 1 / 2       | 0 / 0       | 1 / 2 ram slots on low end config |
 | Neo 50q gen 5  | lil office pc        | ?           | None                       | IRPL_RIL   | LCFC   | MTY04/MTY05 | NM-G881 | Core 200 H          | SoC     | 2x DDR5 5600 | 2 / 2       | 0 / 0       | New BTB connector, 2nd on bottom? |
@@ -493,6 +495,9 @@ todo
 |             |                            |            |       |        |       |            |          |         |              |             |             |                                                                |
 |             |                            |            |       |        |       |            |          |         |              |             |             |                                                                |
 
+## Heatsink part numbers/compatibility
+todo
+
 ## Parts links with hi-res images
 <details>
 <summary> Click here to view links </summary>
@@ -550,6 +555,7 @@ https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/m75q-1/11a4/parts/display/compatible  
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75q-gen-2/11jj/parts/display/compatible  
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75q-gen-5/12rq/parts/display/compatible  
+https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m75q-gen-6/13jt/parts/display/compatible  
 
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-4/12lh/parts/display/compatible  
 https://pcsupport.lenovo.com/nl/en/products/desktops-and-all-in-ones/thinkcentre-neo-series-desktops/thinkcentre-neo-50q-gen-5/13b9/parts/display/compatible  
