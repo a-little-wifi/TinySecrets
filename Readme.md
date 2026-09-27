@@ -75,9 +75,9 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M715q          | Entry, AMD           | Tiny3?      | None                       | AM4IH      | LiteON |       |            | PRO A6/A10/A12 8k/9k-E | B300    | 2x DDR4 2400 | 1 / 1       | 0 / 0       |                                   |
 | M715q 2nd gen  | Entry, AMD           | Tiny3?      | None                       | AM4IH      | LiteON |       |            | ^ + Ryzen (PRO) 2k-GE  | B300    | 2x DDR4 2666 | 1 / 1       | 0 / 0       |                                   |
-| M75q gen 1     | Entry, AMD           | Tiny5?      | None                       | AM4KIH     | LiteON |       |            | Ryzen PRO 2000/3000    | PRO 500 | 2x DDR4 2666 ECC? | 1 / 1  | 0 / 0       | Sometimes called M735q            |
-| M75q gen 2     | Entry, AMD           | Tiny6?      | Tiny6 x4-only unpopulated  | AM4IV V1.0 | USI    |       |            | Ryzen PRO 3k/4k        | PRO 500 | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Can flash v2 bios for 5000 support|
-| M75q gen 2 v2? | Entry, AMD           | Tiny6?      | Tiny6 x4-only unpopulated  | AM4IV V1.2/V1.3| USI|       |            | Ryzen PRO (3k/4k/)?5k  | PRO 500 | 2x DDR4 3200 | 1 / 2       | 0 / 1       |                                   |
+| M75q gen 1     | Entry, AMD           | Tiny5       | None                       | AM4KIH     | LiteON |       |            | Ryzen PRO 2000/3000    | PRO 500 | 2x DDR4 2666 ECC? | 1 / 1  | 0 / 0       | Sometimes called M735q            |
+| M75q gen 2     | Entry, AMD           | Tiny6       | Tiny6 x4-only unpopulated  | AM4IV V1.0 | USI    |       |            | Ryzen PRO 3k/4k        | PRO 500 | 2x DDR4 3200 | 1 / 2       | 0 / 1       | Can flash v2 bios for 5000 support|
+| M75q gen 2 v2? | Entry, AMD           | Tiny6       | Tiny6 x4-only unpopulated  | AM4IV V1.2/V1.3| USI|       |            | Ryzen PRO (3k/4k/)?5k  | PRO 500 | 2x DDR4 3200 | 1 / 2       | 0 / 1       |                                   |
 | M75q gen 5     | Entry, AMD           | Tiny8?      | None                       | AM5IL      | LCFC   | LKN30 | NM-F661    | Ryzen (PRO) 8000       | PRO 600 | 2x DDR5 5200 | 2 / 2       | 0 / 0       | An AMD one made by LCFC           |
 | M75q gen 6     | Entry, AMD           | Tiny11?     |                            |            |        |       |            | Ryzen AI (PRO) 400-GE  | PRO 600 | 2x DDR5 5600 | 2 / ?       | 0 / ?       | Same as Gen5 but new BTB and USB4?|
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
@@ -105,15 +105,15 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkEdge SE10 | Server               |             | None                       | IEHLNL     | LCFC   | KEHL0 | NM-F421    | Atom X Series          | SoC     | 2x DDR4 3200 | 1 / 1       | 2 / 2       |                                   |
 | ThinkEdge SE30 | Server               |             | None                       | ITGLNL     | LCFC   | GTU00 | NM-D241    | 11th gen Tiger Lake-U  | SoC     |              | 2 / 2       | 1 / 1       | board says NANO2 on it            |
-| ThinkEdge SE50 | Server               | Tiny5?      |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
+| ThinkEdge SE50 | Server               | Tiny5       |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
 | ThinkEdge SE70 | Server               |             | None                       |            |        |       |            | Nvidia Jetson Xavier NX| SoM     | 4x LPDDR4x   | 1 / 1       | 1 / 1       | I really (I really) like Nvidiiia♫|
-| EPC300         | Server               | Tiny5?      |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
+| EPC300         | Server               | Tiny5       |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
 | ThinkEdge SE10n Gen 2 | Server        |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | ThinkEdge SE30n Gen 2 | Server        |             |                            |            |        |       |            | Core 100 U             | SoC     | 1x DDR5 4800?| 1 / ?       | 1 / ?       |                                   |
 | ThinkEdge SE50a| Industrial Panel PC  |             |                            |            |        |       |            |                        | SoC     | 1x DDR5 4800?| 1 / ?       | 1 / ?       |                                   |
 | ThinkEdge SE60n Gen 2 | Server        |             |                            |            |        |       |            | Core Ultra 200 H       | SoC     | 2x DDR5 5600 | 1?/ ?       | 1?/ ?       |                                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
-| M625q          | Idk it sucks lol     |             | None                       | FT4IH      | LiteON |       |            | AMD xx-9xxx            | SoC     |              | 1 / 1       | 0 / 0       |                                   |
+| M625q          | Idk it sucks lol     | Tiny4?      | None                       | FT4IH      | LiteON |       |            | AMD xx-9xxx            | SoC     |              | 1 / 1       | 0 / 0       |                                   |
 | M630e          | Thin client          | Tiny5       |Tiny5 x4-only unpopulated rxtx swap| IWLUIA | AVC |       |            | 8.5th gen U            | SoC     |              | 1 / 2       | 0 / 2       | 1 / 2 SODIMM slots populated      |
 | M60e           | A Little low power pc| Tiny6       | None                       | IICLUIV    | LiteON |       |            | 10th gen Ice Lake      | SoC     |              | 1 / 1       | 0 / 0       |                                   |
 | M60q Chromebox | Chromebox lol        | Tiny8       | None                       | ILGOO      | Compal |       | LA-M541P   | 12th gen U             | SoC     |              | 1 / 1       | 0 / 0       | Wow they had Compal make one      |
@@ -848,24 +848,31 @@ todo
 
 Currently available schematics/boardviews I know about:
 
-- ThinkCentre M720q/M920q/M920x + ThinkStation P330 Tiny (NM-B551 schematic & boardview)
-- ThinkCentre M70q/M80q gen 1 (NM-C621 schematic)
-- ThinkCentre M90q gen 1 + ThinkStation P340 Tiny (NM-C901 boardview)
-- ThinkCentre M90q gen 3 + ThinkStation P360 Tiny (NM-D581 boardview)
-- ThinkCentre M715q/M715q 2nd Gen (AM4IH schematic)
-- ThinkCentre M75q gen 1 (AM4KIH schematic)
-- ThinkCentre M75q gen 2 (AM4IV schematic)
-- ThinkCentre M90n-1 Nano (NM-C401 schematic)
-- ThinkCentre M700/M900/M900x Tiny (JC110/IQ170IH1 schematic)
-- ThinkCentre M710q/M910q/M910x + ThinkStation P320 Tiny (JC113/IQ270IH1 schematic)
-- ThinkCentre M630e/ThinkEdge SE50/EPC300
-- ThinkCentre M625q (FT4IH schematic)
-- ThinkCentre M70q gen 2 (NM-D331 schematic)
+| Name                                | ODM      | Type                            | Applicable to                                          | Note                                                                                 |
+|-------------------------------------|----------|---------------------------------|--------------------------------------------------------|--------------------------------------------------------------------------------------|
+| JC110 / IQ170IH1                    | LiteON   | Schematic PDF                   | ThinkCentre M700/M900/M900x Tiny                       |                                                                                      |
+| JC113 / IQ270IH1                    | LiteON   | Schematic PDF                   | ThinkCentre M710q/M910q/M910x + ThinkStation P320 Tiny |                                                                                      |
+| EQ370 / NM-B551                     | LCFC     | Schematic .pdf & boardview .pdf | ThinkCentre M720q/M920q/M920x + ThinkStation P330 Tiny |                                                                                      |
+| GH470 / NM-C621                     | LCFC     | Schematic .pdf                  | ThinkCentre M70q/M80q Gen 1                            | Also works for M90q gen 1 & P340 Tiny, except for DC-in & VRM area                   |
+| HB560 / NM-D331                     | LCFC     | Schematic .pdf                  | ThinkCentre M70q Gen 2                                 |                                                                                      |
+| NM-C901                             | LCFC     | Boardview .tvw                  | ThinkCentre M90q Gen 1 + ThinkStation P340 Tiny        | Also works for M70q & M80q Gen 1, except for DC-in & VRM area                        |
+| HQ670 / NM-D581                     | LCFC     | Boardview .tvw                  | ThinkCentre M90q Gen 3 + ThinkStation P360 Tiny        |                                                                                      |
+|                                     |          |                                 |                                                        |                                                                                      |
+| KC790 / AM4IH                       | LiteON   | Schematic .pdf & boardview .pdf | ThinkCentre M715q/M715q 2nd Gen                        | the pdf boardview is pretty much useless                                             |
+| M75Q-1 / KC792 / AM4KIH             | LiteON   | Schematic .pdf                  | ThinkCentre M75q Gen 1                                 |                                                                                      |
+| M75Q-2 / AM4IV                      | USI      | Schematic .pdf                  | ThinkCentre M75q Gen 2                                 |                                                                                      |
+|                                     |          |                                 |                                                        |                                                                                      |
+| NM-C401                             | LCFC     | Schematic .pdf                  | ThinkCentre M90n-1 Nano                                |                                                                                      |
+| Tiny M630e                          | AVC      | Schematic .pdf                  | ThinkCentre M630e + ThinkEdge SE50 + EPC300            |                                                                                      |
+| VC790 / FT4IH                       | LiteON   | Schematic .pdf                  | ThinkCentre M625q                                      |                                                                                      |
+|                                     |          |                                 |                                                        |                                                                                      |
+| Cougar-MFF-35W-ML D9.5_MFF IPCFL-CG | Pegatron | Schematic .pdf                  | Optiplex 3070 Micro                                    |                                                                                      |
+| D8-MFF-AF                           | Pegatron | Schematic .pdf & boardview .cad | Optiplex 5050 Micro                                    | also (incorrectly?) labeled Blackfish-MT 16510-1 VJ40T, but that's the tower version |                                                                   |
+|                                     |          |                                 |                                                        |                                                                                      |
+| PIQ37L-vCopperbox 17557-1           | Wistron  | Schematic .pdf                  | Acer Veriton N4660G & N6660G                           |                                                                                      |
+|                                     |          |                                 |                                                        |                                                                                      |
 
-- Optiplex 3070 Micro
-- Optiplex 5050 Micro
 
-- Acer Veriton N4660G
 
 If you're looking for one of these, feel free to email me at the address listed on my profile, I'll gladly send them to you.
 
