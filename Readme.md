@@ -108,10 +108,10 @@ See the riserpics directory for images of each type of PCIe riser I'm aware of
 | ThinkEdge SE50 | Server               | Tiny5       |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     |              | 2 / 2       | 2 / 2       | 2 B-key slots but only 1 SIM slot |
 | ThinkEdge SE70 | Server               |             | None                       |            |        |       |            | Nvidia Jetson Xavier NX| SoM     | 4x LPDDR4x   | 1 / 1       | 1 / 1       | I really (I really) like Nvidiiia♫|
 | EPC300         | Server               | Tiny5       |Tiny5 x4-only tall rxtx swap| IWLUIA     | AVC    |       |            | 8.5th gen U            | SoC     | 2x DDR4 ?    | 2 / 2       | 2 / 2       | Same as SE50 pretty much          |
-| ThinkEdge SE10n Gen 2 | Server        |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
-| ThinkEdge SE30n Gen 2 | Server        |             |                            |            |        |       |            | Core 100 U             | SoC     | 1x DDR5 4800?| 1 / ?       | 1 / ?       |                                   |
+| ThinkEdge SE10n Gen 2 | Server        |             | None                       |            | LCFC   | NSE20 | SM-B491    | Intel N-series         | SoC     | 1x DDR5 5600 | 1 / 1       | 0/1 / 1     | WWAN optional, also, SM-?????     |
+| ThinkEdge SE30n Gen 2 | Server        |             | None                       | NUC-RPU?   | ?      | ?     | ?          | Core 100 U             | SoC     | 1x DDR5 5200 | 1 / 1       | 1 / 1       | Who made this?                    |
 | ThinkEdge SE50a| Industrial Panel PC  |             |                            |            |        |       |            |                        | SoC     | 1x DDR5 4800?| 1 / ?       | 1 / ?       |                                   |
-| ThinkEdge SE60n Gen 2 | Server        |             |                            |            |        |       |            | Core Ultra 200 H       | SoC     | 2x DDR5 5600 | 1?/ ?       | 1?/ ?       |                                   |
+| ThinkEdge SE60n Gen 2 | Server        |             | 'IET' expansion port       | ?          | ?      | ?     | ?          | Core Ultra 200 H       | SoC     | 2x DDR5 5600 | 1 / 1       | 1 / 1       | Who made this??                   |
 |                |                      |             |                            |            |        |       |            |                        |         |              |             |             |                                   |
 | M625q          | Idk it sucks lol     | Tiny4?      | None                       | FT4IH      | LiteON |       |            | AMD xx-9xxx            | SoC     |              | 1 / 1       | 0 / 0       |                                   |
 | M630e          | Thin client          | Tiny5       |Tiny5 x4-only unpopulated rxtx swap| IWLUIA | AVC |       |            | 8.5th gen U            | SoC     |              | 1 / 2       | 0 / 2       | 1 / 2 SODIMM slots populated      |
@@ -585,7 +585,9 @@ https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se30/1
 https://smartsupport.lenovo.com/us/en/products/smart/smart-edge/thinkedge-se50/11rj/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se70/12a6/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/commercial-iot/epc300/11b3/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se10n-gen2/13lj/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se30n-gen2/13lv/parts/display/compatible  
+https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se50a-12-gen1/13mr/parts/display/compatible  
 https://smartsupport.lenovo.com/nl/en/products/smart/smart-edge/thinkedge-se60n-gen2/13mc/parts/display/compatible  
 
 https://pcsupport.lenovo.com/us/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m625q/10tj/parts/display/compatible  
